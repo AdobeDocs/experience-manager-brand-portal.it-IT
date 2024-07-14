@@ -11,8 +11,8 @@ discoiquuid: e8d06818-29c7-4810-bff1-40b3e2818114
 exl-id: 1f52045b-afb1-4501-878d-c327d394e258
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 2%
+source-wordcount: '269'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ La prima esperienza di accesso è la stessa per tutti i nuovi utenti di Experien
 
 Di seguito sono riportati i passaggi da eseguire per gli utenti che accedono a Brand Portal per la prima volta:
 
-1. Apri l’e-mail di benvenuto e fai clic su **[!UICONTROL Introduzione]**.
+1. Apri l&#39;e-mail di benvenuto e fai clic su **[!UICONTROL Inizia]**.
 
 1. Nella pagina di registrazione, specifica i tuoi dettagli (tra cui nome, cognome, password e paese).
    >[!NOTE]
@@ -31,10 +31,10 @@ Di seguito sono riportati i passaggi da eseguire per gli utenti che accedono a B
 
    >[!NOTE]
    >
-   >Se la tua organizzazione utilizza Enterprise ID, invece di visualizzare questa pagina di registrazione verrai reindirizzato alla pagina di accesso Enterprise. Per ulteriori informazioni, consulta [Enterprise ID, accesso e assistenza per l’account](https://helpx.adobe.com/in/enterprise/kb/enterprise-id-faq.html).
+   >Se la tua organizzazione utilizza Enterprise ID, invece di visualizzare questa pagina di registrazione verrai reindirizzato alla pagina di accesso Enterprise. Per ulteriori informazioni, vedere [Enterprise ID, accesso e guida dell&#39;account](https://helpx.adobe.com/in/enterprise/kb/enterprise-id-faq.html).
 
-1. Clic **[!UICONTROL Continua]** per passare alla pagina Brand Portal della tua organizzazione.
-1. Dalla pagina di accesso a Brand Portal, fai clic su **[!UICONTROL Accedi]** per accedere a Brand Portal.
+1. Fai clic su **[!UICONTROL Continua]** per passare alla pagina Brand Portal della tua organizzazione.
+1. Dalla pagina di accesso di Brand Portal, fai clic su **[!UICONTROL Accedi]** per accedere a Brand Portal.
 
    ![Pagina di accesso a Brand Portal](assets/signin-onboarding.png)
 

@@ -10,13 +10,13 @@ feature: Brand Portal
 role: User
 source-git-commit: 3ef765c6b6127c1f3f19d27ee1fd74fbe2dc52af
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 75%
+source-wordcount: '254'
+ht-degree: 31%
 
 ---
 
 
-# Adobe Experience Manager Assets Brand Portal Guida {#using}
+# Guida di Adobe Experience Manager Assets Brand Portal {#using}
 
 + [Guida di Brand Portal](/help/using/home.md)
 + Introduzione {#introduction}
@@ -27,29 +27,29 @@ ht-degree: 75%
    + [Formati di file supportati](/help/using/brand-portal-supported-formats.md)
    + [Accesso a Brand Portal come ospite](/help/using/guest-access.md)
    + [Informazioni su Brand Portal con Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
-   + [Navigazione nelle risorse in Brand Portal](/help/using/browse-assets-brand-portal.md)
-+ Pubblica da Experience Manager Assets a Brand Portal {#publish}
+   + [Esplorazione delle risorse in Brand Portal](/help/using/browse-assets-brand-portal.md)
++ Publish da Experience Manager Assets a Brand Portal {#publish}
    + [Configurare Experience Manager Assets con Brand Portal](/help/using/configure-aem-assets-with-brand-portal.md)
    + [Pubblicare risorse su Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-assets.html)
    + [Pubblicare cartelle su Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
    + [Pubblicare raccolte su Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
    + [Risolvere i problemi relativi alla pubblicazione parallela in Brand Portal](/help/using/troubleshoot-parallel-publishing.md)
-   + [Pubblicare tag in Brand Portal](/help/using/brand-portal-publish-tags.md)
-   + [Pubblicare predefiniti, schemi e facet in Brand Portal](/help/using/publish-schema-search-facets-presets.md)
+   + [Tag Publish per Brand Portal](/help/using/brand-portal-publish-tags.md)
+   + [Predefiniti, schemi e facet di Publish per Brand Portal](/help/using/publish-schema-search-facets-presets.md)
 + Asset Sourcing in Brand Portal {#asset-sourcing-in-brand-portal}
    + [Panoramica su Asset Sourcing](/help/using/brand-portal-asset-sourcing.md)
    + [Configurare la cartella dei contributi in Experience Manager Assets](/help/using/brand-portal-publish-contribution-folder-to-brand-portal.md)
-   + [Pubblicare la cartella dei contributi in Experience Manager Assets](/help/using/brand-portal-publish-contribution-folder-to-aem-assets.md)
+   + [Cartella dei contributi di Publish a Experience Manager Assets](/help/using/brand-portal-publish-contribution-folder-to-aem-assets.md)
 + Condividere risorse con gli utenti {#share}
    + [Condividere una raccolta](/help/using/brand-portal-share-collection.md)
    + [Condividere le cartelle](/help/using/brand-portal-sharing-folders.md)
    + [Condividere le risorse come collegamento](/help/using/brand-portal-link-share.md)
 + Utilizzare le funzionalità di ricerca {#search-capabilities}
-   + [Cercare le risorse in Brand Portal](/help/using/brand-portal-searching.md)
-   + [Utilizzare i facet di ricerca personalizzati](/help/using/brand-portal-search-facets.md)
+   + [Cercare risorse in Brand Portal](/help/using/brand-portal-searching.md)
+   + [Usa facet di ricerca personalizzati](/help/using/brand-portal-search-facets.md)
 + Utilizzare le funzionalità di download {#download}
    + [Scaricare le risorse](/help/using/brand-portal-download-assets.md)
-   + [Supporto di video dinamici in Brand Portal](/help/using/dynamic-video-brand-portal.md)
+   + [Supporto di video dinamici su Brand Portal](/help/using/dynamic-video-brand-portal.md)
    + [Gestire la raccolta Lightbox](/help/using/brand-portal-light-box.md)
    + [Gestire i diritti digitali delle risorse](/help/using/manage-digital-rights-of-assets.md)
    + [Guida per velocizzare i download da Brand Portal](/help/using/accelerated-download.md)

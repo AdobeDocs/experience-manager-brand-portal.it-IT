@@ -12,40 +12,40 @@ discoiquuid: f053013e-5981-419f-927e-b5bb1d47eae2
 exl-id: 29b877f6-4200-4299-9b8d-81d88f4e8221
 source-git-commit: 26c16668224d22f133419c13ea5fe4e24335a22f
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '664'
 ht-degree: 0%
 
 ---
 
 # Condividere le raccolte {#share-collections}
 
-Una raccolta rappresenta un gruppo di risorse correlate memorizzate insieme in Adobe Experience Manager Assets Brand Portal. Gli utenti possono creare raccolte avanzate con [applicazione della ricerca omnisearch o facet per filtrare le risorse correlate](brand-portal-searching.md) e archiviarli insieme per accedervi facilmente e condividerli ulteriormente con altri utenti di Brand Portal.
+Una raccolta rappresenta un gruppo di risorse correlate memorizzate insieme in Adobe Experience Manager Assets Brand Portal. Gli utenti possono creare raccolte avanzate [applicando omnisearch o facet search per filtrare le risorse correlate](brand-portal-searching.md) e archiviarle per accedervi facilmente e condividerle ulteriormente con altri utenti di Brand Portal.
 
 <!--The administrators can share and unshare a collection with the authorized Brand Portal users. Editors and viewers can view and share the collections created by them, shared with them, and public collections.-->
 
-Le raccolte vengono condivise come collegamento tramite e-mail. Chiunque abbia accesso al collegamento di condivisione può aprire la raccolta, mentre le e-mail condivise possono essere inoltrate a chiunque. Inoltre, [collegamenti condivisi](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/share/brand-portal-link-share.html?lang=en) sono temporanee e accessibili solo per una durata limitata. In alternativa, gli utenti possono essere invitati come membri permanenti delle raccolte. Esistono i seguenti tipi di utenti per le raccolte:
+Le raccolte vengono condivise come collegamento tramite e-mail. Chiunque abbia accesso al collegamento di condivisione può aprire la raccolta, mentre le e-mail condivise possono essere inoltrate a chiunque. Inoltre, [i collegamenti condivisi](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/share/brand-portal-link-share.html?lang=en) sono temporanei e accessibili solo per una durata limitata. In alternativa, gli utenti possono essere invitati come membri permanenti delle raccolte. Esistono i seguenti tipi di utenti per le raccolte:
 
-* **Amministratori** può condividere o annullare la condivisione di una raccolta con utenti Brand Portal autorizzati. Possono invitare altri utenti a una raccolta specifica e definirne il ruolo in tale raccolta. Inoltre, gli amministratori possono creare raccolte pubbliche.
+* **Gli amministratori** possono condividere o annullare la condivisione di una raccolta con utenti Brand Portal autorizzati. Possono invitare altri utenti a una raccolta specifica e definirne il ruolo in tale raccolta. Inoltre, gli amministratori possono creare raccolte pubbliche.
 
-* **Editor** possono creare e condividere raccolte. Possono invitare altri utenti a una raccolta specifica e definirne il ruolo in tale raccolta. Inoltre, possono anche condividere le raccolte, se sono state invitate alla raccolta come editor o proprietario.
+* **Gli editor** possono creare e condividere raccolte. Possono invitare altri utenti a una raccolta specifica e definirne il ruolo in tale raccolta. Inoltre, possono anche condividere le raccolte, se sono state invitate alla raccolta come editor o proprietario.
 
-* **Visualizzatori** può creare solo raccolte private. Non è consentito condividere una raccolta anche quando sono stati invitati come proprietari.
+* **I visualizzatori** possono creare solo raccolte private. Non è consentito condividere una raccolta anche quando sono stati invitati come proprietari.
 
 >[!NOTE]
 >
->Gli editor non possono modificare una raccolta pubblica in una raccolta non pubblica e quindi non dispongono del **[!UICONTROL Raccolta pubblica]** casella di controllo disponibile in **[!UICONTROL Impostazioni raccolta]** .
+>Gli editor non possono modificare una raccolta pubblica in una raccolta non pubblica e pertanto la casella di controllo **[!UICONTROL Raccolta pubblica]** non è disponibile nella finestra di dialogo **[!UICONTROL Impostazioni raccolta]**.
 
 ## Condividere una raccolta {#share-collection}
 
 Di seguito sono riportati i passaggi per condividere una raccolta con gli utenti autorizzati di Brand Portal:
 
-1. Accedi al tuo tenant Brand Portal. Per impostazione predefinita, il **[!UICONTROL File]** viene visualizzata una vista che contiene tutte le risorse e le cartelle pubblicate.
+1. Accedi al tuo tenant Brand Portal. Per impostazione predefinita, viene aperta la visualizzazione **[!UICONTROL File]** che contiene tutte le risorse e le cartelle pubblicate.
 
 1. Dalla navigazione rapida in alto, fai clic su **[!UICONTROL Raccolte]**.
 
-1. Dalla sezione **[!UICONTROL Raccolte]** eseguire una delle operazioni seguenti:
+1. Dalla console **[!UICONTROL Raccolte]** eseguire una delle operazioni seguenti:
 
-   * Passa il puntatore del mouse sulla raccolta che desideri condividere. Dalle miniature delle azioni rapide disponibili per la raccolta, fai clic sul pulsante **[!UICONTROL Impostazioni]** icona.
+   * Passa il puntatore del mouse sulla raccolta che desideri condividere. Dalle miniature delle azioni rapide disponibili per la raccolta, fai clic sull&#39;icona **[!UICONTROL Impostazioni]**.
 
      ![](assets/settings-icon.png)
 
@@ -53,21 +53,21 @@ Di seguito sono riportati i passaggi per condividere una raccolta con gli utenti
 
      ![](assets/collection-console.png)
 
-1. In **[!UICONTROL Impostazioni raccolta]** , selezionare gli utenti con cui si desidera condividere la raccolta e selezionare il ruolo che l&#39;utente dovrà assegnare al proprio ruolo globale. Ad esempio, assegna il ruolo Editor a un editor globale, il ruolo Visualizzatore a un visualizzatore globale.
+1. Nella finestra di dialogo **[!UICONTROL Impostazioni raccolta]** selezionare gli utenti con cui si desidera condividere la raccolta e selezionare il ruolo dell&#39;utente che corrisponda al ruolo globale. Ad esempio, assegna il ruolo Editor a un editor globale, il ruolo Visualizzatore a un visualizzatore globale.
 
-   In alternativa, per rendere la raccolta disponibile a tutti gli utenti a prescindere dall’appartenenza al gruppo e dal ruolo, rendila pubblica selezionando la **[!UICONTROL Raccolta pubblica]** casella di controllo.
+   In alternativa, per rendere la raccolta disponibile a tutti gli utenti indipendentemente dall&#39;appartenenza al gruppo e dal ruolo, renderla pubblica selezionando la casella di controllo **[!UICONTROL Raccolta pubblica]**.
 
    >[!NOTE]
    >
-   >Tuttavia, agli utenti non amministratori può essere impedito di creare raccolte pubbliche, per evitare di avere numerose raccolte pubbliche in modo da poter salvare lo spazio di sistema. Le organizzazioni possono disattivare **[!UICONTROL Consenti creazione di raccolte pubbliche]** configurazione da **[!UICONTROL Generale]** impostazioni disponibili nel pannello strumenti di amministrazione.
+   >Tuttavia, agli utenti non amministratori può essere impedito di creare raccolte pubbliche, per evitare di avere numerose raccolte pubbliche in modo da poter salvare lo spazio di sistema. Le organizzazioni possono disabilitare la configurazione di **[!UICONTROL Consenti creazione di raccolte pubbliche]** dalle impostazioni **[!UICONTROL Generali]** disponibili nel pannello Strumenti di amministrazione.
 
    ![](assets/collection_sharingadduser.png)
 
-   Gli editor non possono modificare una raccolta pubblica in una raccolta non pubblica e pertanto non dispongono di **[!UICONTROL Raccolta pubblica]** casella di controllo disponibile in **[!UICONTROL Impostazioni raccolta]** .
+   Gli editor non possono modificare una raccolta pubblica in una raccolta non pubblica e pertanto non hanno la casella di controllo **[!UICONTROL Raccolta pubblica]** disponibile nella finestra di dialogo **[!UICONTROL Impostazioni raccolta]**.
 
    ![](assets/collection-setting-editor.png)
 
-1. Fai clic su **[!UICONTROL Aggiungi]** per aggiungere l&#39;utente e quindi fare clic su **[!UICONTROL Salva]**. La raccolta viene condivisa con gli utenti.
+1. Fare clic sul pulsante **[!UICONTROL Aggiungi]** per aggiungere l&#39;utente e quindi su **[!UICONTROL Salva]**. La raccolta viene condivisa con gli utenti.
 
    >[!NOTE]
    >
@@ -77,21 +77,21 @@ Di seguito sono riportati i passaggi per condividere una raccolta con gli utenti
 
 Per annullare la condivisione di una raccolta condivisa in precedenza, eseguire le operazioni seguenti:
 
-1. Dalla sezione **[!UICONTROL Raccolte]** , selezionare la raccolta di cui si desidera annullare la condivisione.
+1. Dalla console **[!UICONTROL Raccolte]**, seleziona la raccolta che desideri annullare la condivisione.
 
    Dalla barra degli strumenti nella parte superiore, fai clic su **[!UICONTROL Impostazioni]**.
 
    ![](assets/collection_settings.png)
 
-1. In **[!UICONTROL Impostazioni raccolta]** nella finestra di dialogo **[!UICONTROL Membri]** , fare clic sul pulsante **[!UICONTROL x]** accanto agli utenti per rimuoverli dall’elenco degli utenti che hanno accesso alla raccolta.
+1. Nella finestra di dialogo **[!UICONTROL Impostazioni raccolta]**, nella sezione **[!UICONTROL Membri]**, fare clic sul simbolo **[!UICONTROL x]** accanto agli utenti per rimuoverli dall&#39;elenco degli utenti che hanno accesso alla raccolta.
 
    ![](assets/unshare_collection.png)
 
-1. Viene visualizzato un messaggio di avviso. Clic **[!UICONTROL Conferma]** per annullare la condivisione della raccolta.
+1. Viene visualizzato un messaggio di avviso. Fare clic su **[!UICONTROL Conferma]** per annullare la condivisione della raccolta.
 
-1. Clic **[!UICONTROL Salva]** per applicare le modifiche.
+1. Fai clic su **[!UICONTROL Salva]** per applicare le modifiche.
 
-   Una volta rimosso l’utente dall’elenco condiviso, la raccolta non condivisa viene rimossa dal **[!UICONTROL Raccolte]** console.
+   Una volta rimosso l&#39;utente dall&#39;elenco condiviso, la raccolta non condivisa viene rimossa dalla console **[!UICONTROL Raccolte]** dell&#39;utente.
 
 <!--
 1. Click the overlay icon on the left, and choose **[!UICONTROL Navigation]**.

@@ -13,8 +13,8 @@ role: Admin
 exl-id: 86c31891-0627-41ca-b571-8dac3a074d55
 source-git-commit: d1487434b10b01eaf55f34672267490fd8fd907e
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 2%
+source-wordcount: '901'
+ht-degree: 3%
 
 ---
 
@@ -32,7 +32,7 @@ La scadenza delle risorse è un modo efficace per controllare l’utilizzo delle
 
 In Brand Portal, gli amministratori possono visualizzare, scaricare e aggiungere risorse scadute alle raccolte. Mentre, gli editor e i visualizzatori possono solo visualizzare e aggiungere risorse scadute alle raccolte.
 
-Gli amministratori possono pubblicare le risorse scadute da AEM Assets a Brand Portal. Tuttavia, le risorse scadute non possono essere condivise tramite input penna da Brand Portal. Se selezioni una risorsa scaduta da una cartella contenente sia risorse scadute che non scadute, il **[!UICONTROL Condividi collegamento]** azione non disponibile. Tuttavia, se selezioni una cartella contenente risorse scadute e non scadute, il [!UICONTROL Condividi] e **[!UICONTROL Condividi collegamento]** sono disponibili delle azioni.
+Gli amministratori possono pubblicare le risorse scadute da AEM Assets a Brand Portal. Tuttavia, le risorse scadute non possono essere condivise tramite input penna da Brand Portal. Se selezioni una risorsa scaduta da una cartella contenente sia risorse scadute che non scadute, l&#39;azione **[!UICONTROL Condividi collegamento]** non è disponibile. Tuttavia, se selezioni una cartella contenente risorse scadute e non scadute, sono disponibili le azioni [!UICONTROL Condividi] e **[!UICONTROL Condividi collegamento]**.
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ Gli amministratori possono pubblicare le risorse scadute da AEM Assets a Brand P
 
 Nella tabella seguente vengono visualizzate le autorizzazioni di utilizzo delle risorse scadute:
 
-|  | **[!UICONTROL Condivisione collegamento]** | **[!UICONTROL Download]** | **[!UICONTROL Proprietà]** | **[!UICONTROL Aggiungi a raccolta]** | **[!UICONTROL Eliminare]** |
+|   | **[!UICONTROL Condivisione collegamento]** | **[!UICONTROL Download]** | **[!UICONTROL Proprietà]** | **[!UICONTROL Aggiungi alla raccolta]** | **[!UICONTROL Elimina]** |
 |---|---|---|---|---|---|
 | **[!UICONTROL Amministratore]** | Non disponibile | Disponibile | Disponibile | Disponibile | Disponibile |
 | **[!UICONTROL Editor]** | Non disponibile | Non disponibile | Disponibile | Disponibile | Non disponibile |
@@ -53,7 +53,7 @@ Nella tabella seguente vengono visualizzate le autorizzazioni di utilizzo delle 
 
 ### Stato di scadenza delle risorse {#expiration-status-of-assets}
 
-Puoi visualizzare lo stato di scadenza delle risorse nelle relative **[!UICONTROL Vista a schede]**. Un flag rosso sulla scheda indica che la risorsa è scaduta.
+Puoi visualizzare lo stato di scadenza delle risorse nella **[!UICONTROL Vista a schede]**. Un flag rosso sulla scheda indica che la risorsa è scaduta.
 
 ![](assets/expired_assets_cardview.png)
 
@@ -63,7 +63,7 @@ Puoi visualizzare lo stato di scadenza delle risorse nelle relative **[!UICONTRO
 
 ## Scadenza collegamento risorsa {#asset-link-expiration}
 
-Quando si condividono le risorse tramite collegamenti, gli amministratori e gli editor possono impostare una data e un’ora di scadenza utilizzando **[!UICONTROL Scade]** campo in **[!UICONTROL Condivisione collegamenti]** . La scadenza predefinita del collegamento è di sette giorni dalla data in cui il collegamento viene condiviso.
+Durante la condivisione delle risorse tramite collegamenti, gli amministratori e gli editor possono impostare una data e un&#39;ora di scadenza utilizzando il campo **[!UICONTROL Scadenza]** nella finestra di dialogo **[!UICONTROL Condivisione collegamenti]**. La scadenza predefinita del collegamento è di sette giorni dalla data in cui il collegamento viene condiviso.
 
 ![](assets/asset-link-sharing.png)
 
@@ -71,30 +71,30 @@ In questo modo, le risorse condivise come collegamenti scadono alla data e all�
 
 Per ulteriori informazioni sulla condivisione dei collegamenti, consulta [Condividere le risorse come collegamento](../using/brand-portal-link-share.md).
 
-## Risorse concesse in licenza {#licensed-assets}
+## Assets con licenza {#licensed-assets}
 
-Le risorse concesse in licenza sono soggette all’accettazione di un contratto di licenza prima del download da Brand Portal. Il presente contratto per le risorse concesse in licenza viene stipulato quando si scarica la risorsa direttamente da Brand Portal o tramite un collegamento condiviso. Che siano scadute o meno, le risorse protette da licenza possono essere visualizzate da tutti gli utenti. Tuttavia, il download e l’utilizzo delle risorse concesse in licenza scadute sono limitati. Per informazioni sul comportamento delle risorse concesse in licenza scadute e sulle attività consentite in base ai ruoli utente, consulta [autorizzazioni di utilizzo delle risorse scadute](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
+Le risorse concesse in licenza sono soggette all’accettazione di un contratto di licenza prima del download da Brand Portal. Il presente contratto per le risorse concesse in licenza viene stipulato quando si scarica la risorsa direttamente da Brand Portal o tramite un collegamento condiviso. Che siano scadute o meno, le risorse protette da licenza possono essere visualizzate da tutti gli utenti. Tuttavia, il download e l’utilizzo delle risorse concesse in licenza scadute sono limitati. Per informazioni sul comportamento delle risorse con licenza scadute e sulle attività consentite in base ai ruoli utente, consulta [autorizzazioni di utilizzo delle risorse scadute](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
 
-Le risorse protette da licenza hanno [contratto di licenza allegato](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html) ad esse, impostando la proprietà dei metadati della risorsa in [!DNL Experience Manager Assets].
+Alle risorse protette da licenza è allegato [il contratto di licenza](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html), che viene eseguito impostando la proprietà dei metadati della risorsa in [!DNL Experience Manager Assets].
 
 Una risorsa è considerata protetta se contiene una delle seguenti proprietà di metadati (o entrambe):
 
-* `xmpRights:WebStatement`: questa proprietà fa riferimento al percorso della pagina che contiene il contratto di licenza per la risorsa. `xmpRights:WebStatement` deve essere un percorso valido nell’archivio.
+* `xmpRights:WebStatement`: questa proprietà fa riferimento al percorso della pagina che contiene il contratto di licenza per la risorsa. `xmpRights:WebStatement` deve essere un percorso valido nell&#39;archivio.
 * `adobe_dam:restrictions`: il valore di questa proprietà è un HTML non elaborato che specifica il contratto di licenza.
 
 
-Se scegli di scaricare risorse protette da licenza, vieni reindirizzato al **[!UICONTROL Gestione copyright]** a seconda delle proprietà dei metadati.
+Se scegli di scaricare risorse protette da licenza, verrai reindirizzato alla pagina **[!UICONTROL Gestione copyright]** in base alle proprietà dei metadati.
 
 | `adobe_dam:restrictions` | `xmpRights:WebStatement` | Gestione copyright |
 | --- | --- | --- |
-| Sì | - | L’interfaccia viene visualizzata sia in Assets che in Brand Portal |
+| Sì | - | L’interfaccia viene visualizzata in Assets e Brand Portal |
 | - | Sì (percorso non valido) | Nessuna interfaccia |
 | Sì | Sì (percorso non valido) | Nessuna interfaccia |
-| Sì | Sì (percorso valido) | L’interfaccia viene visualizzata in Assets o Brand Portal </br> A seconda che il percorso sia valido per Assets o Brand Portal (o per entrambi). |
+| Sì | Sì (percorso valido) | L&#39;interfaccia viene visualizzata in Assets o Brand Portal </br> a seconda che il percorso sia valido per Assets o Brand Portal (o entrambi). |
 
 ![](assets/asset-copyright-mgmt.png)
 
-Qui devi selezionare la risorsa da scaricare e accettare il relativo contratto di licenza. Se non si accetta il contratto di licenza, il **[!UICONTROL Scarica]** non è attivato.
+Qui devi selezionare la risorsa da scaricare e accettare il relativo contratto di licenza. Se non si accetta il contratto di licenza, il pulsante **[!UICONTROL Scarica]** non è abilitato.
 
 ![](assets/licensed-asset-download-2.png)
 
@@ -106,4 +106,4 @@ Gli amministratori possono generare e scaricare un rapporto in cui sono elencate
 
 ![](assets/assets-expired.png)
 
-Per ulteriori informazioni sulla funzione Rapporti, consulta [Utilizzare i rapporti](../using/brand-portal-reports.md#work-with-reports).
+Per ulteriori informazioni sulla funzionalità dei report, fare riferimento a [Operazioni con i report](../using/brand-portal-reports.md#work-with-reports).

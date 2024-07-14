@@ -11,8 +11,8 @@ discoiquuid: fe1c2df8-39f4-4d5c-91d1-7b6cd4f1f589
 exl-id: fa5d87a8-dc45-4c8a-8a96-ac7ec793952b
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 48%
+source-wordcount: '649'
+ht-degree: 62%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 48%
 
 Ogni Experience Manager Assets Brand Portal supporta formati di file specifici, come indicato nella matrice.
 
-| Formato file | Risorse pubblicate in Brand Portal | Rappresentazioni pubblicate in Brand Portal | Metadati pubblicati in Brand Portal | Miniature pubblicate in Brand Portal | Pagine dei dettagli della risorsa pubblicate in Brand Portal | Condivisioni collegamenti | Collega miniature di condivisione | Anteprime condivisione collegamenti |
+| Formato file | Assets pubblicato in Brand Portal | Rappresentazioni pubblicate in Brand Portal | Metadati pubblicati in Brand Portal | Miniature pubblicate in Brand Portal | Pagine dei dettagli della risorsa pubblicate in Brand Portal | Condivisioni collegamenti | Collega miniature di condivisione | Anteprime condivisione collegamenti |
 |-------------|----------------------------------|--------------------------------------|------------------------------------|--------------------------------------|-----------------------------------------------|-------------|-----------------------|---------------------|
 | PNG | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | GIF | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
@@ -36,7 +36,7 @@ Ogni Experience Manager Assets Brand Portal supporta formati di file specifici, 
 | DNG | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
 | PICT | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
 | PSB* | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
-| JPG | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| JPG- | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | AI | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
 | DOC | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
 | DOCX | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
@@ -78,7 +78,7 @@ Ogni Experience Manager Assets Brand Portal supporta formati di file specifici, 
 | JAR | ✓ | ✓ | ✓ | ✓ | ND | ✓ | ✓ | ✕ |
 | RAR | ✓ | ND | ✓ | ND | ND | ✓ | ND | ✕ |
 | TAR | ✓ | ND | ✓ | ND | ND | ✓ | ND | ✕ |
-| CAP | ✓ | ✓ | ✓ | ✓ | ND | ✓ | ✓ | ✕ |
+| Zip | ✓ | ✓ | ✓ | ✓ | ND | ✓ | ✓ | ✕ |
 
 La legenda seguente spiega i simboli utilizzati nella matrice:
 

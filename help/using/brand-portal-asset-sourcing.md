@@ -19,25 +19,25 @@ kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '647'
 ht-degree: 1%
 
 ---
 
 # Panoramica su Asset Sourcing {#overview-asset-sourcing-in-bp}
 
-**Asset Sourcing** consente agli utenti di Experience Manager Assets (amministratori/utenti non amministratori) di creare nuove cartelle con un **Contributo risorse** garantendo che la nuova cartella creata sia aperta all’invio di risorse da parte degli utenti di Brand Portal. Questo attiva automaticamente un flusso di lavoro che crea due sottocartelle aggiuntive, denominate **CONDIVISO** e **NUOVO**, all&#39;interno del nuovo **Contributo** cartella. L’amministratore definisce quindi il requisito caricando una breve descrizione dei tipi di risorse da aggiungere alla cartella dei contributi, nonché un set di risorse previste, nella **CONDIVISO** per garantire che gli utenti BP dispongano delle informazioni di riferimento necessarie. L’amministratore può quindi concedere agli utenti Brand Portal attivi l’accesso alla cartella dei contributi prima di pubblicare la nuova **Contributo** in Brand Portal. Una volta che l’utente ha finito di aggiungere il contenuto nel **NUOVO** possono pubblicare nuovamente la cartella dei contributi nell’ambiente di authoring Experience Manager. Potrebbero essere necessari alcuni minuti per completare l’importazione e riflettere il contenuto appena pubblicato in Experience Manager Assets.
+**Asset Sourcing** consente agli utenti di Experience Manager Assets (amministratori/utenti non amministratori) di creare nuove cartelle con una proprietà **Asset Contribution** aggiuntiva, in modo che la nuova cartella creata sia aperta all&#39;invio di risorse da parte degli utenti di Brand Portal. Questo attiva automaticamente un flusso di lavoro che crea due sottocartelle aggiuntive, denominate **SHARED** e **NEW**, all&#39;interno della cartella **Contribution** appena creata. L&#39;amministratore definisce quindi il requisito caricando nella cartella **SHARED** una descrizione dei tipi di risorse da aggiungere alla cartella dei contributi e un insieme di risorse di base per garantire che gli utenti BP dispongano delle informazioni di riferimento necessarie. L&#39;amministratore può quindi concedere agli utenti Brand Portal attivi l&#39;accesso alla cartella dei contributi prima di pubblicare in Brand Portal la cartella **Contribution** appena creata. Dopo aver aggiunto il contenuto nella cartella **NEW**, l&#39;utente può ripubblicare la cartella Contributi nell&#39;ambiente di authoring Experience Manager. Potrebbero essere necessari alcuni minuti per completare l’importazione e riflettere il contenuto appena pubblicato in Experience Manager Assets.
 
 Inoltre, tutte le funzionalità esistenti rimangono invariate. Gli utenti di Brand Portal possono visualizzare, cercare e scaricare le risorse dalla cartella dei contributi e dalle altre cartelle consentite. Gli amministratori possono inoltre condividere ulteriormente la cartella dei contributi, modificare le proprietà e aggiungere risorse alle raccolte.
 
-![Brand Portal Asset Sourcing](assets/asset-sourcing.png)
+![Origine risorse Brand Portal](assets/asset-sourcing.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
 
 ## Prerequisiti {#prerequisites}
 
-* istanza Experience Manager Assets as a Cloud Service, Experience Manager Assets 6.5.2 o versione successiva.
-* Assicurati che l’istanza di Experience Manager Assets sia configurata con Brand Portal. Vedi, [Configurare Experience Manager Assets con Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+* Experience Manager Assets as a Cloud Service, Experience Manager Assets 6.5.2 o versione successiva.
+* Assicurati che l’istanza di Experience Manager Assets sia configurata con Brand Portal. Vedere [Configurare Experience Manager Assets con Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 <!--
 * Ensure that your Brand Portal tenant is configured with one AEM Assets author instance.
@@ -51,9 +51,9 @@ Inoltre, tutte le funzionalità esistenti rimangono invariate. Gli utenti di Bra
 
 >[!NOTE]
 >
->Esiste un problema noto in Experience Manager Assets 6.5.4. Gli utenti di Brand Portal non possono pubblicare le risorse della cartella Contributi in Experience Manager Assets quando si esegue l’aggiornamento alla console Adobe Developer.
+>Esiste un problema noto in Experience Manager Assets 6.5.4. Gli utenti di Brand Portal non possono pubblicare le risorse della cartella Contributi in Experience Manager Assets quando si esegue l’aggiornamento a Adobe Developer Console.
 >
->Il problema è risolto in Experience Manager Assets 6.5.5. È possibile aggiornare l’istanza di Experience Manager Assets al service pack più recente e [aggiornare le configurazioni](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) sulla console Adobe Developer.
+>Il problema è risolto in Experience Manager Assets 6.5.5. Puoi aggiornare l&#39;istanza di Experience Manager Assets al service pack più recente e [aggiornare le configurazioni](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) in Adobe Developer Console.
 
 <!--
 
@@ -108,21 +108,21 @@ Una cartella di contributi può essere condivisa solo con gli utenti Brand Porta
 
 >[!NOTE]
 >
->Assicurati che l’istanza di Experience Manager Assets sia configurata con Brand Portal. Vedi, [Configurare Experience Manager Assets con Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+>Assicurati che l’istanza di Experience Manager Assets sia configurata con Brand Portal. Vedere [Configurare Experience Manager Assets con Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 >[!NOTE]
 >
 >Il formato del file CSV è lo stesso supportato nell’Admin Console per l’importazione in blocco da parte dell’utente. E-mail, nome e cognome sono obbligatori.
 
-Gli amministratori possono aggiungere nuovi utenti in Admin Console, vedi [Gestisci utenti](brand-portal-adding-users.md) per informazioni dettagliate. Dopo aver aggiunto gli utenti in Admin Console, è possibile aggiungerli al file di configurazione utente di Brand Portal e quindi assegnare loro l’autorizzazione per accedere alla cartella dei contributi.
+Gli amministratori possono aggiungere nuovi utenti in Admin Console. Per informazioni dettagliate, vedere [Gestione utenti](brand-portal-adding-users.md). Dopo aver aggiunto gli utenti in Admin Console, è possibile aggiungerli al file di configurazione utente di Brand Portal e quindi assegnare loro l’autorizzazione per accedere alla cartella dei contributi.
 
-**Per caricare l’elenco degli utenti di Brand Portal:**
+**Per caricare l&#39;elenco degli utenti di Brand Portal:**
 
 1. Accedi all’istanza di Experience Manager Assets.
-1. Dalla sezione **Strumenti**  , passa a **[!UICONTROL Risorse]** > **[!UICONTROL Utenti Brand Portal]**.
+1. Dal pannello **Strumenti**, passa a **[!UICONTROL Assets]** > **[!UICONTROL Utenti Brand Portal]**.
 
 1. Viene visualizzata la finestra Carica collaboratori di Brand Portal.
-Sfoglia dal computer locale e carica **file di configurazione (.csv)** contenente l&#39;elenco degli utenti attivi di Brand Portal.
+Sfoglia dal computer locale e carica **il file di configurazione (.csv)** contenente l&#39;elenco degli utenti di Brand Portal attivi.
 1. Fai clic su **[!UICONTROL Salva]**.
 
    ![](assets/upload-user-list2.png)
@@ -134,4 +134,4 @@ Gli amministratori possono fornire l’accesso a utenti specifici da questo elen
 
 * [Configurare e pubblicare la cartella dei contributi in Brand Portal](brand-portal-publish-contribution-folder-to-brand-portal.md)
 
-* [Pubblicare la cartella dei contributi in Experience Manager Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)
+* [Cartella dei contributi di Publish a Experience Manager Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)
