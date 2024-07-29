@@ -6,10 +6,10 @@ feature-set: Experience Manager Assets
 type: Documentation
 index: y
 recommendations: noDisplay
-source-git-commit: b8b0f367a74023a12a29e05e8c384cd0d5cd84a3
+source-git-commit: 1a3e51922fb658d9d05113b4b1f4d05a0b6555c0
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 89%
+source-wordcount: '112'
+ht-degree: 99%
 
 ---
 
@@ -26,4 +26,4 @@ Il file metadata.md include metadati a livello di archivio che vengono trasmessi
 | getting-started-url | Collegamento per la pagina introduttiva della guida helpx |
 | tutorials-url | Collegamento per i tutorial video: esercitazioni nella guida helpx o su KT |
 | mini-toc-levels | Determina quanti livelli di intestazione vengono visualizzati nella barra a destra. Il valore predefinito è 2. |
-| git-repo | Specifica la posizione dell’archivio primario per uso interno |
+| git-repo | Specifica la posizione dell’archivio principale per uso interno |

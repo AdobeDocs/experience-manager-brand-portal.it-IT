@@ -1,17 +1,16 @@
 ---
-source-git-commit: c33730d076788b874c7c3b4f2e3341b0f3a56d7b
+source-git-commit: 1a3e51922fb658d9d05113b4b1f4d05a0b6555c0
 workflow-type: tm+mt
-translation-type: tm+mt
-source-wordcount: '75'
-ht-degree: 0%
+source-wordcount: '73'
+ht-degree: 79%
 
 ---
-# Documentazione su Adobe Experience Manager Brand Portal
+# Documentazione di Adobe Experience Manager Brand Portal
 
-Questo è l’archivio della documentazione di Adobe Experience Manager Brand Portal.
+L’archivio della documentazione di Adobe Experience Manager Brand Portal.
 
-I vostri contributi alla documentazione sono i benvenuti. Consulta le risorse seguenti:
+Saremo lieti di accogliere anche il contributo alla documentazione. Consulta le risorse seguenti:
 
-* [contribute.](contributing.md) mdPer una panoramica di come contribuire alla documentazione.
-* [guidelines.](guidelines.md) mdPer una panoramica di quanto ci si aspetta dai contributi e come comporre i contributi della documentazione.
-* [code-of-Conduct.](code-of-conduct.md) mdPer una panoramica degli standard di comportamento che ci aspettiamo nel corso del progetto di documentazione.
+* [contributing.md](contributing.md): panoramica su come contribuire alla documentazione.
+* [guidelines.md](guidelines.md): panoramica su cosa includere nei contributi e come comporre i contributi alla documentazione.
+* [code-of-conduct.md](code-of-conduct.md): per una panoramica degli standard di comportamento a cui dovrà attenersi chi partecipa al progetto di documentazione.
