@@ -9,9 +9,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: bc305abc-9373-4d33-9179-0a5f3904b352
 exl-id: 9b585606-6538-459b-87a9-2e68df0087b3
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
+source-git-commit: 133ea1fc342e4460e7d0661205c7411a509143eb
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1133'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Per pubblicare i predefiniti immagine in Brand Portal:
 
 Per annullare la pubblicazione di un predefinito immagine da Brand Portal:
 
-1. Nell&#39;istanza Autore AEM, tocca o fai clic sul logo AEM per accedere alla console di navigazione globale, quindi tocca o fai clic sull&#39;icona **[!UICONTROL Strumenti]** e passa a **[!UICONTROL Assets > Predefiniti immagine]**.
+1. Nell&#39;istanza Autore AEM, tocca o fai clic sul logo AEM per accedere alla console di navigazione globale, fai clic sull&#39;icona **[!UICONTROL Strumenti]** e passa a **[!UICONTROL Assets > Predefiniti immagine]**.
 1. Selezionare un predefinito immagine e selezionare **[!UICONTROL Rimuovi da Brand Portal]** tra le opzioni disponibili nella parte superiore.
 
 ## Schema metadati Publish in Brand Portal  {#publish-metadata-schema-to-brand-portal}
@@ -71,7 +71,7 @@ Se nell’istanza Autore AEM è stato creato uno schema personalizzato, gli uten
 
 Per pubblicare uno schema di metadati dall’istanza di authoring AEM a Brand Portal:
 
-1. Nell&#39;istanza Autore AEM, tocca o fai clic sul logo AEM per accedere alla console di navigazione globale, quindi tocca o fai clic sull&#39;icona Strumenti e passa a **[!UICONTROL Assets > Schemi di metadati]**.
+1. Nell&#39;istanza Autore AEM, tocca o fai clic sul logo AEM per accedere alla console di navigazione globale, quindi fai clic sull&#39;icona Strumenti e passa a **[!UICONTROL Assets > Schemi di metadati]**.
 1. Selezionare uno schema metadati e selezionare **[!UICONTROL Publish in Brand Portal]** tra le opzioni disponibili nella parte superiore.
 
 >[!NOTE]
@@ -80,7 +80,7 @@ Per pubblicare uno schema di metadati dall’istanza di authoring AEM a Brand Po
 
 Per annullare la pubblicazione di uno schema di metadati da Brand Portal:
 
-1. Nell&#39;istanza Autore AEM, tocca o fai clic sul logo AEM per accedere alla console di navigazione globale, quindi tocca o fai clic sull&#39;icona Strumenti e passa a **[!UICONTROL Assets > Schemi di metadati]**.
+1. Nell&#39;istanza Autore AEM, tocca o fai clic sul logo AEM per accedere alla console di navigazione globale, quindi fai clic sull&#39;icona Strumenti e passa a **[!UICONTROL Assets > Schemi di metadati]**.
 1. Selezionare uno schema metadati e selezionare **[!UICONTROL Rimuovi da Brand Portal]** tra le opzioni disponibili nella parte superiore.
 
 ## Facet di ricerca Publish in Brand Portal {#publish-search-facets-to-brand-portal}
@@ -98,7 +98,7 @@ Se si desidera utilizzare il modulo di ricerca personalizzato **[!UICONTROL Barr
 
 Per pubblicare il facet di ricerca modificato dall’istanza di creazione AEM in Brand Portal:
 
-1. Tocca o fai clic sul logo AEM, quindi vai a **[!UICONTROL Strumenti > Generale > Cerca in Forms]**.
+1. Fare clic sul logo dell&#39;AEM, quindi passare a **[!UICONTROL Strumenti > Generale > Cerca in Forms]**.
 1. Selezionare il modulo di ricerca modificato e selezionare **[!UICONTROL Da Publish a Brand Portal]**.
 
    >[!NOTE]
@@ -107,7 +107,7 @@ Per pubblicare il facet di ricerca modificato dall’istanza di creazione AEM in
 
 Per annullare la pubblicazione dei moduli di ricerca da Brand Portal:
 
-1. Nell&#39;istanza Autore AEM, tocca o fai clic sul logo AEM per accedere alla console di navigazione globale, quindi tocca o fai clic sull&#39;icona Strumenti e passa a **[!UICONTROL Generale > Cerca in Forms]**.
+1. Nell&#39;istanza Autore AEM, tocca o fai clic sul logo AEM per accedere alla console di navigazione globale, quindi fai clic sull&#39;icona Strumenti e passa a **[!UICONTROL Generale > Cerca in Forms]**.
 1. Selezionare il modulo di ricerca e selezionare **[!UICONTROL Rimuovi da Brand Portal]** tra le opzioni disponibili nella parte superiore.
 
 >[!NOTE]
