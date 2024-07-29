@@ -1,26 +1,22 @@
 ---
 title: Sfogliare le risorse in Brand Portal
-seo-title: Browse assets on Brand Portal
 description: Sfoglia le risorse, sfoglia le gerarchie di risorse e cerca le risorse, utilizzando diverse opzioni di visualizzazione ed elementi dell’interfaccia utente in Brand Portal.
-seo-description: Browse through assets, traverse asset hierarchies, and search assets, using different view options and UI elements on Brand Portal.
-uuid: 178ce217-0050-4922-a204-f4539d46f539
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
-discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
-source-git-commit: 133ea1fc342e4460e7d0661205c7411a509143eb
+source-git-commit: ff51a49a958d43c98443d816a92276faae5e9569
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1015'
 ht-degree: 7%
 
 ---
 
 # Sfogliare le risorse in Brand Portal {#browsing-assets-on-brand-portal}
 
-Experience Manager Assets Brand Portal fornisce varie funzionalità ed elementi dell’interfaccia utente che facilitano la navigazione tra le risorse, l’attraversamento delle gerarchie di risorse e la ricerca di risorse utilizzando diverse opzioni di visualizzazione.
+Experience Manager Assets Brand Portal offre varie funzioni ed elementi dell’interfaccia utente che semplificano la navigazione delle risorse, la navigazione nelle gerarchie di risorse e la ricerca di risorse utilizzando diverse opzioni di visualizzazione.
 
-Il logo di Experience Manager nella barra degli strumenti nella parte superiore facilita l’accesso degli utenti amministratori al pannello strumenti di amministrazione.
+Il logo di Experience Manager nella barra degli strumenti nella parte superiore facilita l’accesso degli utenti amministratori al pannello degli strumenti di amministrazione.
 
 ![](assets/aemlogo.png)
 
@@ -32,7 +28,7 @@ Il selettore della barra in alto a sinistra nell’elenco a discesa di Brand Por
 
 ![](assets/siderail-1.png)
 
-Puoi visualizzare, navigare e selezionare le risorse utilizzando una qualsiasi delle viste disponibili (Scheda, Colonna ed Elenco) nel selettore di visualizzazione in alto a destra in Brand Portal.
+Puoi visualizzare, navigare e selezionare le risorse utilizzando una qualsiasi delle viste disponibili (Scheda, Colonna ed Elenco) nel selettore di visualizzazione di Brand Portal.
 
 ![](assets/viewselector.png)
 
@@ -60,27 +56,28 @@ La vista a schede mostra le schede informative per ogni elemento al livello corr
 * Dimensione
 * Dimensioni
 
-Puoi spostarti verso il basso nella gerarchia toccando/facendo clic sulle schede (facendo attenzione a evitare le azioni rapide) oppure verso l&#39;alto utilizzando le [breadcrumb nell&#39;intestazione](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html).
+Puoi spostarti verso il basso nella gerarchia facendo clic sulle schede (facendo attenzione a evitare le azioni rapide) o verso l&#39;alto utilizzando le [breadcrumb nell&#39;intestazione](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling).
 
 ![](assets/cardquickactions.png)
 
 #### Vista a schede per utenti non amministratori
 
 Le schede di cartelle, in Vista a schede, visualizzano le informazioni sulla gerarchia delle cartelle per gli utenti non amministratori (editor, visualizzatore e utente ospite). Questa funzionalità consente agli utenti di conoscere la posizione delle cartelle a cui accedono, rispetto alla gerarchia principale.
-Le informazioni sulla gerarchia delle cartelle sono particolarmente utili per distinguere le cartelle con nomi simili ad altre cartelle condivise da una gerarchia di cartelle diversa. Se gli utenti non amministratori non sono a conoscenza della struttura delle cartelle delle risorse condivise con loro, le risorse o le cartelle con nomi simili sembrano confuse.
 
-* I percorsi mostrati sulle rispettive schede vengono troncati per adattarsi alle dimensioni delle schede. Tuttavia, gli utenti possono vedere il percorso completo come una descrizione quando passano il mouse sul percorso troncato.
+Le informazioni sulla gerarchia delle cartelle sono particolarmente utili per distinguere le cartelle con nomi simili ad altre cartelle condivise da una gerarchia di cartelle diversa. Se gli utenti non amministratori non sono a conoscenza della struttura delle cartelle delle risorse condivise con loro, le risorse o cartelle con nomi simili sembrano confuse.
+
+* I percorsi mostrati sulle rispettive schede vengono troncati per adattarsi alle dimensioni delle schede. Tuttavia, gli utenti possono vedere il percorso completo come una descrizione passando con il mouse sopra il percorso troncato.
 
 ![](assets/folder-hierarchy1.png)
 
 **Opzione Panoramica per visualizzare le proprietà della risorsa**
 
-L’opzione Panoramica è disponibile per gli utenti non amministratori (editor, visualizzatori, utenti ospiti) che possono visualizzare le proprietà delle risorse e cartelle selezionate. L’opzione Panoramica è visibile:
+L’opzione Panoramica è disponibile per gli utenti non amministratori (Editor, Visualizzatori, Utenti ospiti) che possono visualizzare le proprietà delle risorse e cartelle selezionate. L’opzione Panoramica è visibile:
 
-* nella barra degli strumenti in alto, seleziona una risorsa o una cartella.
-* nel menu a discesa selezionando la barra Selettore.
+* Nella barra degli strumenti, nella parte superiore, seleziona una risorsa o una cartella.
+* Nel menu a discesa, seleziona il selettore della barra.
 
-Quando si seleziona l&#39;opzione **[!UICONTROL Panoramica]** mentre è selezionata una risorsa o una cartella, gli utenti possono visualizzare il titolo, il percorso e l&#39;ora di creazione della risorsa. Nella pagina dei dettagli della risorsa, invece, l’opzione Panoramica consente agli utenti di visualizzare i metadati della risorsa.
+Quando si seleziona l&#39;opzione **[!UICONTROL Panoramica]** mentre è selezionata una risorsa o una cartella, gli utenti possono visualizzare il titolo, il percorso e l&#39;ora di creazione della risorsa. Nella pagina dei dettagli della risorsa, invece, la selezione dell’opzione Panoramica consente agli utenti di visualizzare i metadati della risorsa.
 
 ![](assets/overview-option.png)
 
@@ -88,7 +85,7 @@ Quando si seleziona l&#39;opzione **[!UICONTROL Panoramica]** mentre è selezion
 
 #### Visualizza impostazioni nella vista a schede
 
-Viene visualizzata la finestra di dialogo **[!UICONTROL Visualizza impostazioni]** quando si seleziona **[!UICONTROL Visualizza impostazioni]** dal selettore di visualizzazione. Consente di ridimensionare le miniature delle risorse nella vista a schede. In questo modo, puoi personalizzare la visualizzazione e controllare il numero di miniature visualizzate.
+Viene visualizzata la finestra di dialogo **[!UICONTROL Visualizza impostazioni]** selezionando **[!UICONTROL Visualizza impostazioni]** dal selettore di visualizzazione. Consente di ridimensionare le miniature delle risorse nella vista a schede. In questo modo è possibile personalizzare la visualizzazione e controllare il numero di miniature visualizzate.
 
 ![](assets/cardviewsettings.png)
 
@@ -96,7 +93,7 @@ Viene visualizzata la finestra di dialogo **[!UICONTROL Visualizza impostazioni]
 
 ![](assets/list-view.png)
 
-Nella vista a elenco vengono visualizzate le informazioni per ogni risorsa al livello corrente. La vista a elenco fornisce i seguenti dettagli:
+Nella vista a elenco vengono visualizzate le informazioni per ogni risorsa al livello corrente. La vista Elenco fornisce i dettagli riportati di seguito.
 
 * Miniatura delle risorse
 * Nome
@@ -109,7 +106,7 @@ Nella vista a elenco vengono visualizzate le informazioni per ogni risorsa al li
 * Percorso cartella che mostra la gerarchia delle risorse
 * Data di pubblicazione della risorsa su Brand Portal
 
-La colonna Percorso consente di identificare facilmente la posizione della risorsa nella gerarchia delle cartelle. Per spostarti verso il basso nella gerarchia, tocca o fai clic sul nome della risorsa; per tornare verso l&#39;alto utilizza le [breadcrumb nell&#39;intestazione](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html).
+La colonna del percorso consente di identificare facilmente la posizione della risorsa nella gerarchia delle cartelle. Per spostarti verso il basso nella gerarchia, fai clic sul nome della risorsa ed effettua un backup utilizzando le [breadcrumb nell&#39;intestazione](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling).
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Click the vertical selection bar and drag the item to a new position in the list."
@@ -117,7 +114,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ### Visualizza impostazioni nella vista a elenco
 
-La vista a elenco mostra la risorsa **[!UICONTROL Name]** come prima colonna per impostazione predefinita. Vengono inoltre visualizzate informazioni aggiuntive, ad esempio la risorsa **[!UICONTROL Titolo]**, **[!UICONTROL Impostazioni locali]**, **[!UICONTROL Tipo]**, **[!UICONTROL Dimension]**, **[!UICONTROL Dimensioni]**, **[!UICONTROL Valutazione]**, stato di pubblicazione. È tuttavia possibile selezionare le colonne da visualizzare utilizzando **[!UICONTROL Impostazioni visualizzazione]**.
+Nella vista a elenco, per impostazione predefinita, la risorsa **[!UICONTROL Name]** è la prima colonna. Vengono inoltre visualizzate informazioni aggiuntive, ad esempio la risorsa **[!UICONTROL Titolo]**, **[!UICONTROL Impostazioni locali]**, **[!UICONTROL Tipo]**, **[!UICONTROL Dimension]**, **[!UICONTROL Dimensioni]**, **[!UICONTROL Valutazione]**, stato di pubblicazione. È tuttavia possibile selezionare le colonne da visualizzare utilizzando **[!UICONTROL Impostazioni visualizzazione]**.
 
 ![](assets/list-view-setting.png)
 
@@ -129,14 +126,14 @@ Utilizzare la vista a colonne per spostarsi in una struttura del contenuto attra
 
 Selezionando una risorsa nella prima colonna (all’estrema sinistra), le risorse figlie vengono visualizzate nella seconda colonna a destra. Selezionando una risorsa nella seconda colonna vengono visualizzate le risorse figlie nella terza colonna a destra e così via.
 
-Per spostarti verso l’alto o il basso nella struttura, tocca o fai clic sul nome della risorsa o sulla freccia a destra del nome della risorsa.
+Puoi spostarti verso l’alto o il basso nella struttura. Fai clic sul nome della risorsa o sulla freccia a destra del nome della risorsa.
 
 * Il nome della risorsa e la freccia vengono evidenziati quando tocchi o fai clic su tali elementi.
 * Toccando o facendo clic sulla miniatura viene selezionata la risorsa.
 * Se questa opzione è selezionata, sulla miniatura viene visualizzato un segno di spunta e il nome della risorsa viene evidenziato.
 * I dettagli della risorsa selezionata sono visualizzati nella colonna finale.
 
-Quando una risorsa viene selezionata nella vista a colonne, la sua rappresentazione visiva viene visualizzata nella colonna finale insieme ai seguenti dettagli:
+Quando una risorsa viene selezionata nella vista a colonne, nella colonna finale viene visualizzata una sua rappresentazione visiva con i seguenti dettagli:
 
 * Titolo
 * Nome
@@ -144,7 +141,7 @@ Quando una risorsa viene selezionata nella vista a colonne, la sua rappresentazi
 * Data e ora in cui la risorsa è stata pubblicata su Brand Portal dall’AEM
 * Dimensione
 * Tipo
-* Opzione Maggiori dettagli, per passare alla pagina dei dettagli della risorsa
+* Opzione Maggiori dettagli abbinata alla pagina dei dettagli della risorsa
 
 <!--
 Comment Type: draft
@@ -244,7 +241,7 @@ Dalla gerarchia dei contenuti, individua la risorsa desiderata.
 
 ## Dettagli risorsa {#asset-details}
 
-La pagina dei dettagli della risorsa consente di visualizzare una risorsa, scaricarla, condividerne il collegamento, spostarla in una raccolta o visualizzarne la pagina delle proprietà. Consente inoltre di spostarsi nella pagina dei dettagli di altre risorse della stessa cartella in successione.
+La pagina dei dettagli della risorsa consente di visualizzare una risorsa, scaricarla, condividerne il collegamento, spostarla in una raccolta o visualizzarne la pagina delle proprietà. Consente inoltre di navigare nella pagina dei dettagli di altre risorse della stessa cartella in successione.
 
 ![](assets/asset-detail.png)
 
