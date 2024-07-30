@@ -5,10 +5,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
-source-git-commit: ff51a49a958d43c98443d816a92276faae5e9569
+source-git-commit: 4d9d7afa2cd45ea68c2e15338c92aa29ecf09f91
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 7%
+source-wordcount: '1013'
+ht-degree: 6%
 
 ---
 
@@ -109,7 +109,7 @@ Nella vista a elenco vengono visualizzate le informazioni per ogni risorsa al li
 La colonna del percorso consente di identificare facilmente la posizione della risorsa nella gerarchia delle cartelle. Per spostarti verso il basso nella gerarchia, fai clic sul nome della risorsa ed effettua un backup utilizzando le [breadcrumb nell&#39;intestazione](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling).
 
 <!--
-Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Click the vertical selection bar and drag the item to a new position in the list."
+Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click the checkbox. When only some items are selected, it appears with a minus sign. To select all, click the checkbox. To deselect all, click the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Click the vertical selection bar and drag the item to a new position in the list."
  -->
 
 ### Visualizza impostazioni nella vista a elenco
@@ -128,7 +128,7 @@ Selezionando una risorsa nella prima colonna (all’estrema sinistra), le risors
 
 Puoi spostarti verso l’alto o il basso nella struttura. Fai clic sul nome della risorsa o sulla freccia a destra del nome della risorsa.
 
-* Il nome della risorsa e la freccia vengono evidenziati quando tocchi o fai clic su tali elementi.
+* Il nome della risorsa e la freccia sono evidenziati quando si fa clic su di essa.
 * Toccando o facendo clic sulla miniatura viene selezionata la risorsa.
 * Se questa opzione è selezionata, sulla miniatura viene visualizzato un segno di spunta e il nome della risorsa viene evidenziato.
 * I dettagli della risorsa selezionata sono visualizzati nella colonna finale.
@@ -218,13 +218,13 @@ Deselecting All
 Comment Type: draft
 
 <p>In all cases, as you select items the count of the items selected is displayed at the upper right of the toolbar.</p>
-<p>You can deselect all items and exit selection mode by clicking or tapping the X next to the count.</p>
+<p>You can deselect all items and exit selection mode by clicking the X next to the count.</p>
 -->
 
 <!--
 Comment Type: draft
 
-<p>In all views, all items can be deselected by tapping escape on the keyboard if you are using a desktop device.</p>
+<p>In all views, all items can be deselected by clicking escape on the keyboard if you are using a desktop device.</p>
 -->
 
 ## Struttura contenuto {#content-tree}
