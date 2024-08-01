@@ -1,18 +1,14 @@
 ---
 title: Accesso a Brand Portal come ospite
-seo-title: Guest Access to Brand Portal
 description: Consenti l’accesso come ospite e risparmia il tempo necessario per integrare numerosi utenti senza autenticazione.
-seo-description: Allow guest access and save the effort to onboard numerous users without authentication.
-uuid: edb4378d-1710-44a2-97a6-594d99f62fff
 contentOwner: VG
 topic-tags: introduction
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 exl-id: ecce0a45-abae-41c4-9ea7-5dfdcf19e5ea
-source-git-commit: 0670b8d372fd2dc5bdb1d0a928601e3e09a6dcf9
+source-git-commit: 4c701781e7dc62b9d2b018fd13b1ae9616bbb840
 workflow-type: tm+mt
-source-wordcount: '1040'
+source-wordcount: '1048'
 ht-degree: 0%
 
 ---
@@ -22,7 +18,7 @@ ht-degree: 0%
 Experience Manager Assets Brand Portal consente l&#39;accesso come ospite al portale. Un utente guest non ha bisogno delle credenziali per accedere al portale e ha accesso alle risorse pubbliche (e alle raccolte) del portale. Gli utenti nella sessione guest possono aggiungere risorse a lightbox (raccolta privata) e scaricarle finché la sessione non dura o finché l&#39;utente guest non sceglie di [[!UICONTROL Terminare la sessione]](#exit-guest-session). Una sessione utente guest rimane attiva per 15 minuti.
 
 La funzionalità di accesso come ospite consente alle organizzazioni di [condividere rapidamente le risorse approvate](../using/brand-portal-sharing-folders.md#how-to-share-folders) con il pubblico previsto su larga scala senza doverle integrare. A partire dalla versione 6.4.2 di Brand Portal, è in grado di servire più utenti guest simultanei, ovvero il 10% della quota totale di utenti per organizzazione. Consentendo l’accesso come ospite, si risparmia tempo per gestire e integrare punteggi di utenti con funzionalità limitate in Brand Portal.\
-Le organizzazioni possono abilitare (o disabilitare) l&#39;accesso come ospite sull&#39;account Brand Portal dell&#39;organizzazione utilizzando l&#39;opzione **[!UICONTROL Consenti accesso come ospite]** dalle impostazioni di **[!UICONTROL Accesso]** nel pannello degli strumenti di amministrazione.
+Le organizzazioni possono abilitare (o disabilitare) l&#39;accesso come ospite nell&#39;account Brand Portal dell&#39;organizzazione utilizzando l&#39;opzione **[!UICONTROL Consenti accesso come ospite]** dalle impostazioni **[!UICONTROL Accesso]** nel pannello degli strumenti di amministrazione.
 
 <!--
 Comment Type: annotation
@@ -35,14 +31,14 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 ## Inizio sessione ospite {#begin-guest-session}
 
-Per accedere a Brand Portal in modo anonimo, selezionare **[!UICONTROL Fare clic qui]** corrispondente a **[!UICONTROL Accesso come ospite?]** nella schermata di benvenuto di Brand Portal. Immetti il controllo di sicurezza captcha per concedere l’accesso all’utilizzo di Brand Portal.
+Per accedere a Brand Portal in modo anonimo, seleziona **[!UICONTROL Fai clic qui]** corrispondente a **[!UICONTROL `Guest Access?`]** nella schermata di benvenuto di Brand Portal. Immetti il controllo di sicurezza captcha per concedere l’accesso all’utilizzo di Brand Portal.
 
 ![](assets/bp-login-screen.png)
 
 ## Durata sessione ospite {#guest-session-duration}
 
 Una sessione utente guest rimane attiva per 15 minuti.
-Ciò significa che lo stato di **[!UICONTROL Lightbox]** è mantenuto per 15 minuti dall&#39;ora di inizio della sessione e dopo di che la sessione guest corrente viene riavviata in modo che lo stato di Lightbox venga perso.
+Questo processo mantiene lo stato di **[!UICONTROL Lightbox]** per 15 minuti dall&#39;inizio della sessione. Successivamente, la sessione guest corrente viene riavviata, causando la perdita dello stato Lightbox.
 
 Ad esempio, un utente guest accede a Brand Portal alle 15:00 e aggiunge risorse a **[!UICONTROL Lightbox]** per il download alle 15:05. Se l&#39;utente non scarica la raccolta **[!UICONTROL Lightbox]** (o le relative risorse) prima delle 15:15 ore (entro 15 minuti dall&#39;accesso), deve riavviare la sessione. La **[!UICONTROL Lightbox]** è vuota, pertanto le risorse caricate non sono più disponibili se la sessione è stata persa.
 
@@ -62,9 +58,10 @@ Quando si accede a Brand Portal come guest, gli utenti possono visualizzare tutt
 
 ![](assets/disabled-folder-hierarchy1.png)
 
-Tuttavia, gli utenti guest visualizzano la struttura delle cartelle (a partire dalla cartella principale) e le cartelle condivise disposte all&#39;interno delle rispettive cartelle principali all&#39;accesso a Brand Portal, se gli amministratori hanno abilitato la configurazione [Abilita gerarchia cartelle](../using/brand-portal-general-configuration.md#main-pars-header-1621071021).
 
-Queste cartelle principali sono le cartelle virtuali e non è possibile eseguire alcuna azione su di esse. È possibile riconoscere queste cartelle virtuali con un&#39;icona di blocco.
+Se gli amministratori abilitano [Abilita gerarchia cartelle](../using/brand-portal-general-configuration.md#main-pars-header-1621071021), gli utenti guest visualizzano la struttura delle cartelle dalla radice e dalle cartelle condivise all&#39;interno delle proprie cartelle padre al momento dell&#39;accesso a Brand Portal.
+
+Queste cartelle principali sono cartelle virtuali e non è possibile eseguire alcuna azione su di esse. È possibile riconoscere queste cartelle virtuali con un&#39;icona di blocco.
 
 Nessuna attività di azione visibile al passaggio del mouse o alla selezione in **[!UICONTROL Vista a schede]**, a differenza delle cartelle condivise. Il pulsante **[!UICONTROL Panoramica]** viene visualizzato quando si seleziona una cartella virtuale in **[!UICONTROL Vista a colonne]** e **[!UICONTROL Vista a elenco]**.
 
@@ -78,16 +75,16 @@ L&#39;opzione **[!UICONTROL Visualizza impostazioni]** consente agli utenti gues
 
 ![](assets/nav-guest-user.png)
 
-La **[!UICONTROL struttura contenuto]** consente di spostarsi nella gerarchia delle risorse.
+La **[!UICONTROL struttura contenuto]** ti consente di spostarti nella gerarchia delle risorse.
 
 ![](assets/guest-login-ui.png)
 
-Brand Portal fornisce l&#39;opzione **[!UICONTROL Panoramica]** agli utenti guest per visualizzare **[!UICONTROL Proprietà risorsa]** delle risorse/cartelle selezionate. L&#39;opzione **[!UICONTROL Panoramica]** è visibile:
+In Brand Portal è disponibile l&#39;opzione **[!UICONTROL Panoramica]** che consente agli utenti guest di visualizzare **[!UICONTROL Proprietà risorsa]** delle risorse/cartelle selezionate. L&#39;opzione **[!UICONTROL Panoramica]** è visibile:
 
-* Nella barra degli strumenti in alto, seleziona una risorsa o una cartella.
+* Nella barra degli strumenti, nella parte superiore, seleziona una risorsa o una cartella.
 * Nell’elenco a discesa selezionando il Selettore della barra.
 
-Quando si seleziona l&#39;opzione **[!UICONTROL Panoramica]** mentre è selezionata una risorsa o una cartella, gli utenti possono visualizzare il titolo, il percorso e l&#39;ora di creazione della risorsa. Nella pagina dei dettagli della risorsa, invece, la selezione dell&#39;opzione **[!UICONTROL Panoramica]** consente agli utenti di visualizzare i metadati della risorsa.
+Quando selezioni l&#39;opzione **[!UICONTROL Panoramica]** mentre è selezionata una risorsa o una cartella, gli utenti possono visualizzare il titolo, il percorso e l&#39;ora di creazione della risorsa. Nella pagina dei dettagli della risorsa, invece, la selezione dell&#39;opzione **[!UICONTROL Panoramica]** consente agli utenti di visualizzare i metadati della risorsa.
 
 ![](assets/overview-option-1.png)
 
@@ -104,7 +101,7 @@ Gli utenti ospiti possono accedere alle risorse pubbliche su Brand Portal e hann
 **Gli utenti guest possono**:
 
 * Accedi a tutte le cartelle pubbliche e alle raccolte destinate a tutti gli utenti di Brand Portal.
-* Consente di sfogliare i membri, la pagina dei dettagli e la visualizzazione completa delle risorse dei membri di tutte le cartelle e raccolte pubbliche.
+* Consente di sfogliare i membri, visualizzare la pagina dei dettagli e visualizzare in modo completo le risorse dei membri di tutte le cartelle e raccolte pubbliche.
 * Cerca le risorse nelle cartelle e raccolte pubbliche.
 * Aggiungi risorse alla raccolta Lightbox. Queste modifiche alla raccolta persistono durante la sessione.
 * Scarica le risorse direttamente o tramite la raccolta Lightbox.
@@ -136,4 +133,4 @@ Per uscire da una sessione guest, utilizzare **[!UICONTROL Fine sessione]** tra 
 
 ## Monitoraggio delle attività degli utenti guest {#monitoring-guest-user-activities}
 
-Gli amministratori possono monitorare l’interazione degli utenti guest con Brand Portal. I rapporti generati in Brand Portal possono fornire informazioni chiave sulle attività degli utenti guest. Ad esempio, il report **[!UICONTROL Scarica]** può essere utilizzato per tenere traccia del numero di risorse scaricate dall&#39;utente guest. Il report **[!UICONTROL Accessi utente]** può indicare quando l&#39;utente ospite ha eseguito l&#39;ultimo accesso al portale e la frequenza degli accessi in un periodo di tempo specificato.
+Gli amministratori possono monitorare l’interazione degli utenti guest con Brand Portal. I rapporti generati in Brand Portal possono fornire informazioni chiave sulle attività degli utenti guest. Ad esempio, il rapporto **[!UICONTROL Scarica]** può essere utilizzato per tenere traccia del numero di risorse scaricate dall&#39;utente guest. Il report **[!UICONTROL Accessi utente]** può indicare quando l&#39;utente ospite ha eseguito l&#39;ultimo accesso al portale e la frequenza degli accessi in una durata specificata.

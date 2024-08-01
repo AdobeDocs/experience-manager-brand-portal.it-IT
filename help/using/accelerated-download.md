@@ -1,18 +1,14 @@
 ---
 title: Accelera i download di Brand Portal
-seo-title: Speed up the Brand Portal downloads
 description: Migliora le prestazioni di download da Brand Portal e dai collegamenti condivisi.
-seo-description: Enhance download performance from Brand Portal and the shared links.
-uuid: 2871137e-6471-49a7-872a-841bd92543d1
 contentOwner: Vishabh Gupta
 topic-tags: download-install, download assets
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: ce765700aaecba4bfff7b55effb05f981b94bdec
+source-git-commit: f931f6576c05d82cea61bda00322425abc9e8d43
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '1009'
 ht-degree: 3%
 
 ---
@@ -25,7 +21,7 @@ Adobe Experience Manager Assets Brand Portal consente di migliorare le prestazio
 
 >[!NOTE]
 >
->La velocità di download varia per gli utenti in quanto dipende da fattori quali la larghezza di banda della rete, la latenza del server e la posizione geografica dei client.
+>La velocità di download varia per gli utenti perché dipende da fattori quali la larghezza di banda della rete, la latenza del server e la posizione geografica dei client.
 
 Per impostazione predefinita, la configurazione di **[!UICONTROL Download rapido]** è abilitata, il che riduce notevolmente il tempo necessario per scaricare i file di risorse desiderati da Brand Portal.
 
@@ -89,7 +85,7 @@ Per scaricare più rapidamente le risorse da Brand Portal:
 
 1. Viene visualizzata la finestra di dialogo **[!UICONTROL Scarica]** in cui sono elencate tutte le risorse selezionate.
 
-   Per mantenere la gerarchia delle cartelle di Brand Portal durante il download delle risorse, selezionare la casella di controllo **[!UICONTROL Crea una cartella separata per ogni risorsa]**.
+   Per mantenere la gerarchia delle cartelle di Brand Portal durante il download delle risorse, selezionare la casella di controllo **[!UICONTROL `Create separate folder for each asset`]**.
 
    Il pulsante di download riflette il conteggio degli elementi selezionati. Dopo aver applicato le regole, fai clic su **[!UICONTROL Scarica elementi]**. Per ulteriori informazioni su come applicare le regole, consulta [scaricare le risorse](../using/brand-portal-download-assets.md#download-assets).
 
@@ -97,7 +93,7 @@ Per scaricare più rapidamente le risorse da Brand Portal:
 
 1. Per impostazione predefinita, l&#39;impostazione **[!UICONTROL Download rapido]** è abilitata nelle **[!UICONTROL Impostazioni download]**. Pertanto, viene visualizzata una casella di conferma per scaricare le risorse utilizzando IBM® Aspera Connect.
 
-   Se si scaricano le risorse per la prima volta e IBM® Aspera Connect non è installato nel browser o la versione esistente non è aggiornata, verrà richiesto di installare Aspera Download Accelerator (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
+   Se hai scaricato le risorse per la prima volta e IBM® Aspera Connect non è installato nel browser, ti viene richiesto di installarlo. Se la versione esistente non è aggiornata, verrà richiesto di installare anche l&#39;acceleratore di download [Aspera](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&amp;product=ibm/Other+software/IBM+Aspera+Connect&amp;release=3.9.9&amp;platform=All&amp;function=all).
 
    ![](assets/aspera-not-launched.png)
 
@@ -189,11 +185,11 @@ Per utilizzare la funzionalità di download accelerato in Microsoft® Edge, rimu
 1. Apri il Pannello di controllo Campaign (**[!UICONTROL Chiave finestra + X]**, quindi seleziona **[!UICONTROL Pannello di controllo Campaign]**).
 1. Vai a **[!UICONTROL Rete e Internet]** > **[!UICONTROL Opzioni Internet]**. Fare clic sulla scheda **[!UICONTROL Protezione]**.
 1. Fare clic sull&#39;area **[!UICONTROL Siti attendibili]**, quindi su **[!UICONTROL Siti]**.
-1. Rimuovi il sito Brand Portal dall&#39;elenco.
+1. Rimuovi il sito Brand Portal dall’elenco.
 
 ## Preferenze client Aspera Connect {#aspera-connect-client-preferences}
 
-Esistono alcune preferenze utili che possono essere impostate nella preferenza Client IBM® Aspera Connect facendo clic con il pulsante destro del mouse sull&#39;icona e selezionando **[!UICONTROL Preferenze]**.
+È possibile impostare alcune preferenze utili nelle preferenze del client IBM® Aspera Connect facendo clic con il pulsante destro del mouse sull&#39;icona e selezionando **[!UICONTROL Preferenze]**.
 
 ![](assets/download_assets_frombrandportalimg19.png)
 
@@ -201,7 +197,7 @@ Esistono alcune preferenze utili che possono essere impostate nella preferenza C
 
 ![](assets/aspera-preferences.png)
 
-Inoltre, il client Aspera Connect può essere contrassegnato per l&#39;avvio automatico all&#39;avvio del sistema in modo che il client di connessione sia in esecuzione e disponibile per il download per iniziare più rapidamente.
+Inoltre, il client Aspera Connect può essere contrassegnato in modo che si avvii automaticamente all&#39;avvio del sistema. Inoltre, il client Connect viene eseguito ed è disponibile per il download per iniziare più rapidamente.
 
 ![](assets/aspera-automaticallylaunch.png)
 
