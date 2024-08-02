@@ -1,19 +1,16 @@
 ---
 title: Condividere le risorse come collegamento
-seo-title: Share assets as a link
-description: Gli amministratori di Adobe Experience Manager Assets Brand Portal possono condividere collegamenti di più risorse con utenti interni autorizzati ed entità esterne, inclusi partner e fornitori. Gli editor possono visualizzare e condividere solo le risorse condivise con loro.
-seo-description: Adobe Experience Manager Assets Brand Portal Administrators can share links of multiple assets with authorized internal users and external entities, including partners and vendors. Editors can view and share only the assets shared with them.
-uuid: 8889ac24-c56d-4a47-b792-80c34ffb5c3f
+description: Scopri come gli amministratori di Adobe Experience Manager Assets Brand Portal possono condividere collegamenti di più risorse con utenti interni autorizzati ed entità esterne, inclusi partner e fornitori. Gli editor possono visualizzare e condividere solo le risorse condivise con loro.
 contentOwner: bdhar
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 exl-id: 9d254e95-a4fc-468d-ae1f-9690ddd3b4a1
-source-git-commit: e3e35ad4be5c082ad7bac7bed8ea20a186d245ad
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 5%
+source-wordcount: '1063'
+ht-degree: 6%
 
 ---
 
@@ -52,7 +49,7 @@ Di seguito sono riportati i passaggi per condividere le risorse come collegament
    * Nel campo **[!UICONTROL Scadenza]**, utilizza il selettore data per specificare una data e un&#39;ora di scadenza per il collegamento. Per impostazione predefinita, la data di scadenza è impostata su 7 giorni dalla data in cui condividi il collegamento.
    * Abilitare la casella di controllo **[!UICONTROL Consenti download del file originale]** per consentire ai destinatari di scaricare la copia trasformata originale.
 
-   Le risorse condivise tramite il collegamento scadono dopo aver superato la data e l&#39;ora specificate nel campo **[!UICONTROL Scadenza]**. Per informazioni sul comportamento delle risorse scadute e sulle modifiche nelle attività consentite in base ai ruoli utente in Brand Portal, consulta [Gestire i diritti digitali delle risorse](../using/manage-digital-rights-of-assets.md#asset-expiration).
+   Le risorse condivise tramite il collegamento scadono dopo aver superato la data e l&#39;ora specificate nel campo **[!UICONTROL Scadenza]**. Per informazioni dettagliate sul comportamento delle risorse scadute e sulle modifiche delle attività basate sui ruoli in Brand Portal, consulta [Gestire i diritti digitali delle risorse](../using/manage-digital-rights-of-assets.md#asset-expiration).
 
    >[!NOTE]
    >
@@ -84,7 +81,7 @@ Per scaricare le risorse condivise:
 
    ![download-dialog](assets/download-dialog-box-new.png)
 
-1. Per impostazione predefinita, l&#39;impostazione **[!UICONTROL Download rapido]** è abilitata nelle **[!UICONTROL Impostazioni download]**. Pertanto, viene visualizzata una casella di conferma per continuare il download tramite IBM Aspera Connect.
+1. Per impostazione predefinita, l&#39;impostazione **[!UICONTROL Download rapido]** è abilitata nelle **[!UICONTROL Impostazioni download]**. Pertanto, viene visualizzata una casella di conferma per continuare il download tramite IBM® Aspera Connect.
 
    Per continuare a utilizzare **[!UICONTROL Download rapido]**, fare clic su **[!UICONTROL Consenti]**.
 
@@ -94,11 +91,11 @@ Per scaricare le risorse condivise:
    >
    >Per ogni risorsa viene creata una cartella separata durante il download delle risorse da un collegamento condiviso.
    >
-   >Se una cartella, una raccolta o più di 20 risorse sono selezionate per il download, la finestra di dialogo **[!UICONTROL Scarica]** viene ignorata e tutte le rappresentazioni delle risorse accessibili all&#39;utente, escluse quelle dinamiche, vengono scaricate in una cartella zip contenente una cartella separata per ogni risorsa.
+   >Se sono selezionate una cartella, una raccolta o più di 20 risorse, la finestra di dialogo **[!UICONTROL Scarica]** verrà ignorata. Inoltre, tutte le rappresentazioni di risorse accessibili (escluse quelle dinamiche) vengono scaricate in una cartella zip con cartelle separate per ogni risorsa.
 
    >[!NOTE]
    >
-   >Le rappresentazioni originali non vengono scaricate utilizzando il collegamento condiviso se l&#39;utente che ha condiviso le risorse come collegamento non è [autorizzato dall&#39;amministratore ad accedere alle rappresentazioni originali](../using/brand-portal-adding-users.md#manage-group-roles-and-privileges).
+   >Se l’amministratore non ha autorizzato l’utente che ha condiviso le risorse, il collegamento condiviso non scarica le rappresentazioni originali. Vedi anche [autorizzato dall&#39;amministratore ad accedere alle rappresentazioni originali](../using/brand-portal-adding-users.md#manage-group-roles-and-privileges).
 
 
 >[!NOTE]
@@ -204,7 +201,7 @@ Per annullare la condivisione di risorse condivise in precedenza come collegamen
 
 1. Quando si accede a Brand Portal, per impostazione predefinita viene aperta la visualizzazione **[!UICONTROL File]**. Per visualizzare le risorse condivise come collegamenti, passa alla visualizzazione **[!UICONTROL Collegamenti condivisi]**.
 
-1. Controlla i collegamenti condivisi dall&#39;elenco visualizzato.
+1. Controlla i collegamenti condivisi dall’elenco visualizzato.
 
    ![](assets/shared-links.png)
 

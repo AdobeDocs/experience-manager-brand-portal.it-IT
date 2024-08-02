@@ -1,18 +1,14 @@
 ---
 title: Condividere una raccolta
-seo-title: Share a collection
-description: Gli amministratori di Experience Manager Assets Brand Portal possono condividere e annullare la condivisione di una raccolta o di una raccolta avanzata con utenti autorizzati. Gli editor possono visualizzare e condividere solo le raccolte create da loro, condivise con loro e le raccolte pubbliche.
-seo-description: Experience Manager Assets Brand Portal Administrators can share and unshare a collection or a smart collection with authorized users. Editors can view and share only the collections created by them, shared with them, and public collections.
-uuid: 965f39cd-1378-42c1-a58a-01e1bf825aa3
+description: Scopri come gli amministratori di Experience Manager Assets Brand Portal possono condividere e annullare la condivisione di una raccolta o di una raccolta avanzata con utenti autorizzati. Gli editor possono visualizzare e condividere solo le raccolte create da loro, condivise con loro e le raccolte pubbliche.
 contentOwner: Vishabh Gupta
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: f053013e-5981-419f-927e-b5bb1d47eae2
 exl-id: 29b877f6-4200-4299-9b8d-81d88f4e8221
-source-git-commit: 26c16668224d22f133419c13ea5fe4e24335a22f
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -23,13 +19,13 @@ Una raccolta rappresenta un gruppo di risorse correlate memorizzate insieme in A
 
 <!--The administrators can share and unshare a collection with the authorized Brand Portal users. Editors and viewers can view and share the collections created by them, shared with them, and public collections.-->
 
-Le raccolte vengono condivise come collegamento tramite e-mail. Chiunque abbia accesso al collegamento di condivisione può aprire la raccolta, mentre le e-mail condivise possono essere inoltrate a chiunque. Inoltre, [i collegamenti condivisi](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/share/brand-portal-link-share.html?lang=en) sono temporanei e accessibili solo per una durata limitata. In alternativa, gli utenti possono essere invitati come membri permanenti delle raccolte. Esistono i seguenti tipi di utenti per le raccolte:
+Le raccolte vengono condivise come collegamento tramite posta elettronica. Chiunque abbia accesso al collegamento di condivisione può aprire la raccolta. Tuttavia, le e-mail condivise possono essere inoltrate a chiunque. Inoltre, [i collegamenti condivisi](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/share/brand-portal-link-share) sono temporanei e accessibili solo per una durata limitata. In alternativa, gli utenti possono essere invitati come membri permanenti delle raccolte. Esistono i seguenti tipi di utenti per le raccolte:
 
 * **Gli amministratori** possono condividere o annullare la condivisione di una raccolta con utenti Brand Portal autorizzati. Possono invitare altri utenti a una raccolta specifica e definirne il ruolo in tale raccolta. Inoltre, gli amministratori possono creare raccolte pubbliche.
 
 * **Gli editor** possono creare e condividere raccolte. Possono invitare altri utenti a una raccolta specifica e definirne il ruolo in tale raccolta. Inoltre, possono anche condividere le raccolte, se sono state invitate alla raccolta come editor o proprietario.
 
-* **I visualizzatori** possono creare solo raccolte private. Non è consentito condividere una raccolta anche quando sono stati invitati come proprietari.
+* **I visualizzatori** possono creare solo raccolte private. Non possono condividere una raccolta anche quando sono stati invitati come proprietari.
 
 >[!NOTE]
 >
@@ -63,7 +59,7 @@ Di seguito sono riportati i passaggi per condividere una raccolta con gli utenti
 
    ![](assets/collection_sharingadduser.png)
 
-   Gli editor non possono modificare una raccolta pubblica in una raccolta non pubblica e pertanto non hanno la casella di controllo **[!UICONTROL Raccolta pubblica]** disponibile nella finestra di dialogo **[!UICONTROL Impostazioni raccolta]**.
+   Gli editor non possono modificare una raccolta pubblica in una raccolta non pubblica e pertanto non hanno una casella di controllo **[!UICONTROL Raccolta pubblica]** disponibile nella finestra di dialogo **[!UICONTROL Impostazioni raccolta]**.
 
    ![](assets/collection-setting-editor.png)
 

@@ -1,19 +1,15 @@
 ---
 title: Amministrare le configurazioni tenant generali
-seo-title: Administer general tenant configurations
 description: Configura l’accelerazione del download, la creazione di raccolte avanzate pubbliche e la creazione di raccolte pubbliche e consenti agli utenti amministratori di eliminare le risorse dai tenant.
-seo-description: Configure download acceleration, public smart collection creation, public collection creation, and enable admin users to delete assets on tenants.
-uuid: 3c46cd7c-c38b-4bc7-b566-93f977bc8227
 contentOwner: mgulati
 topic-tags: administration
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
 role: Admin
 exl-id: 5607be8e-0a7f-4692-b71b-5f66eb9ac5ee
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -25,28 +21,28 @@ Experience Manager Assets Brand Portal consente alle organizzazioni di configura
 * Eliminazione delle risorse da parte degli amministratori
 * Creazione di raccolte pubbliche da parte di utenti non amministratori
 * Creazione di raccolte avanzate pubbliche da parte di utenti non amministratori
-* Gerarchia principale delle cartelle condivise visibile agli utenti non amministratori
+* La gerarchia principale delle cartelle condivise è visibile agli utenti non amministratori
 
-Queste configurazioni sono state fornite come **[!UICONTROL Impostazioni generali]** configurazioni nel pannello Strumenti di amministrazione.
+Queste configurazioni sono state fornite come **[!UICONTROL Configurazioni generali]** nel pannello Strumenti di amministrazione.
 
 ![](assets/general-config.png)
 
-**A**   Configurazione per consentire agli amministratori di eliminare le risorse da Brand Portal. (Impostazione predefinita abilitata)
+**A** - Configurazione per consentire agli amministratori di eliminare le risorse da Brand Portal. (Impostazione predefinita abilitata)
 
-**B**   Configurazione per consentire agli utenti non amministratori di creare raccolte pubbliche. (Impostazione predefinita abilitata)
+**B** - Configurazione per consentire agli utenti non amministratori di creare raccolte pubbliche. (Impostazione predefinita abilitata)
 
-**C**   Configurazione per consentire agli utenti non amministratori di creare raccolte avanzate pubbliche. (Impostazione predefinita abilitata)
+**C** - Configurazione per consentire agli utenti non amministratori di creare raccolte avanzate pubbliche. (Impostazione predefinita abilitata)
 
-**D** configurazione per visualizzare la gerarchia di cartelle (dalla radice) delle cartelle condivise agli utenti non amministratori (editor, visualizzatori, utenti ospiti). Impostazione predefinita disabilitata
+**D** - Configurazione per visualizzare la gerarchia di cartelle (dalla radice) delle cartelle condivise agli utenti non amministratori (editor, visualizzatori, utenti ospiti). Impostazione predefinita disabilitata
 
-## Abilita/disabilita configurazioni generali {#enable-disable-general-configurations}
+## Abilita o disabilita le configurazioni generali {#enable-disable-general-configurations}
 
-Per attivare/disattivare ciascuna di queste configurazioni:
+Per attivare o disattivare ognuna di queste configurazioni:
 
 1. Accedi con privilegi di amministratore.
-1. Per accedere agli strumenti di amministrazione, seleziona il logo di Experience Manager dalla barra degli strumenti nella parte superiore.
+1. Seleziona il logo di Experience Manager per accedere agli strumenti di amministrazione dalla barra degli strumenti nella parte superiore.
 1. Dal pannello Strumenti di amministrazione, selezionare **[!UICONTROL Generale]** per aprire la pagina **[!UICONTROL Impostazioni generali]**.
-1. Utilizza il rispettivo interruttore di attivazione per abilitare/disabilitare una delle configurazioni Generali.
+1. Utilizza il rispettivo interruttore per attivare o disattivare una delle configurazioni Generali.
 1. **[!UICONTROL Salva]** le modifiche.
 1. Esci per rendere effettive le modifiche.
 

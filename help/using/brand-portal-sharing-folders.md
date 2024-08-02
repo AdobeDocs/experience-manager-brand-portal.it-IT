@@ -1,17 +1,13 @@
 ---
 title: Condividere le cartelle
-seo-title: Share folders
-description: Brand Portal non supporta l’acquisizione delle risorse, pertanto le risorse devono essere pubblicate in Brand Portal da un’istanza Experience Manager Assets Author preconfigurata. Le risorse pubblicate non sono accessibili agli utenti non amministratori di Brand Portal, a meno che non siano configurate durante la configurazione della replica con l’istanza Experience Manager e debbano essere condivise con loro.
-seo-description: Brand Portal does not support asset ingestion so assets must be published to Brand Portal from a pre-configured Experience Manager Assets Author instance. Published assets are not accessible to non-admin users of Brand Portal, unless configured while configuring replication with Experience Manager instance, and need to be shared with them.
-uuid: 340d0a49-b708-4f0e-9fb8-99c824942f34
+description: Brand Portal richiede che le risorse vengano pubblicate da un’istanza Experience Manager Assets Author preconfigurata. Gli utenti non amministratori possono accedere alle risorse pubblicate solo se sono configurate con Experience Manager durante la configurazione della replica e le risorse devono essere condivise con loro.
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
 exl-id: d28cf927-60e8-437e-9cba-92f7e19020e7
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1090'
 ht-degree: 1%
 
 ---
@@ -32,17 +28,17 @@ Di seguito sono descritti il flusso di lavoro di condivisione cartelle e l&#39;a
 
 ### Condividere cartelle con gruppi di utenti su Brand Portal {#sharing-folders-with-user-groups-on-brand-portal}
 
-I diritti di accesso alle risorse di una cartella dipendono dai diritti di accesso della relativa cartella principale, indipendentemente dalle impostazioni delle cartelle secondarie. Questo comportamento è gestito da [ACL](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html) in AEM, in quanto le cartelle secondarie ereditano gli ACL dalle cartelle padre. Ad esempio, se una cartella A contiene la cartella B che contiene la cartella C, anche un gruppo di utenti (o utenti) con diritti di accesso alla cartella A dispone degli stessi diritti di accesso per la cartella B e la cartella C. La cartella B, che è la cartella secondaria di A, eredita i propri ACL, mentre la cartella C, che è la cartella secondaria di B, ne eredita gli ACL.
+I diritti di accesso alle risorse di una cartella dipendono dai diritti di accesso della relativa cartella principale, indipendentemente dalle impostazioni delle cartelle secondarie. [Gli ACL](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/security) in AEM gestiscono questo comportamento, con le cartelle secondarie che ereditano gli ACL dalle cartelle principali. Si supponga, ad esempio, che la cartella A contenga la cartella B, che contiene la cartella C. Un gruppo di utenti (o utenti) con diritti di accesso sulla cartella A dispone quindi degli stessi diritti di accesso anche sulla cartella B e sulla cartella C. La cartella B, che è la cartella secondaria di A, eredita le ACL, mentre la cartella C, che è la cartella secondaria di B, le eredita.
 
-Analogamente, i gruppi di utenti (o gli utenti) che dispongono delle autorizzazioni per accedere solo alla cartella B dispongono delle stesse autorizzazioni di accesso per la cartella C ma non per la cartella A. È consigliabile, pertanto, che le organizzazioni dispongano i propri contenuti in modo che la maggior parte delle risorse esposte vengano posizionate nella cartella secondaria e che l’accesso dalle cartelle secondarie a quelle principali possa essere limitato.
+Analogamente, i gruppi di utenti (o gli utenti) che dispongono delle autorizzazioni per accedere solo alla cartella B dispongono delle stesse autorizzazioni di accesso per la cartella C ma non per la cartella A. L’Adobe consiglia di organizzare il contenuto in modo che le risorse più esposte vengano posizionate in cartelle secondarie, consentendo di limitare l’accesso dalle cartelle secondarie fino alla cartella principale.
 
 ### Pubblicazione cartella pubblica {#public-folder-publish}
 
-A meno che l&#39;opzione **[!UICONTROL Cartella pubblica Publish]** non sia selezionata durante la configurazione della replica di Brand Portal, gli utenti non amministratori (ad esempio Editor e Visualizzatori) non hanno accesso alle risorse pubblicate da AEM Assets a Brand Portal.
+Gli utenti non amministratori (ad esempio Editor e Visualizzatori) possono accedere alle risorse pubblicate da AEM Assets a Brand Portal solo se durante la configurazione della replica di Brand Portal è selezionata l&#39;opzione **[!UICONTROL Cartella pubblica Publish]**.
 
 ![](assets/assetbpreplication.png)
 
-Se l&#39;opzione **[!UICONTROL Cartella pubblica Publish]** è disabilitata, gli amministratori devono condividere queste risorse con utenti non amministratori che utilizzano la funzionalità di condivisione.
+Se l&#39;opzione **[!UICONTROL Cartella pubblica Publish]** è disabilitata, gli amministratori devono condividere queste risorse specificatamente con utenti non amministratori utilizzando la funzionalità di condivisione.
 
 >[!NOTE]
 >
@@ -50,9 +46,9 @@ Se l&#39;opzione **[!UICONTROL Cartella pubblica Publish]** è disabilitata, gli
 
 ## Accesso alle cartelle condivise {#access-to-shared-folders}
 
-La matrice seguente illustra i diritti di accesso e i diritti di condivisione/annullamento della condivisione delle risorse per vari ruoli utente:
+La matrice seguente illustra i diritti di accesso e i diritti di condivisione o annullamento della condivisione di risorse per vari ruoli utente:
 
-|               | Accesso a tutte le cartelle pubblicate da AEM Assets a Brand Portal | Accesso alle cartelle condivise | Condividere/annullare la condivisione dei diritti della cartella |
+|               | Accesso a tutte le cartelle pubblicate da AEM Assets a Brand Portal | Accesso alle cartelle condivise | Condividere o annullare la condivisione dei diritti della cartella |
 |---------------|-----------|-----------|------------|
 | Amministratore | Sì | Sì | Sì |
 | Editor | No* | Sì, solo se condiviso con loro o con il gruppo a cui appartengono | Sì, solo per le cartelle condivise con loro o con il gruppo a cui appartengono |
@@ -61,7 +57,7 @@ La matrice seguente illustra i diritti di accesso e i diritti di condivisione/an
 
 >[!NOTE]
 >
->Per impostazione predefinita, l&#39;opzione **[!UICONTROL Cartella pubblica Publish]** è disabilitata durante la configurazione della replica di Brand Portal con AEM Author. Se l’opzione è abilitata, le cartelle pubblicate in Brand Portal saranno accessibili a tutti gli utenti (anche a quelli non amministratori) per impostazione predefinita.
+>Per impostazione predefinita, l&#39;opzione **[!UICONTROL Cartella pubblica Publish]** è disabilitata durante la configurazione della replica di Brand Portal con AEM Author. Se l’opzione è abilitata, le cartelle pubblicate in Brand Portal sono accessibili a tutti gli utenti (anche a quelli non amministratori) per impostazione predefinita.
 
 ### Accesso degli utenti non amministratori alle cartelle condivise {#non-admin-user-access-to-shared-folders}
 
@@ -69,7 +65,7 @@ Gli utenti non amministratori possono accedere solo alle cartelle condivise con 
 
 **Se la configurazione è disabilitata**
 
-Gli utenti non amministratori visualizzano tutte le cartelle condivise con loro nella pagina di destinazione al momento dell’accesso a Brand Portal.
+Gli utenti non amministratori possono visualizzare tutte le cartelle condivise con loro nella pagina di destinazione al momento dell’accesso a Brand Portal.
 
 ![](assets/disabled-folder-hierarchy1-1.png)
 
@@ -77,7 +73,7 @@ Gli utenti non amministratori visualizzano tutte le cartelle condivise con loro 
 
 Al momento dell’accesso a Brand Portal, gli utenti non amministratori visualizzano la struttura delle cartelle (a partire dalla cartella principale) e le cartelle condivise organizzate all’interno delle rispettive cartelle principali.
 
-Queste cartelle principali sono le cartelle virtuali e non è possibile eseguire alcuna azione su di esse. È possibile riconoscere queste cartelle virtuali con un&#39;icona di blocco.
+Queste cartelle principali sono cartelle virtuali e non è possibile eseguire alcuna azione su di esse. È possibile riconoscere queste cartelle virtuali con un&#39;icona di blocco.
 
 Nessuna attività di azione visibile al passaggio del mouse o alla selezione in **[!UICONTROL Vista a schede]**, a differenza delle cartelle condivise. Il pulsante **[!UICONTROL Panoramica]** viene visualizzato quando si seleziona una cartella virtuale in **[!UICONTROL Vista a colonne]** e **[!UICONTROL Vista a elenco]**.
 
@@ -95,7 +91,7 @@ Per condividere una cartella con gli utenti su Brand Portal, effettua le seguent
 
    ![](assets/selectorrail.png)
 
-1. Dalla barra laterale a sinistra, selezionare **[!UICONTROL File]**.
+1. Dalla barra laterale a sinistra, seleziona **[!UICONTROL File]**.
 
    ![](assets/access_files.png)
 

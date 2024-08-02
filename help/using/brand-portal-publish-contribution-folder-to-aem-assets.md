@@ -1,25 +1,21 @@
 ---
 title: Caricare le risorse e pubblicare la cartella Contributi da Brand Portal a Experience Manager Assets
-seo-title: Upload assets and publish the Contribution folder from Brand Portal to Experience Manager Assets
 description: Ottieni informazioni sul caricamento di nuove risorse e sulla pubblicazione della cartella dei contributi da Brand Portal a Experience Manager Assets.
-seo-description: Get an insight into uploading new assets and publishing the contribution folder from Brand Portal to Experience Manager Assets.
-uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: null
 exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
-source-git-commit: 606f4389780025f5cf92b11bf8cac464e36be44a
+source-git-commit: 10f89ded6febb1a024cbe181fa48a290d90223f0
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1470'
 ht-degree: 0%
 
 ---
 
 # Cartella dei contributi di Publish a Experience Manager Assets {#using-asset-souring-in-bp}
 
-Gli utenti di Brand Portal con le autorizzazioni appropriate possono caricare più risorse, o cartelle contenenti più risorse, nella cartella Contributi. Tuttavia, gli utenti di Brand Portal possono caricare solo risorse nella cartella **NEW**. La cartella **SHARED** è destinata alla distribuzione delle risorse di base (contenuto di riferimento) che possono essere utilizzate dagli utenti di Brand Portal durante la creazione di nuove risorse per il contributo.
+Gli utenti di Brand Portal con le autorizzazioni appropriate possono caricare più risorse, o cartelle contenenti più risorse, nella cartella Contributi. Tuttavia, gli utenti di Brand Portal possono caricare solo risorse nella cartella **NEW**. La cartella **SHARED** è destinata alla distribuzione delle risorse di base (contenuto di riferimento) utilizzate dagli utenti di Brand Portal durante la creazione di nuove risorse per il contributo.
 
 L’utente di Brand Portal che dispone dell’autorizzazione per accedere alla cartella dei contributi può eseguire le seguenti attività:
 
@@ -29,19 +25,19 @@ L’utente di Brand Portal che dispone dell’autorizzazione per accedere alla c
 
 ## Scaricare i requisiti delle risorse {#download-asset-requirements}
 
-Gli utenti di Brand Portal ricevono automaticamente notifiche e-mail/impulsi ogni volta che un utente di Experience Manager Assets condivide una cartella di contributi, consentendo loro di scaricare il documento breve (requisito risorsa) e le risorse di base (contenuto di riferimento) dalla cartella **SHARED** per assicurarsi di comprendere i requisiti delle risorse.
+Gli utenti di Brand Portal ricevono automaticamente e-mail e notifiche quando un utente di Experience Manager Assets condivide una cartella di contributi. Questo flusso di lavoro consente di scaricare il documento breve (requisito risorsa) e le risorse di base (contenuto di riferimento) dalla cartella **SHARED** per comprendere i requisiti delle risorse.
 
 L’utente di Brand Portal esegue le seguenti attività per scaricare i requisiti delle risorse:
 
-* **Download della descrizione**: scarica la descrizione (documento sui requisiti delle risorse) allegata alla cartella dei contributi che contiene informazioni relative alle risorse come tipo di risorse, finalità, formati supportati, dimensioni massime delle risorse e così via.
-* **Scarica risorse di base**: scarica le risorse di base che possono essere utilizzate per comprendere i tipi di risorse richiesti. Gli utenti di Brand Portal possono utilizzare queste risorse come riferimento per creare nuove risorse da aggiungere.
+* **Download della descrizione** - Scarica la descrizione (documento sui requisiti delle risorse) allegata alla cartella dei contributi. Contiene informazioni relative alle risorse come tipo di risorse, finalità, formati supportati, dimensioni massime delle risorse e altro ancora.
+* **Scarica risorse di base** - Scarica le risorse di base, che possono essere utilizzate per comprendere i tipi di risorse richiesti. Gli utenti di Brand Portal possono utilizzare queste risorse come riferimento per creare nuove risorse da aggiungere.
 
-Il dashboard di Brand Portal include tutte le cartelle esistenti consentite all’utente di Brand Portal, insieme alla cartella dei contributi appena condivisa. In questo esempio, l’utente di Brand Portal ha accesso solo alla cartella dei contributi appena creata e non viene condivisa con l’utente alcuna altra cartella esistente.
+Il dashboard di Brand Portal include tutte le cartelle esistenti consentite all’utente di Brand Portal, insieme alla cartella dei contributi appena condivisa. In questo esempio, l’utente di Brand Portal ha accesso solo alla cartella dei contributi appena creata. Nessun&#39;altra cartella esistente è condivisa con l&#39;utente.
 
 **Per scaricare i requisiti delle risorse:**
 
 1. Accedi all’istanza di Brand Portal.
-1. Seleziona cartella contributi dal dashboard di Brand Portal.
+1. Seleziona una cartella di contributi dal dashboard di Brand Portal.
 1. Fare clic su **[!UICONTROL Proprietà]**. Viene visualizzata la finestra Proprietà contenente i dettagli della cartella dei contributi.
 
    ![](assets/properties.png)
@@ -53,9 +49,9 @@ Il dashboard di Brand Portal include tutte le cartelle esistenti consentite all�
    ![](assets/download.png)
 
 1. Torna alla dashboard di Brand Portal.
-1. Fare clic per aprire la cartella dei contributi. Nella cartella dei contributi verranno visualizzate due sottocartelle: **[!UICONTROL CONDIVISO]** e **[!UICONTROL NUOVO]**. La cartella SHARED contiene tutte le risorse di base (contenuto di riferimento) condivise dagli amministratori.
+1. Fare clic sulla cartella dei contributi per aprirla. All&#39;interno della cartella dei contributi sono disponibili due sottocartelle: **[!UICONTROL SHARED]** e **[!UICONTROL NEW]**. La cartella SHARED contiene tutte le risorse di base (contenuto di riferimento) condivise dagli amministratori.
 1. Puoi scaricare la cartella **[!UICONTROL SHARED]** contenente tutte le risorse della linea di base sul computer locale.
-In alternativa, è possibile aprire la cartella **[!UICONTROL SHARED]** e fare clic sull&#39;icona **Scarica** per scaricare singoli file o cartelle.
+In alternativa, puoi aprire la cartella **[!UICONTROL SHARED]** e fare clic sull&#39;icona **Scarica** per scaricare singoli file o cartelle.
 
    ![](assets/download.png)
 
@@ -63,22 +59,21 @@ In alternativa, è possibile aprire la cartella **[!UICONTROL SHARED]** e fare c
 
 Consulta la descrizione (documento sui requisiti delle risorse) e fai riferimento alle risorse di base per comprenderne i requisiti. Ora puoi creare nuove risorse per il contributo e caricarle nella cartella Contributi.
 
-
 ## Carica risorse nella cartella dei contributi {#upload-new-assets-to-contribution-folder}
 
 Dopo aver valutato i requisiti delle risorse, gli utenti di Brand Portal possono creare nuove risorse da assegnare ai contributi e caricarle nella cartella NEW all’interno della cartella Contributi. Un utente può caricare più risorse in una cartella di contributi risorse. Tuttavia, è possibile creare una sola cartella alla volta.
 
 >[!NOTE]
 >
->Gli utenti di Brand Portal possono caricare le risorse (massimo **2** GB per dimensione di file) nella NUOVA cartella.
+>Gli utenti di Brand Portal possono caricare le risorse (un massimo di due gigabyte per dimensione di file) nella NUOVA cartella.
 >
->Il limite massimo di caricamento per qualsiasi tenant Brand Portal è **10** GB, applicato cumulativamente a tutte le cartelle dei contributi.
+>Il limite massimo di caricamento per qualsiasi tenant Brand Portal è di dieci gigabyte, che viene applicato cumulativamente a tutte le cartelle dei contributi.
 >
 >Le risorse caricate in Brand Portal non vengono elaborate per le rappresentazioni e non contengono anteprime.
 
 >[!NOTE]
 >
->Si consiglia di rilasciare lo spazio di caricamento dopo la pubblicazione della cartella Contributi in Experience Manager Assets in modo che sia disponibile per il contributo degli altri utenti di Brand Portal.
+>L’Adobe consiglia di rilasciare lo spazio di caricamento dopo la pubblicazione della cartella Contributi in Experience Manager Assets, in modo che sia disponibile per il contributo degli altri utenti di Brand Portal.
 >
 >Se è necessario estendere il limite di caricamento del tenant Brand Portal oltre **10** GB, contatta l&#39;Assistenza clienti specificando il requisito.
 
@@ -111,11 +106,11 @@ Gli utenti di Brand Portal possono pubblicare la cartella dei contributi in Expe
 
 Verifica di aver soddisfatto i requisiti delle risorse e carica le nuove risorse create nella cartella **NEW** all&#39;interno della cartella Contributi.
 
-**Per pubblicare la cartella dei contributi:**
+**Per pubblicare una cartella di contributi:**
 
 1. Accedi all’istanza di Brand Portal.
 
-1. Seleziona cartella contributi dal dashboard di Brand Portal.
+1. Seleziona una cartella di contributi dal dashboard di Brand Portal.
 1. Fare clic su **[!UICONTROL Publish per AEM]**.
 
    ![](assets/export.png)
@@ -128,13 +123,13 @@ Una notifica e-mail/impulso viene inviata all’utente di Brand Portal e agli am
 
 1. **Completo** - Viene inviata una notifica all&#39;utente di Brand Portal e agli amministratori di Brand Portal quando la cartella Contributi viene pubblicata correttamente in Experience Manager Assets.
 
-Dopo aver pubblicato in Experience Manager Assets le nuove risorse create, gli utenti di Brand Portal possono eliminarle dalla cartella NEW. L’amministratore di Brand Portal può invece eliminare le risorse sia dalla cartella NUOVA che da QUELLA CONDIVISA.
+Dopo aver pubblicato in Experience Manager Assets le nuove risorse create, gli utenti di Brand Portal possono eliminarle dalla cartella NEW. Tuttavia, l’amministratore di Brand Portal può eliminare le risorse sia dalla cartella NUOVA che da QUELLA CONDIVISA.
 
 Una volta raggiunto l’obiettivo di creare la cartella dei contributi, l’amministratore di Brand Portal può eliminarla per liberare lo spazio di caricamento per altri utenti.
 
 ## Stato processo di pubblicazione {#publishing-job-status}
 
-Esistono due rapporti che gli amministratori possono utilizzare per visualizzare lo stato delle cartelle di contributo alle risorse pubblicate da Brand Portal a Experience Manager Assets.
+Gli amministratori possono utilizzare due rapporti per visualizzare lo stato delle cartelle di contributo alle risorse pubblicate da Brand Portal a Experience Manager Assets.
 
 * In Brand Portal, passa a **[!UICONTROL Strumenti]** > **[!UICONTROL Stato contributo risorse]**. Questo rapporto riflette lo stato di tutti i processi di pubblicazione nelle diverse fasi del flusso di lavoro di pubblicazione.
 
@@ -171,7 +166,7 @@ Brand Portal ora esegue processi automatici ogni dodici ore per analizzare tutte
 
   ![Rapporto di eliminazione](assets/deletion-reports.png)
 
-Puoi anche eseguire un drill-down per visualizzare i dettagli di ciascuna risorsa inclusa in un processo di eliminazione. Dettagli quali titolo della risorsa, dimensione, autore, stato di eliminazione e ora di eliminazione sono inclusi nel rapporto.
+Puoi anche approfondire la ricerca per visualizzare i dettagli di ciascuna risorsa inclusa in un processo di eliminazione. Dettagli quali titolo della risorsa, dimensione, autore, stato di eliminazione e ora di eliminazione sono inclusi nel rapporto.
 
 ![Rapporto di eliminazione dettagliato](assets/deletion-reports-detailed.png)
 

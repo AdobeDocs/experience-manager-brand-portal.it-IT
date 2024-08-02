@@ -6,9 +6,9 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 role: Admin
 exl-id: 212a1b3a-686f-4250-be06-b679b6039887
-source-git-commit: 1a3e51922fb658d9d05113b4b1f4d05a0b6555c0
+source-git-commit: 10f89ded6febb1a024cbe181fa48a290d90223f0
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '815'
 ht-degree: 1%
 
 ---
@@ -38,7 +38,7 @@ Gli amministratori di Experience Manager Assets possono creare predefiniti per i
 >
 >Se l&#39;istanza di Experience Manager Assets Author è in esecuzione in modalità **Dynamic Medie TIFF Hybrid**, le rappresentazioni piramidali delle risorse immagine vengono create e salvate nell&#39;archivio Experience Manager Assets.
 >
->Se invece l&#39;istanza di Experience Manager Assets Author è in esecuzione in **modalità Dynamic Medie Scene7**, nel server Scene7 esistono rappresentazioni delle immagini in Pyramid TIFF.
+>Tuttavia, se un&#39;istanza di Experience Manager Assets Author è in esecuzione in **modalità Dynamic Medie Scene7**, nel server Scene7 esistono rappresentazioni delle immagini in Pyramid TIFF.
 >
 >Quando tali risorse vengono pubblicate in Brand Portal, vengono applicati i predefiniti immagine e vengono visualizzate le rappresentazioni dinamiche.
 

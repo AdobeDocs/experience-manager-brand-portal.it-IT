@@ -1,18 +1,14 @@
 ---
 title: Note sulla versione
-seo-title: Release Notes
 description: Ottieni informazioni approfondite sulle funzioni, i miglioramenti, i problemi critici risolti e i problemi noti nella versione 2024.02.0 di Adobe Experience Manager Assets Brand Portal.
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2024.02.0 release.
-uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Kirandeep Kour
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 3a5be1897b90b1d913a5eb86fb1442e702a1c89d
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1429'
 ht-degree: 4%
 
 ---
@@ -30,7 +26,7 @@ Ottieni informazioni sulle nuove funzioni, i miglioramenti, i problemi critici r
 
 ## Panoramica {#overview}
 
-Adobe Experience Manager (AEM) Assets Brand Portal consente di acquisire, controllare e distribuire in modo semplice e sicuro le risorse creative approvate a parti esterne e utenti aziendali interni tra i dispositivi. Consente di migliorare l’efficienza della condivisione delle risorse, accelera il time-to-market delle risorse e riduce il rischio di non conformità e di accesso non autorizzato. Brand Portal consente agli utenti di sfogliare, cercare, visualizzare in anteprima, scaricare ed esportare le risorse in formati approvati dall&#39;azienda, in qualsiasi momento e ovunque.
+Adobe Experience Manager (AEM) Assets Brand Portal consente di acquisire, controllare e distribuire in modo semplice e sicuro le risorse creative approvate a parti esterne e utenti aziendali interni tra i dispositivi. Consente di migliorare l’efficienza della condivisione delle risorse, accelera il time-to-market delle risorse e riduce il rischio di non conformità e di accesso non autorizzato. Brand Portal consente agli utenti di sfogliare, cercare, visualizzare in anteprima, scaricare ed esportare le risorse in formati approvati dall’azienda, in qualsiasi momento e ovunque.
 
 ## Novità della versione 2024.02.0 {#whats-new-in-2024.02.0}
 
@@ -66,7 +62,7 @@ Questa versione include le seguenti correzioni di bug:
 
 * Il formato [!UICONTROL Data e ora] non è coerente quando si utilizzano impostazioni locali diverse dall&#39;inglese.
 
-* Durante la ricerca delle risorse, manca il pulsante [!UICONTROL Elimina].
+* Durante la ricerca di risorse manca il pulsante [!UICONTROL Elimina].
 
 * Se il campo [!UICONTROL Titolo] contiene simboli multibyte in [!UICONTROL Condivisione collegamenti], il report non può essere scaricato.
 
@@ -142,7 +138,8 @@ Questa versione include correzioni ai seguenti problemi critici:
 
 >[!IMPORTANT]
 >
->Le notifiche Pulse in AEM Assets Brand Portal cesseranno a partire dal 1° dicembre 2022. Invece delle notifiche Pulse, continuerai a ricevere notifiche e-mail per i seguenti eventi:
+>Le notifiche Pulse in AEM Assets Brand Portal cesseranno a partire dal 1° dicembre 2022. Invece di notifiche Pulse, continui a ricevere notifiche e-mail per i seguenti eventi:
+>
 >* Condivisione di risorse tramite collegamento
 >* Flusso di lavoro di richiesta di accesso
 >* Condivisione della cartella dei contributi
@@ -158,7 +155,7 @@ Questa versione include correzioni ai seguenti problemi critici:
 
 * Quando NUI non riesce a elaborare una risorsa in Experience Manager, Brand Portal mostra uno stato di importazione della risorsa non accurato.
 * Quando l’azione di anteprima non riesce, non viene inviata alcuna notifica per comunicare l’errore.
-* È stato corretto un valore non preciso per la proprietà totalUploadedSize di ogni risorsa.
+* È stato corretto il valore impreciso per la proprietà `totalUploadedSize` di ogni risorsa.
 * Quando fai clic su **Scarica tutti gli elementi** e sono disponibili numerose rappresentazioni di una risorsa, Brand Portal scarica un file .ZIP non valido.
 * La traduzione di alcune stringhe viene troncata nell’interfaccia utente di Brand Portal.
 
@@ -174,7 +171,7 @@ Questa versione include correzioni ai seguenti problemi critici:
 
 * Quando si scarica una cartella o una raccolta che include risorse con tag colore, viene scaricato anche un file XML.
 * Quando scarichi un video che include rappresentazioni, Brand Portal crea un file .ZIP non valido.
-* Quando crei predefiniti e risorse in AEM author e li pubblichi in Brand Portal e selezioni rappresentazioni dinamiche durante il download delle risorse, non puoi estrarre il file .ZIP scaricato.
+* Quando crei predefiniti e risorse in AEM author e li pubblichi in Brand Portal, puoi selezionare le rappresentazioni dinamiche durante il download delle risorse. Tuttavia, non è possibile estrarre il file .ZIP scaricato. Questo problema impedisce l’accesso al contenuto scaricato.
 * Problemi durante il download di risorse video da determinate cartelle disponibili su Brand Portal.
 * Quando si condivide l’URL della cartella Contribution tramite e-mail, i ruoli Visualizzatore ed Editor riscontrano problemi durante l’accesso alla cartella principale tramite la breadcrumb.
 * Nel rapporto di sourcing pubblicato viene visualizzata un&#39;ora di inizio del processo non corretta.
@@ -374,12 +371,12 @@ L’interfaccia utente di Brand Portal è disponibile nelle seguenti lingue:
 
 ## Piattaforme certificate {#certified-platforms}
 
-Per verificare quali piattaforme sono certificate per l&#39;esecuzione con questa versione di Brand Portal, fare riferimento alla colonna **Supporto per l&#39;interfaccia utente ottimizzata per il tocco** nella tabella della sezione **Browser supportati per la creazione dell&#39;interfaccia utente** di [Requisiti tecnici](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html).
+Per vedere quali piattaforme sono certificate per questa versione di Brand Portal, controlla la colonna **Supporto per l&#39;interfaccia utente ottimizzata per il tocco** nella sezione **Browser supportati per la creazione dell&#39;interfaccia utente** di [Requisiti tecnici](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/implementing/deploying/introduction/technical-requirements).
 
 ## Collegamenti {#links}
 
 * [Pagina prodotto Adobe Experience Manager su adobe.com](https://business.adobe.com/in/products/experience-manager/adobe-experience-manager.html)
-* [Documentazione di Assets Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
+* [Documentazione di Assets Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/home)
 
 ## Accesso e supporto ai prodotti (siti con restrizioni) {#product-access-and-support-restricted-sites}
 

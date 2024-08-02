@@ -1,18 +1,14 @@
 ---
 title: Personalizzare sfondo, intestazione e messaggio e-mail
-seo-title: Customize wallpaper, header, and email message
 description: Gli amministratori di Brand Portal possono apportare personalizzazioni limitate all’interfaccia visualizzata dagli utenti. È possibile scegliere un'immagine di sfondo specifica (sfondo) per la pagina di accesso di Brand Portal. Puoi anche aggiungere un’immagine di intestazione e personalizzare le e-mail di condivisione delle risorse in base al marchio del cliente.
-seo-description: Brand Portal administrators can make limited customizations to the interface displayed to users. You can choose a specific background image (wallpaper) for the Brand Portal login page. You can also add a header image and customize asset sharing emails to match the customer’s brand.
-uuid: e078d0b9-18b5-467a-ae90-7f0b9fd0d414
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
-discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
 role: Admin
 exl-id: 9f5c2a6a-8844-4ca4-b0d9-8f50b6164219
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---
@@ -30,7 +26,6 @@ In assenza di un&#39;immagine di sfondo con marchio personalizzato, nella pagina
    ![](assets/aemlogo.png)
 
 1. Nel pannello Strumenti di amministrazione, fare clic su **[!UICONTROL Branding]**.
-
 
    ![](assets/admin-tools-panel-10.png)
 
@@ -87,7 +82,7 @@ L’intestazione viene visualizzata su varie pagine di Brand Portal dopo l’acc
 
 1. Per caricare un&#39;immagine di intestazione, fai clic sull&#39;icona **[!UICONTROL Scegli immagine]** e scegli **[!UICONTROL Carica]**.
 
-   Per utilizzare un&#39;immagine Brand Portal esistente, scegli **[!UICONTROL Seleziona da esistente]**.
+   Per utilizzare un&#39;immagine Brand Portal esistente, scegli **[!UICONTROL Seleziona esistente]**.
 
    ![](assets/choose_wallpaperimage-1.png)
 

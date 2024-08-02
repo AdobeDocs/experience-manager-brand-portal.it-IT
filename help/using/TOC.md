@@ -8,10 +8,10 @@ breadcrumb-title: Guida di Brand Portal
 user-guide-description: Utilizza Experience Manager Assets Brand Portal per soddisfare le esigenze di marketing con la distribuzione sicura delle risorse approvate del brand e dei prodotti, per consentirne il download da parte di agenzie esterne, partner, team interni e rivenditori.
 feature: Brand Portal
 role: User
-source-git-commit: 3ef765c6b6127c1f3f19d27ee1fd74fbe2dc52af
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 31%
+source-wordcount: '252'
+ht-degree: 34%
 
 ---
 
@@ -26,13 +26,13 @@ ht-degree: 31%
    + [Domande frequenti](/help/using/brand-portal-faqs.md)
    + [Formati di file supportati](/help/using/brand-portal-supported-formats.md)
    + [Accesso a Brand Portal come ospite](/help/using/guest-access.md)
-   + [Informazioni su Brand Portal con Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
+   + [Informazioni su Brand Portal con Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/home)
    + [Esplorazione delle risorse in Brand Portal](/help/using/browse-assets-brand-portal.md)
 + Publish da Experience Manager Assets a Brand Portal {#publish}
    + [Configurare Experience Manager Assets con Brand Portal](/help/using/configure-aem-assets-with-brand-portal.md)
-   + [Pubblicare risorse su Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-assets.html)
-   + [Pubblicare cartelle su Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
-   + [Pubblicare raccolte su Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
+   + [Pubblicare risorse su Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-assets)
+   + [Pubblicare cartelle su Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-folder)
+   + [Pubblicare raccolte su Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-collection)
    + [Risolvere i problemi relativi alla pubblicazione parallela in Brand Portal](/help/using/troubleshoot-parallel-publishing.md)
    + [Tag Publish per Brand Portal](/help/using/brand-portal-publish-tags.md)
    + [Predefiniti, schemi e facet di Publish per Brand Portal](/help/using/publish-schema-search-facets-presets.md)
@@ -59,7 +59,7 @@ ht-degree: 31%
    + [Esperienza del primo accesso](/help/using/brand-portal-onboarding.md)
    + [Gestire utenti, gruppi e ruoli utente](/help/using/brand-portal-adding-users.md)
    + [Personalizzare sfondo, intestazione e messaggio e-mail](/help/using/brand-portal-branding.md)
-   + [Utilizzare il modulo schema metadati](/help/using/brand-portal-metadata-schemas.md)
+   + [Usa schema metadati](/help/using/brand-portal-metadata-schemas.md)
    + [Applicare predefiniti immagine o rappresentazioni dinamiche](/help/using/brand-portal-image-presets.md)
    + [Utilizzare i rapporti](/help/using/brand-portal-reports.md)
 

@@ -1,19 +1,15 @@
 ---
 title: Utilizzare il modulo schema metadati
-seo-title: Use the metadata schema form
 description: Uno schema di metadati descrive il layout della pagina Proprietà e le proprietà dei metadati visualizzate per le risorse che utilizzano lo schema specifico. Lo schema applicato a una risorsa determina i campi di metadati che vengono visualizzati nella relativa pagina Proprietà.
-seo-description: A metadata schema describes the layout of the Properties page and the metadata properties displayed for assets that use the particular schema. The schema that you apply to an asset determines the metadata fields that appear on its Properties page.
-uuid: 1a944a3b-5152-425f-b1ea-bfe3331de928
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
-discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
 role: Admin
 exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '1719'
-ht-degree: 8%
+source-wordcount: '1622'
+ht-degree: 5%
 
 ---
 
@@ -45,7 +41,7 @@ Per creare un nuovo modulo schema metadati, effettuare le seguenti operazioni:
 
 ## Modificare un modulo schema metadati {#edit-a-metadata-schema-form}
 
-Puoi modificare un modulo schema metadati appena aggiunto o esistente. Il modulo schema metadati contiene contenuto derivato dal relativo elemento padre, incluse schede ed elementi modulo all’interno di schede. Puoi mappare o configurare questi elementi modulo su un campo all’interno di un nodo di metadati.
+È possibile modificare qualsiasi modulo di schema di metadati aggiunto o esistente. Il modulo schema metadati contiene contenuto derivato dal relativo elemento padre, incluse schede ed elementi modulo all’interno di schede. Puoi mappare o configurare questi elementi modulo su un campo all’interno di un nodo di metadati.
 
 È possibile aggiungere nuove schede o elementi del modulo al modulo schema metadati. Le schede e gli elementi modulo derivati (dall&#39;elemento padre) sono nello stato bloccato. Non è possibile modificarli a livello di elemento secondario.
 
@@ -66,9 +62,9 @@ Per modificare un modulo schema metadati, effettuare le seguenti operazioni:
 
 1. Dalla barra degli strumenti nella parte superiore, fai clic su **[!UICONTROL Modifica]**.
 
-   Viene aperta la pagina **[!UICONTROL Editor schema metadati]** con la scheda **[!UICONTROL Base]** aperta a sinistra e la scheda **[!UICONTROL Genera modulo]** aperta a destra.
+   Viene aperta la pagina **[!UICONTROL Editor schema metadati]** con la scheda **[!UICONTROL Base]** aperta a sinistra. Sulla destra è aperta la scheda **[!UICONTROL Genera modulo]**.
 
-1. Nella pagina **[!UICONTROL Editor schema metadati]**, personalizza la pagina **[!UICONTROL Proprietà]** della risorsa trascinando uno o più componenti da un elenco di tipi di componenti nella scheda **[!UICONTROL Genera modulo]** alla scheda **[!UICONTROL Base]**.
+1. Nella pagina **[!UICONTROL Editor schema metadati]**, personalizza la pagina **[!UICONTROL Proprietà]** della risorsa. Trascina uno o più componenti da un elenco di tipi di componenti nella scheda **[!UICONTROL Genera modulo]**. Trascinali nella scheda **[!UICONTROL Base]**.
 
    ![](assets/metadata-schemaeditor-page.png)
 
@@ -86,10 +82,10 @@ Nella scheda **[!UICONTROL Genera modulo]** sono elencati gli elementi che è po
 | **[!UICONTROL Numero]** | Aggiungi un componente numero. |
 | **[!UICONTROL Data]** | Aggiungi un componente data. |
 | **[!UICONTROL Elenco a discesa]** | Aggiungi un elenco a discesa. |
-| **[!UICONTROL Tag standard]** | Aggiungi un tag. **Nota:** gli amministratori potrebbero dover modificare il valore del percorso, ad esempio `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`, se pubblicano il modulo schema metadati da Experience Manager Assets, dove il percorso non include informazioni sul tenant, ad esempio `/etc/tags/<custom_tag_namespace>`. |
+| **[!UICONTROL Tag standard]** | Aggiungi un tag. Gli amministratori possono dover modificare il valore del percorso. Ad esempio, `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`, se pubblicano il modulo schema metadati da Experience Manager Assets, dove il percorso non include informazioni sul tenant, ad esempio `/etc/tags/<custom_tag_namespace>`. |
 | **[!UICONTROL Tag avanzati]** | Se hai acquistato e configurato il componente aggiuntivo smart tag di Experience Manager Assets, vengono rilevati automaticamente i tag. |
 | **[!UICONTROL Campo nascosto]** | Aggiungi un campo nascosto. Viene inviato come parametro POST al salvataggio della risorsa. |
-| **[!UICONTROL Risorsa A Cui Fa Riferimento]** | Aggiungi questo componente per visualizzare l’elenco delle risorse a cui fa riferimento la risorsa. |
+| **[!UICONTROL Risorsa A Cui Fa Riferimento]** | Aggiungi questo componente per visualizzare un elenco delle risorse a cui fa riferimento la risorsa. |
 | **[!UICONTROL Riferimento a risorsa]** | Aggiungi per visualizzare un elenco di risorse che fanno riferimento alla risorsa. |
 | **[!UICONTROL Valutazione risorse]** | Valutazione media di una risorsa aggiunta da Experience Manager Assets prima che venga pubblicata in Brand Portal. |
 | **[!UICONTROL Metadati contestuali]** | Aggiungi per controllare la visualizzazione di altre schede di metadati nella pagina Proprietà delle risorse. |
@@ -108,9 +104,9 @@ Per modificare le proprietà di un componente metadati nel modulo, fare clic sul
 
 Di seguito sono riportati i valori validi per questa proprietà:
 
-— `./jcr:content/metadata/dc:title`: memorizza il valore nel nodo di metadati della risorsa come proprietà [!UICONTROL `dc:title`].
+— `./jcr:content/metadata/dc:title`: memorizza il valore nel nodo di metadati della risorsa come proprietà `dc:title`.
 
-— `./jcr:created`: visualizza la proprietà jcr nel nodo della risorsa. Se configuri queste proprietà come View Properties (Visualizza proprietà), è consigliabile contrassegnarle con l’opzione Disattiva modifica, in quanto sono protette. In caso contrario, al momento di salvare le proprietà della risorsa si verifica l’errore “Impossibile modificare le risorse”.
+— `./jcr:created`: visualizza la proprietà jcr nel nodo della risorsa. Se hai configurato queste proprietà nelle proprietà della visualizzazione, l’Adobe consiglia di contrassegnarle come Disattiva modifica, in quanto sono protette. In caso contrario, quando si salvano le proprietà della risorsa si verifica l’errore &quot;Assets failed to modify&quot; (Impossibile modificare la risorsa).
 
 * **[!UICONTROL Segnaposto]**: utilizzare questa proprietà per fornire all&#39;utente tutte le informazioni relative alla proprietà dei metadati.
 * **[!UICONTROL Obbligatorio]**: utilizzare questa proprietà per contrassegnare una proprietà di metadati come obbligatoria nella pagina Proprietà.
@@ -131,7 +127,7 @@ Il modulo schema predefinito include le schede **[!UICONTROL Basic]** e **[!UICO
 
 ![](assets/add_delete_tabs_metadataschemaform.png)
 
-* Per aggiungere una nuova scheda a un modulo schema, fare clic su **[!UICONTROL +]**. Per impostazione predefinita, la nuova scheda ha il nome &quot;Unnamed-1&quot;. Puoi modificare il nome dalla scheda **[!UICONTROL Impostazioni]**.
+* Per aggiungere una nuova scheda a un modulo schema, fare clic su **[!UICONTROL +]**. Per impostazione predefinita, la nuova scheda è denominata &quot;Unnamed-1&quot;. Puoi modificare il nome dalla scheda **[!UICONTROL Impostazioni]**.
 
 ![](assets/add-tab-metadata-form.png)
 
@@ -153,7 +149,7 @@ Per applicare un modulo schema metadati a una cartella, effettua le seguenti ope
 
    ![](assets/apply-metadata-schema-form-to-folder.png)
 
-1. Dalla barra degli strumenti nella parte superiore, fai clic su **[!UICONTROL Applica a cartelle]**.
+1. Dalla barra degli strumenti nella parte superiore, fare clic su **[!UICONTROL Applica alle cartelle]**.
 
 1. Dalla pagina **[!UICONTROL Seleziona cartelle]**, passa alla cartella alla quale desideri applicare lo schema di metadati **[!UICONTROL abbigliamento]**, ad esempio **[!UICONTROL Guanti]**.
 
@@ -161,7 +157,7 @@ Per applicare un modulo schema metadati a una cartella, effettua le seguenti ope
 
 1. Fai clic su **[!UICONTROL Applica]** per applicare alla cartella il modulo schema metadati.
 
-   I metadati disponibili nel modulo schema metadati **[!UICONTROL abbigliamento]** vengono applicati alla cartella **[!UICONTROL Gloves]** e sono visibili nella pagina **[!UICONTROL Proprietà]** della cartella.
+   I metadati disponibili nel modulo schema metadati **[!UICONTROL abbigliamento]** vengono applicati alla cartella **[!UICONTROL Gloves]** ed è visibile nella pagina **[!UICONTROL Properties]** della cartella.
 
    ![](assets/folder_metadata_properties.png)
 
@@ -196,10 +192,10 @@ In questo caso, creare un nuovo nodo in [!UICONTROL `/etc/dam/metadataeditor/mim
 | **Nome** | **Tipo** | **Valore** |
 |---|---|---|
 | exposedmimetype | Stringa | image/jpeg |
-| mimetipi | Stringa[] | image/png |
+| tipi mime | Stringa[] | image/png |
 
 * **exposedmimetype**: nome del modulo esistente da mappare
-* **mimetypes**: elenco di tipi MIME che utilizzano il modulo definito nell&#39;attributo **exposedmimetype**
+* **tipi mime**: elenco di tipi MIME che utilizzano il modulo definito nell&#39;attributo **exposedmimetype**
 
 Brand Portal mappa i seguenti tipi MIME e moduli schema:
 
@@ -214,29 +210,29 @@ Brand Portal mappa i seguenti tipi MIME e moduli schema:
 | video/quicktime | video/x-quicktime |
 | video/mpeg4 | video/mp4 |
 | video/avi | video/avi, video/msvideo, video/x-msvideo |
-| video/wmv | video/x-ms-wmv |
+| video/wmv | `video/x-ms-wmv` |
 | video/flv | video/x-flv |
 
 Di seguito è riportato un elenco delle proprietà dei metadati predefinite:
 
-* jcr:content/metadata/cq:tags
-* jcr:content/metadata/dc:format
-* jcr:content/metadata/dam:status
-* jcr:content/metadata/videoCodec
-* jcr:content/metadata/audioCodec
-* jcr:content/metadata/dc:title
-* jcr:content/metadata/dc:description
-* jcr:content/metadata/xmpMM:InstanceID
-* jcr:content/metadata/xmpMM:DocumentID
-* jcr:content/metadata/dam:sha1
-* jcr:content/metadata/dam:solutionContext
-* jcr:content/metadata/videoBitrate
-* jcr:content/metadata/audioBitrate
-* jcr:content/usages/usedBy
-* jcr:content/jcr:lastModified
-* jcr:content/metadata/prism:expirationDate
-* jcr:content/onTime
-* jcr:content/offTime
-* jcr:content/metadata/dam:size
-* jcr:content/metadata/tiff:LarghezzaImmagine
-* jcr:content/metadata/tiff:LunghezzaImmagine
+* `jcr:content/metadata/cq:tags`
+* `jcr:content/metadata/dc:format`
+* `jcr:content/metadata/dam:status`
+* `jcr:content/metadata/videoCodec`
+* `jcr:content/metadata/audioCodec`
+* `jcr:content/metadata/dc:title`
+* `jcr:content/metadata/dc:description`
+* `jcr:content/metadata/xmpMM:InstanceID`
+* `jcr:content/metadata/xmpMM:DocumentID`
+* `jcr:content/metadata/dam:sha1`
+* `jcr:content/metadata/dam:solutionContext`
+* `jcr:content/metadata/videoBitrate`
+* `jcr:content/metadata/audioBitrate`
+* `jcr:content/usages/usedBy`
+* `jcr:content/jcr:lastModified`
+* `jcr:content/metadata/prism:expirationDate`
+* `jcr:content/onTime`
+* `jcr:content/offTime`
+* `jcr:content/metadata/dam:size`
+* `jcr:content/metadata/tiff:ImageWidth`
+* `jcr:content/metadata/tiff:ImageLength`

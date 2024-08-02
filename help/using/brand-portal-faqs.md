@@ -7,9 +7,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
-source-git-commit: 4c701781e7dc62b9d2b018fd13b1ae9616bbb840
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1500'
 ht-degree: 0%
 
 ---
@@ -23,11 +23,11 @@ Le domande frequenti su Brand Portal sono incentrate sulle query e sui problemi 
 
 **Domanda: l&#39;endpoint OAuth legacy esistente (`https://legacy-oauth.cloud.adobe.io/login`) non funziona. Quale potrebbe essere il motivo?**
 
-**Risposta:** la configurazione OAuth legacy è obsoleta. Aggiorna le istanze di Experience Manager Assets Author al service pack più recente e configuralo tramite Adobe Developer Console. Per ulteriori dettagli, vedere [Configurare Experience Manager Assets con Brand Portal](configure-aem-assets-with-brand-portal.md). Tuttavia, affinché la configurazione OAuth legacy funzioni fino all&#39;aggiornamento, aggiorna l&#39;endpoint OAuth legacy a `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
+**Risposta:** la configurazione OAuth legacy è obsoleta. Aggiorna le istanze di Experience Manager Assets Author all’ultimo service pack e configuralo tramite Adobe Developer Console. Per ulteriori dettagli, vedere [Configurare Experience Manager Assets con Brand Portal](configure-aem-assets-with-brand-portal.md). Tuttavia, affinché la configurazione OAuth legacy funzioni fino all&#39;aggiornamento, aggiorna l&#39;endpoint OAuth legacy a `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
 
 **Domanda: non è possibile pubblicare le risorse della cartella Contributi da Brand Portal a Experience Manager Assets dopo l&#39;aggiornamento a Adobe Developer Console. La mia istanza di authoring è su Experience Manager Assets 6.5.4. Quale potrebbe essere il motivo?**
 
-**Risposta:** Si è verificato un problema noto durante la pubblicazione delle risorse della cartella Contributi in Experience Manager Assets 6.5.4 tramite Adobe Developer Console.
+**Risposta:** Sì, si è verificato un problema noto durante la pubblicazione delle risorse della cartella Contributi in Experience Manager Assets 6.5.4 tramite Adobe Developer Console.
 
 Il problema è risolto in Experience Manager Assets 6.5.5. Puoi aggiornare l&#39;istanza di Experience Manager Assets al service pack più recente e [aggiornare le configurazioni](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) in Adobe Developer Console.
 

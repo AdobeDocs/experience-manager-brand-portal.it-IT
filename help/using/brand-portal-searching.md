@@ -1,29 +1,25 @@
 ---
 title: Cercare risorse in Brand Portal
-seo-title: Asset searching and saved search on Experience Manager Assets Brand Portal
-description: La funzionalità di ricerca di Brand Portal consente di cercare rapidamente le risorse rilevanti tramite omnisearch; inoltre, i filtri di ricerca consentono di restringere ulteriormente la ricerca. Salva le ricerche come raccolte avanzate per il futuro.
-seo-description: Brand Portal search capability lets you quickly search for relevant assets using omnisearch, and search filters help you further narrow down your search. Save your searches as smart collections for future.
-uuid: c2955198-bdc0-4853-a13a-661e6a9ec61f
+description: La funzionalità di ricerca di Brand Portal consente di cercare rapidamente le risorse rilevanti utilizzando Omnisearch. I filtri di ricerca consentono di restringere ulteriormente la ricerca. Salva le ricerche come raccolte avanzate per il futuro.
 contentOwner: bdhar
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
-discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: cbdd943b904882cc9a455bab24c3cf732d5966ca
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '1341'
-ht-degree: 2%
+source-wordcount: '1343'
+ht-degree: 0%
 
 ---
 
 # Cercare risorse in Brand Portal {#search-assets-on-brand-portal}
 
-La funzionalità di ricerca di Brand Portal consente di cercare rapidamente le risorse rilevanti tramite omnisearch e la ricerca per facet che utilizza i filtri per restringere ulteriormente la ricerca. Puoi cercare le risorse a livello di file o cartella e salvare i risultati della ricerca come raccolte avanzate.
+La funzionalità di ricerca di Brand Portal consente di cercare rapidamente le risorse rilevanti utilizzando Omnisearch e la ricerca per facet che utilizza i filtri per restringere ulteriormente la ricerca. Puoi cercare le risorse a livello di file o cartella e salvare i risultati della ricerca come raccolte avanzate.
 
 >[!NOTE]
 >
->Brand Portal non supporta la ricerca di raccolte mediante omnisearch.
+>Brand Portal non supporta la ricerca di raccolte con Omnisearch.
 >
 >È tuttavia possibile utilizzare [filtri di ricerca per ottenere l&#39;elenco delle raccolte rilevanti](#search-collection).
 
@@ -31,7 +27,7 @@ La funzionalità di ricerca di Brand Portal consente di cercare rapidamente le r
 
 Per cercare le risorse in Brand Portal:
 
-1. Dalla barra degli strumenti, fai clic sull&#39;icona **[!UICONTROL Cerca]** oppure premi il tasto &quot;**[!UICONTROL /]**&quot; per avviare Omnisearch.
+1. Dalla barra degli strumenti, fai clic sull&#39;icona **[!UICONTROL Cerca]** oppure premi il tasto **[!UICONTROL /]** (barra obliqua) per avviare Omnisearch.
 
    ![](assets/omnisearchicon-1.png)
 
@@ -41,26 +37,27 @@ Per cercare le risorse in Brand Portal:
 
    >[!NOTE]
    >
-   >* Per visualizzare i suggerimenti di ricerca in omnisearch sono necessari almeno 3 caratteri.
-   >* Quando si cerca `mountain biking`, omnisearch restituisce tutte le risorse nei risultati di ricerca che hanno sia `mountain` che `biking` disponibili nei campi di metadati. Ad esempio, `mountain` nel campo `Title` e `biking` nel campo `Description`. Entrambi i termini devono essere disponibili nei campi di metadati per essere visualizzati nei risultati della ricerca. Tuttavia, omnisearch restituisce la risorsa nei risultati della ricerca anche se nel campo dei metadati Tag avanzati è disponibile solo uno dei due termini. Ad esempio, se una risorsa contiene `mountain` come uno dei tag avanzati e non contiene `biking` in nessun altro campo di metadati e si cerca `mountain biking`, omnisearch restituisce comunque la risorsa nei risultati della ricerca.
+   >* Per visualizzare i suggerimenti di ricerca in Omnisearch, sono necessari almeno 3 caratteri.
+   >* Quando si cerca `mountain biking`, Omnisearch restituisce tutte le risorse nei risultati di ricerca che hanno sia `mountain` che `biking` disponibili nei campi di metadati. Ad esempio, `mountain` nel campo `Title` e `biking` nel campo `Description`. Entrambi i termini devono essere disponibili nei campi di metadati per essere visualizzati nei risultati della ricerca. Tuttavia, Omnisearch restituisce la risorsa nei risultati della ricerca anche se nel campo dei metadati Tag avanzati è disponibile solo uno dei due termini. Supponiamo ad esempio che una risorsa abbia `mountain` come tag avanzati ma manchi `biking` in qualsiasi altro campo di metadati. Quindi si cerca `mountain biking`. Omnisearch restituisce ancora la risorsa nei risultati della ricerca. Questo flusso di lavoro assicura che non vadano perse le risorse con i tag rilevanti.
 
 1. Seleziona dai suggerimenti correlati visualizzati nell’elenco a discesa per accedere rapidamente alle risorse rilevanti.
 
    ![](assets/assets-search-result.png)
 
-   *Ricerca risorse tramite omnisearch*
+   *Ricerca risorse tramite Omnisearch*
 
-Per informazioni sul comportamento di ricerca con le risorse con tag avanzati, consulta [comprendere i risultati e il comportamento della ricerca](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/search-assets.html).
+Per ulteriori informazioni sul comportamento di ricerca con le risorse con tag avanzati, vai a [comprendere i risultati e il comportamento di ricerca](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/assets/using/search-assets).
 
 ## Ricerca tramite facet nel pannello Filtri {#search-using-facets-in-filters-panel}
 
-I facet di ricerca nel pannello Filtri aggiungono granularità all’esperienza di ricerca e rendono efficiente la funzionalità di ricerca. I facet di ricerca utilizzano più dimensioni (predicati) che consentono di eseguire ricerche complesse. Per una ricerca più mirata, è possibile eseguire facilmente un drill-down al livello di dettaglio desiderato.
+I facet di ricerca nel pannello Filtri aggiungono granularità all’esperienza di ricerca e rendono la funzionalità di ricerca più efficiente. I facet di ricerca utilizzano più dimensioni (predicati) che consentono di eseguire ricerche complesse. Per una ricerca più mirata, è possibile eseguire facilmente un drill-down al livello di dettaglio desiderato.
 
-Ad esempio, se si sta cercando un&#39;immagine, è possibile scegliere se si desidera una bitmap o un&#39;immagine vettoriale. Puoi ridurre ulteriormente l’ambito della ricerca specificando il tipo MIME per l’immagine nel facet di ricerca Tipo file. Analogamente, durante la ricerca di documenti, è possibile specificare il formato, ad esempio PDF o MS® Word.
+Ad esempio, se si sta cercando un&#39;immagine, è possibile scegliere se si desidera una bitmap o un&#39;immagine vettoriale. Puoi restringere ulteriormente l’ambito di ricerca specificando il tipo MIME dell’immagine nel facet di ricerca Tipo file. Analogamente, durante la ricerca di documenti, è possibile specificare il formato, ad esempio PDF o MS® Word.
 
 ![Pannello Filtri in Brand Portal](assets/file-type-search.png "Pannello Filtri in Brand Portal")
 
-Il pannello **[!UICONTROL Filtri]** include alcuni facet standard, ad esempio: **[!UICONTROL Browser percorso]**, **[!UICONTROL Tipo file]**, **[!UICONTROL Dimensione file]**, **[!UICONTROL Stato]** e **[!UICONTROL Orientamento]**. È tuttavia possibile [aggiungere facet di ricerca personalizzati](../using/brand-portal-search-facets.md) o rimuovere facet di ricerca specifici dal pannello **[!UICONTROL Filtri]** aggiungendo o rimuovendo predicati nel modulo di ricerca sottostante. Visualizza l&#39;elenco dei predicati di ricerca [disponibili e utilizzabili in Brand Portal](../using/brand-portal-search-facets.md#list-of-search-predicates).
+Il pannello **[!UICONTROL Filtri]** include alcuni facet standard, ad esempio: **[!UICONTROL Browser percorso]**, **[!UICONTROL Tipo file]**, **[!UICONTROL Dimensione file]**, **[!UICONTROL Stato]** e **[!UICONTROL Orientamento]**.
+Tuttavia, puoi [aggiungere facet di ricerca personalizzati](../using/brand-portal-search-facets.md) o rimuovere quelli specifici dal pannello **[!UICONTROL Filtri]**. È sufficiente modificare i predicati nel modulo di ricerca sottostante. Visualizza l&#39;elenco dei predicati di ricerca [disponibili e utilizzabili in Brand Portal](../using/brand-portal-search-facets.md#list-of-search-predicates).
 
 Per applicare i filtri alla ricerca, utilizzare i [facet di ricerca](../using/brand-portal-search-facets.md) disponibili:
 
@@ -71,11 +68,11 @@ Per applicare i filtri alla ricerca, utilizzare i [facet di ricerca](../using/br
 1. Dal pannello **[!UICONTROL Filtri]** a sinistra, seleziona le opzioni appropriate per applicare i filtri rilevanti.
 Ad esempio, utilizza i seguenti filtri standard:
 
-   * **[!UICONTROL Browser del percorso]** per cercare le risorse in una directory specifica. Il percorso di ricerca predefinito del predicato per Browser percorsi è `/content/dam/mac/<tenant-id>/`, che può essere configurato modificando il modulo di ricerca predefinito.
+   * **[!UICONTROL Browser del percorso]** per cercare le risorse in una directory specifica. Il percorso di ricerca predefinito del predicato per il browser percorsi è `/content/dam/mac/<tenant-id>/`, che può essere configurato modificando il modulo di ricerca predefinito.
 
    >[!NOTE]
    >
-   >Per gli utenti non amministratori, [!UICONTROL Browser percorsi] nel pannello [!UICONTROL Filtro] mostra solo la struttura del contenuto delle cartelle (e delle relative cartelle precedenti) condivise con loro.\
+   >Per gli utenti non amministratori, il browser [!UICONTROL Path] nel pannello [!UICONTROL Filter] mostra solo la struttura del contenuto delle cartelle (e delle relative cartelle precedenti) condivise con loro.\
    >Per gli utenti amministratori, il browser Percorsi consente di accedere a qualsiasi cartella in Brand Portal.
 
    * **[!UICONTROL Tipo di file]** per specificare il tipo (immagine, documento, file multimediali, archivio) del file di risorse che si sta cercando. Inoltre, è possibile limitare l&#39;ambito della ricerca, ad esempio specificare il tipo MIME (Tiff, Bitmap, Immagini GIMP) per l&#39;immagine o il formato (PDF o MS® Word) per i documenti.
@@ -89,30 +86,30 @@ Ad esempio, utilizza i seguenti filtri standard:
    Puoi utilizzare [facet di ricerca personalizzati](../using/brand-portal-search-facets.md) nel pannello Filtri modificando il modulo di ricerca sottostante.
 
    * **[!UICONTROL Predicato proprietà]** se utilizzato nel modulo di ricerca, consente di cercare le risorse che corrispondono a una proprietà di metadati a cui è mappato il predicato.\
-     Ad esempio, se il predicato Proprietà è mappato a [!UICONTROL `jcr:content /metadata/dc:title`], puoi cercare le risorse in base al loro titolo.\
+     Ad esempio, se il predicato Proprietà è mappato a `jcr:content/metadata/dc:title`, puoi cercare le risorse in base al loro titolo.\
      Il predicato [!UICONTROL Property] supporta ricerche di testo per:
 
      **Frasi parziali**
-Per consentire la ricerca delle risorse utilizzando frasi parziali nel predicato delle proprietà, abilita la casella di controllo **[!UICONTROL Ricerca parziale]** in Modulo di ricerca. Questo consente di cercare le risorse desiderate anche senza specificare le parole o espressioni precise usate nei metadati della risorsa.
+Per consentire la ricerca delle risorse utilizzando frasi parziali nel predicato proprietà, abilita la casella di controllo **[!UICONTROL Ricerca parziale]** in Modulo di ricerca. Questo metodo consente di cercare le risorse desiderate anche senza specificare le parole o le frasi esatte utilizzate nei metadati della risorsa.
 
      >[!NOTE]
      >
      > Brand Portal supporta i campi seguenti per la ricerca parziale:
-     >* jcr:content/metadata/dc:title
-     >* jcr:content/jcr:title
-     >* jcr:content/metadata/dam:search_promote
-     >* jcr:content/metadata/dc:format
+     >
+     >* `jcr:content/metadata/dc:title`
+     >* `jcr:content/jcr:title`
+     >* `jcr:content/metadata/dc:format`
 
      Operazioni disponibili:
-      * Specifica una parola presente nella frase cercata nel facet nel pannello Filtri. Ad esempio, se cerchi il termine **climb** (e il predicato Proprietà è mappato alla proprietà [!UICONTROL `dc:title`]), vengono restituite tutte le risorse il cui titolo contiene la parola **climb**.
-      * Specificare una parte della parola, che si trova nella frase cercata, insieme al carattere jolly (&#42;) per riempire gli spazi.
+      * Nel facet del pannello Filtri, specificate una parola presente nella frase cercata. Ad esempio, se cerchi il termine **climb** (e il predicato Proprietà è mappato alla proprietà `dc:title`), vengono restituite tutte le risorse il cui titolo contiene la parola **climb**.
+      * Specificare una parte della parola che si trova nella frase cercata, insieme a un carattere jolly (&#42;) per riempire gli spazi.
 Ad esempio, se cerchi:
          * **climb&#42;** restituisce tutte le risorse con parole che iniziano con i caratteri &quot;climb&quot; nella frase del titolo.
          * **&#42;climb** restituisce tutte le risorse con parole che terminano con i caratteri &quot;climb&quot; nella frase del titolo.
          * **&#42;climb&#42;** restituisce tutte le risorse contenenti parole contenenti i caratteri &quot;climb&quot; nella frase del titolo.
 
      **Testo senza distinzione tra maiuscole e minuscole**
-Per consentire la ricerca senza distinzione tra maiuscole e minuscole nel predicato delle proprietà, abilitare la casella di controllo **[!UICONTROL Ignora maiuscole/minuscole]** nel modulo di ricerca. Per impostazione predefinita, la ricerca di testo nel predicato delle proprietà distingue tra maiuscole e minuscole.
+Nel predicato Proprietà puoi consentire la ricerca senza distinzione tra maiuscole e minuscole. Abilita la casella di controllo **[!UICONTROL Ignora maiuscole/minuscole]** nel modulo di ricerca. Per impostazione predefinita, la ricerca del testo nel predicato Proprietà distingue tra maiuscole e minuscole.
 
    >[!NOTE]
    >
@@ -134,13 +131,13 @@ Puoi salvare le impostazioni di ricerca come raccolta avanzata per poter ripeter
 
 Per salvare le impostazioni di ricerca come raccolta avanzata:
 
-1. Tocca o fai clic su **[!UICONTROL Salva raccolta avanzata]** e specifica un nome per la raccolta avanzata.
+1. Fare clic su **[!UICONTROL Salva raccolta avanzata]** e specificare un nome per la raccolta avanzata.
 
    Per rendere accessibile la raccolta avanzata a tutti gli utenti, selezionare **[!UICONTROL Pubblico]**. Un messaggio conferma che la raccolta avanzata è stata creata e aggiunta all’elenco delle ricerche salvate.
 
    >[!NOTE]
    >
-   >Agli utenti non amministratori può essere impedito di rendere pubbliche le raccolte avanzate, per evitare di avere un numero enorme di raccolte avanzate pubbliche create da utenti non amministratori sul Brand Portal dell’organizzazione. Le organizzazioni possono disabilitare la configurazione di **[!UICONTROL Consenti creazione di raccolte avanzate pubbliche]** dalle impostazioni **[!UICONTROL Generali]** disponibili nel pannello Strumenti di amministrazione.
+   >Puoi impedire agli utenti non amministratori di rendere pubbliche le raccolte avanzate per evitare di avere un numero enorme di raccolte avanzate pubbliche create da utenti non amministratori sul Brand Portal dell’organizzazione. Le organizzazioni possono disabilitare la configurazione di **[!UICONTROL Consenti creazione di raccolte avanzate pubbliche]** dalle impostazioni **[!UICONTROL Generali]** disponibili nel pannello Strumenti di amministrazione.
 
    ![](assets/save_smartcollectionui.png)
 
