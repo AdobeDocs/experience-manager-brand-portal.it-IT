@@ -6,9 +6,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 role: Admin
 exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+source-git-commit: e01be07e7e791c6d406744148a77fd44d2479734
 workflow-type: tm+mt
-source-wordcount: '1622'
+source-wordcount: '1603'
 ht-degree: 5%
 
 ---
@@ -23,7 +23,7 @@ La pagina **[!UICONTROL Proprietà]** per ogni risorsa include proprietà di met
 
 Per creare un nuovo modulo schema metadati, effettuare le seguenti operazioni:
 
-1. Dalla barra degli strumenti nella parte superiore, fai clic sul logo dell’Experience Manager per accedere agli strumenti di amministrazione.
+1. Dalla barra degli strumenti nella parte superiore, fai clic sul logo Experience Manager per accedere agli strumenti di amministrazione.
 
    ![](assets/aemlogo.png)
 
@@ -47,7 +47,7 @@ Per creare un nuovo modulo schema metadati, effettuare le seguenti operazioni:
 
 Per modificare un modulo schema metadati, effettuare le seguenti operazioni:
 
-1. Dalla barra degli strumenti nella parte superiore, fai clic sul logo dell’Experience Manager per accedere agli strumenti di amministrazione.
+1. Dalla barra degli strumenti nella parte superiore, fai clic sul logo Experience Manager per accedere agli strumenti di amministrazione.
 
    ![](assets/aemlogo.png)
 
@@ -75,7 +75,7 @@ Per modificare un modulo schema metadati, effettuare le seguenti operazioni:
 Nella scheda **[!UICONTROL Genera modulo]** sono elencati gli elementi che è possibile utilizzare nel modulo schema. La scheda **[!UICONTROL Impostazioni]** fornisce gli attributi di ogni elemento selezionato nella scheda **[!UICONTROL Genera modulo]**. Nella tabella seguente sono elencati gli elementi modulo disponibili nella scheda **[!UICONTROL Genera modulo]**:
 
 | Nome componente | Descrizione |
-|---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|----|----|
 | **[!UICONTROL Intestazione sezione]** | Aggiungi un’intestazione di sezione per un elenco di componenti comuni. |
 | **[!UICONTROL Testo su riga singola]** | Aggiungi una proprietà di testo a riga singola. Viene memorizzato come stringa. |
 | **[!UICONTROL Testo con più valori]** | Aggiungi una proprietà di testo con più valori. Viene memorizzato come array di stringhe. |
@@ -87,8 +87,9 @@ Nella scheda **[!UICONTROL Genera modulo]** sono elencati gli elementi che è po
 | **[!UICONTROL Campo nascosto]** | Aggiungi un campo nascosto. Viene inviato come parametro POST al salvataggio della risorsa. |
 | **[!UICONTROL Risorsa A Cui Fa Riferimento]** | Aggiungi questo componente per visualizzare un elenco delle risorse a cui fa riferimento la risorsa. |
 | **[!UICONTROL Riferimento a risorsa]** | Aggiungi per visualizzare un elenco di risorse che fanno riferimento alla risorsa. |
-| **[!UICONTROL Valutazione risorse]** | Valutazione media di una risorsa aggiunta da Experience Manager Assets prima che venga pubblicata in Brand Portal. |
 | **[!UICONTROL Metadati contestuali]** | Aggiungi per controllare la visualizzazione di altre schede di metadati nella pagina Proprietà delle risorse. |
+
+<!--| **[!UICONTROL Asset Rating]** |  Average rating of an asset added from Experience Manager Assets before it is published to Brand Portal. |-->
 
 >[!NOTE]
 >
@@ -106,7 +107,7 @@ Di seguito sono riportati i valori validi per questa proprietà:
 
 — `./jcr:content/metadata/dc:title`: memorizza il valore nel nodo di metadati della risorsa come proprietà `dc:title`.
 
-— `./jcr:created`: visualizza la proprietà jcr nel nodo della risorsa. Se hai configurato queste proprietà nelle proprietà della visualizzazione, l’Adobe consiglia di contrassegnarle come Disattiva modifica, in quanto sono protette. In caso contrario, quando si salvano le proprietà della risorsa si verifica l’errore &quot;Assets failed to modify&quot; (Impossibile modificare la risorsa).
+— `./jcr:created`: visualizza la proprietà jcr nel nodo della risorsa. Se hai configurato queste proprietà nelle proprietà della vista, Adobe consiglia di contrassegnarle come Disattiva modifica, in quanto sono protette. In caso contrario, quando si salvano le proprietà della risorsa si verifica l’errore &quot;Assets failed to modify&quot; (Impossibile modificare la risorsa).
 
 * **[!UICONTROL Segnaposto]**: utilizzare questa proprietà per fornire all&#39;utente tutte le informazioni relative alla proprietà dei metadati.
 * **[!UICONTROL Obbligatorio]**: utilizzare questa proprietà per contrassegnare una proprietà di metadati come obbligatoria nella pagina Proprietà.
@@ -115,7 +116,7 @@ Di seguito sono riportati i valori validi per questa proprietà:
 * **[!UICONTROL Descrizione]**: utilizzare questa proprietà per aggiungere una breve descrizione del componente metadati.
 * **[!UICONTROL Icona Elimina]**: fare clic su questa icona per eliminare un componente dal modulo schema.
 
-![](assets/delete_icon_editmetadataschemaform.png)
+  ![](assets/delete_icon_editmetadataschemaform.png)
 
 >[!NOTE]
 >
@@ -129,7 +130,7 @@ Il modulo schema predefinito include le schede **[!UICONTROL Basic]** e **[!UICO
 
 * Per aggiungere una nuova scheda a un modulo schema, fare clic su **[!UICONTROL +]**. Per impostazione predefinita, la nuova scheda è denominata &quot;Unnamed-1&quot;. Puoi modificare il nome dalla scheda **[!UICONTROL Impostazioni]**.
 
-![](assets/add-tab-metadata-form.png)
+  ![](assets/add-tab-metadata-form.png)
 
 * Per eliminare una scheda, fare clic su **[!UICONTROL x]**. Fai clic su **[!UICONTROL Salva]** per salvare le modifiche.
 
@@ -139,7 +140,7 @@ Brand Portal ti consente di personalizzare e controllare lo schema metadati in m
 
 Per applicare un modulo schema metadati a una cartella, effettua le seguenti operazioni:
 
-1. Dalla barra degli strumenti nella parte superiore, fai clic sul logo dell’Experience Manager per accedere agli strumenti di amministrazione.
+1. Dalla barra degli strumenti nella parte superiore, fai clic sul logo Experience Manager per accedere agli strumenti di amministrazione.
 
    ![](assets/aemlogo.png)
 
