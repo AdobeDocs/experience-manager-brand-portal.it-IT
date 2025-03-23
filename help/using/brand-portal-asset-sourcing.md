@@ -1,6 +1,6 @@
 ---
 title: Asset Sourcing in Brand Portal
-description: Ottieni informazioni sulla funzione di asset sourcing rilasciata in Adobe Experience Manager Assets Brand Portal.
+description: Ottieni informazioni sulla funzione di asset sourcing rilasciata in Adobi Experience Manager Assets Brand Portal.
 content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: brand-portal
@@ -10,10 +10,10 @@ topics: collaboration, content-velocity, sharing
 doc-type: feature-video
 activity: use
 audience: author, marketer
-version: 6.5
+version: Experience Manager 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: 4c701781e7dc62b9d2b018fd13b1ae9616bbb840
+source-git-commit: aea49037eddb1558f85e567cd35eb434eee617ba
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 1%
@@ -32,7 +32,7 @@ Inoltre, tutte le funzionalità esistenti rimangono invariate. Gli utenti di Bra
 
 ## Prerequisiti {#prerequisites}
 
-* Experience Manager Assets as a Cloud Service, Experience Manager Assets 6.5.2 o versione successiva.
+* Istanza Experience Manager Assets as a Cloud Service, Experience Manager Assets 6.5.2 o versione successiva.
 * Assicurati che l’istanza di Experience Manager Assets sia configurata con Brand Portal. Vedere [Configurare Experience Manager Assets con Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 <!--
@@ -108,9 +108,9 @@ Una cartella di contributi può essere condivisa solo con gli utenti Brand Porta
 
 >[!NOTE]
 >
->Il formato del file CSV è lo stesso supportato nell’Admin Console per l’importazione in blocco degli utenti. E-mail, nome e cognome sono obbligatori.
+>Il formato del file CSV è lo stesso supportato in Admin Console per l’importazione in blocco da parte dell’utente. E-mail, nome e cognome sono obbligatori.
 
-Gli amministratori possono aggiungere nuovi utenti nell’Admin Console. Per informazioni dettagliate, vai a [Gestisci utenti](brand-portal-adding-users.md). Dopo aver aggiunto gli utenti nell’Admin Console, è possibile aggiungerli al file di configurazione utente di Brand Portal e quindi assegnare loro l’autorizzazione per accedere alla cartella dei contributi.
+Gli amministratori possono aggiungere nuovi utenti in Admin Console. Per informazioni dettagliate, vai a [Gestisci utenti](brand-portal-adding-users.md). Dopo aver aggiunto gli utenti in Admin Console, è possibile aggiungerli al file di configurazione utente di Brand Portal e quindi assegnare loro l’autorizzazione per accedere alla cartella dei contributi.
 
 **Per caricare l&#39;elenco degli utenti di Brand Portal:**
 
@@ -130,4 +130,4 @@ Gli amministratori possono fornire l’accesso a utenti specifici da questo elen
 
 * [Configurare e pubblicare una cartella di contributi in Brand Portal](brand-portal-publish-contribution-folder-to-brand-portal.md)
 
-* [Cartella dei contributi di Publish a Experience Manager Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)
+* [Pubblicare la cartella dei contributi in Experience Manager Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)
