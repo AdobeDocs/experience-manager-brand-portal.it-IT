@@ -170,7 +170,7 @@ Per aggiungere utenti a un gruppo Brand Portal, aggiungerli al profilo di prodot
 
 ## Fornire privilegi di amministratore agli utenti {#provide-administrator-privileges-to-users}
 
-È possibile concedere a un utente di Brand Portal i privilegi di amministratore di sistema o amministratore di prodotto. Tuttavia, evitare di assegnare altri ruoli amministrativi disponibili nell&#39;[!UICONTROL Admin Console]. Ad esempio, amministratore del profilo di prodotto, amministratore del gruppo di utenti e amministratore del supporto. Vedere [Ruoli amministrativi](https://helpx.adobe.com/enterprise/using/admin-roles.html).
+È possibile concedere a un utente di Brand Portal i privilegi di amministratore di sistema o amministratore di prodotto. Tuttavia, evitare di assegnare altri ruoli amministrativi disponibili nell&#39;[!UICONTROL Admin Console]. Ad esempio, amministratore del profilo di prodotto, amministratore del gruppo di utenti e amministratore del supporto. Vedere [Ruoli amministrativi](https://helpx.adobe.com/it/enterprise/using/admin-roles.html).
 
 >[!NOTE]
 >

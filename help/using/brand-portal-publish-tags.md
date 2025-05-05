@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Scopri come pubblicare i tag da Experience Manager Assets a Brand Portal.
 
-I tag sono utili per organizzare le risorse e migliorare la ricercabilità delle risorse a cui sono associati. I tag possono essere considerati come parole chiave o etichette (metadati) associate alle risorse e consentono di trovare rapidamente le risorse come risultato di una ricerca. Per informazioni su come assegnare tag alle risorse in Experience Manager Assets, consulta [Utilizzare i tag per organizzare le risorse](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/organize-assets).
+I tag sono utili per organizzare le risorse e migliorare la ricercabilità delle risorse a cui sono associati. I tag possono essere considerati come parole chiave o etichette (metadati) associate alle risorse e consentono di trovare rapidamente le risorse come risultato di una ricerca. Per informazioni su come assegnare tag alle risorse in Experience Manager Assets, consulta [Utilizzare i tag per organizzare le risorse](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/assets/managing/organize-assets).
 
 I tag (associati alle risorse e alle raccolte in AEM) vengono pubblicati automaticamente in Brand Portal quando le risorse (e le raccolte) con i tag associati vengono pubblicate in Brand Portal. I tag pubblicati sono utili per consentire alle ricerche di trovare le risorse associate.
 
@@ -47,7 +47,7 @@ Accedi a un&#39;istanza Autore AEM con privilegi amministrativi e accedi alla co
      *(obbligatorio)* Titolo visualizzato per il tag.
    * **[!UICONTROL Nome]**
 
-     *(obbligatorio)* Nome per il tag. Se non viene specificato, viene creato un nome di nodo valido dal titolo. Vedi [TagID](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/tagging/framework).
+     *(obbligatorio)* Nome per il tag. Se non viene specificato, viene creato un nome di nodo valido dal titolo. Vedi [TagID](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/implementing/developing/platform/tagging/framework).
    * **Descrizione**
 
      *(facoltativo)* Descrizione del tag.
@@ -64,7 +64,7 @@ Percorso JCR del tag.
 
 1. **Allega il tag a una risorsa (o raccolta)**.
 
-   Seleziona una risorsa (o una raccolta) e allega il tag desiderato utilizzando la sezione Proprietà o la sezione Gestisci tag di tale risorsa. Per ulteriori informazioni su come assegnare tag alle risorse in AEM Assets, vai a [utilizzare i tag per organizzare le risorse](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/organize-assets).
+   Seleziona una risorsa (o una raccolta) e allega il tag desiderato utilizzando la sezione Proprietà o la sezione Gestisci tag di tale risorsa. Per ulteriori informazioni su come assegnare tag alle risorse in AEM Assets, vai a [utilizzare i tag per organizzare le risorse](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/assets/managing/organize-assets).
 
 1. **Risorse Publish (o raccolte) in Brand Portal**.\
    Quando pubblichi una risorsa (o raccolta) in Brand Portal, il tag allegato è disponibile anche in Brand Portal.

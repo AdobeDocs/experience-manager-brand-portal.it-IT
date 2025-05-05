@@ -71,7 +71,7 @@ Per ulteriori informazioni sulla condivisione dei collegamenti, consulta [Condiv
 
 Le risorse concesse in licenza sono soggette all’accettazione di un contratto di licenza prima del download da Brand Portal. Il presente contratto per le risorse concesse in licenza viene stipulato quando si scarica la risorsa direttamente da Brand Portal o tramite un collegamento condiviso. Che sia scaduto o meno, tutti gli utenti possono visualizzare le risorse protette da licenza. Tuttavia, il download e l’utilizzo delle risorse concesse in licenza scadute sono limitati. Per informazioni sul comportamento delle risorse con licenza scadute e sulle attività consentite in base ai ruoli utente, consulta [autorizzazioni di utilizzo delle risorse scadute](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
 
-Alle risorse protette da licenza è allegato un [contratto di licenza](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm), che viene eseguito impostando la proprietà dei metadati della risorsa in [!DNL Experience Manager Assets].
+Alle risorse protette da licenza è allegato un [contratto di licenza](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/assets/administer/drm), che viene eseguito impostando la proprietà dei metadati della risorsa in [!DNL Experience Manager Assets].
 
 Una risorsa è considerata protetta se contiene una delle seguenti proprietà di metadati (o entrambe):
 

@@ -19,7 +19,7 @@ Una raccolta rappresenta un gruppo di risorse correlate memorizzate insieme in A
 
 <!--The administrators can share and unshare a collection with the authorized Brand Portal users. Editors and viewers can view and share the collections created by them, shared with them, and public collections.-->
 
-Le raccolte vengono condivise come collegamento tramite posta elettronica. Chiunque abbia accesso al collegamento di condivisione può aprire la raccolta. Tuttavia, le e-mail condivise possono essere inoltrate a chiunque. Inoltre, [i collegamenti condivisi](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/share/brand-portal-link-share) sono temporanei e accessibili solo per una durata limitata. In alternativa, gli utenti possono essere invitati come membri permanenti delle raccolte. Esistono i seguenti tipi di utenti per le raccolte:
+Le raccolte vengono condivise come collegamento tramite posta elettronica. Chiunque abbia accesso al collegamento di condivisione può aprire la raccolta. Tuttavia, le e-mail condivise possono essere inoltrate a chiunque. Inoltre, [i collegamenti condivisi](https://experienceleague.adobe.com/it/docs/experience-manager-brand-portal/using/share/brand-portal-link-share) sono temporanei e accessibili solo per una durata limitata. In alternativa, gli utenti possono essere invitati come membri permanenti delle raccolte. Esistono i seguenti tipi di utenti per le raccolte:
 
 * **Gli amministratori** possono condividere o annullare la condivisione di una raccolta con utenti Brand Portal autorizzati. Possono invitare altri utenti a una raccolta specifica e definirne il ruolo in tale raccolta. Inoltre, gli amministratori possono creare raccolte pubbliche.
 

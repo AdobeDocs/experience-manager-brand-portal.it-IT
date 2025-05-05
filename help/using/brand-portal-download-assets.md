@@ -156,7 +156,7 @@ Di seguito è descritta la procedura per scaricare risorse o cartelle contenenti
      >
      >Se le risorse scaricate includono anche risorse con licenza, si verrà reindirizzati alla pagina **[!UICONTROL Gestione copyright]**. In questa pagina, seleziona le risorse, fai clic su **[!UICONTROL Accetto]**, quindi su **[!UICONTROL Scarica]**. Se scegli di non essere d’accordo, le risorse concesse in licenza non vengono scaricate.
      > 
-     >Alle risorse protette da licenza è allegato un [contratto di licenza](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm), che viene eseguito impostando la [proprietà dei metadati della risorsa](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm) in Experience Manager Assets.
+     >Alle risorse protette da licenza è allegato un [contratto di licenza](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/assets/administer/drm), che viene eseguito impostando la [proprietà dei metadati della risorsa](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/assets/administer/drm) in Experience Manager Assets.
 
 
      ![license-asset](assets/licensed-asset-new.png)

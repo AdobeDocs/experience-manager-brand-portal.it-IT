@@ -127,8 +127,8 @@ Un amministratore può eseguire tutte le attività che possono essere eseguite d
 Oltre alle attività di cui sopra, un autore in AEM Assets può eseguire le seguenti attività:
 
 * [Configurare AEM Assets con Brand Portal](../using/configure-aem-assets-with-brand-portal.md)
-* [Pubblicare cartelle su Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-folder)
-* [Pubblicare raccolte su Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-collection)
+* [Pubblicare cartelle su Brand Portal](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-folder)
+* [Pubblicare raccolte su Brand Portal](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-collection)
 
 ## Alias alternativo per URL Brand Portal {#tenant-alias-for-portal-url}
 

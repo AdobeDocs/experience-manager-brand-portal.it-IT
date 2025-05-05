@@ -81,7 +81,7 @@ Per annullare la pubblicazione di uno schema di metadati da Brand Portal:
 
 ## Facet di ricerca Publish in Brand Portal {#publish-search-facets-to-brand-portal}
 
-I moduli di ricerca forniscono agli utenti di Brand Portal la funzionalità di [ricerca sfaccettata](../using/brand-portal-search-facets.md). I facet di ricerca conferiscono maggiore granularità alle ricerche su Brand Portal. Tutti i [predicati aggiunti](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/search-facets) nel modulo di ricerca sono disponibili come facet di ricerca nei filtri di ricerca.
+I moduli di ricerca forniscono agli utenti di Brand Portal la funzionalità di [ricerca sfaccettata](../using/brand-portal-search-facets.md). I facet di ricerca conferiscono maggiore granularità alle ricerche su Brand Portal. Tutti i [predicati aggiunti](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/assets/administer/search-facets) nel modulo di ricerca sono disponibili come facet di ricerca nei filtri di ricerca.
 
 ![](assets/property-predicate-removed.png)
 ![](assets/search-form.png)
