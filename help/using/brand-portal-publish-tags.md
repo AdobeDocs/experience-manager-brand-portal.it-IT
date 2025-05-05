@@ -43,10 +43,13 @@ Accedi a un&#39;istanza Autore AEM con privilegi amministrativi e accedi alla co
 1. Specifica:
 
    * **[!UICONTROL Titolo]**
+
      *(obbligatorio)* Titolo visualizzato per il tag.
    * **[!UICONTROL Nome]**
+
      *(obbligatorio)* Nome per il tag. Se non viene specificato, viene creato un nome di nodo valido dal titolo. Vedi [TagID](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/tagging/framework).
    * **Descrizione**
+
      *(facoltativo)* Descrizione del tag.
    * **Percorso tag**
 Percorso JCR del tag.
