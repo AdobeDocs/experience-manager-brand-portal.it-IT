@@ -6,10 +6,10 @@ content-type: reference
 contentOwner: Kirandeep Kour
 topic-tags: introduction
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: d93a009d556a2330d000331a69ce7b6a2881f49d
-workflow-type: ht
-source-wordcount: '6576'
-ht-degree: 100%
+source-git-commit: f4add370fd3242f5506e5cc4d921362e2b14141a
+workflow-type: tm+mt
+source-wordcount: '6357'
+ht-degree: 99%
 
 ---
 
@@ -163,31 +163,40 @@ Brand Portal 2021.06.0 è una versione interna che include correzioni ai problem
 
 Brand Portal 2021.02.0 migliora AEM Assets as a Cloud Service grazie al flusso di lavoro di attivazione e alla funzione Fornitura di risorse. Inoltre, migliora l’esperienza di download delle risorse e include correzioni critiche. Consente anche agli amministratori di configurare il comportamento predefinito di download di cartelle, raccolte e download in blocco di risorse a livello di tenant. Anche il **[!UICONTROL Rapporto utilizzo]** di Brand Portal è stato modificato per riflettere gli utenti attivi di Brand Portal.
 
-### Attivare Brand Portal su AEM Assets as a Cloud Service {#bp-automation-on-cloud-service}
+>[!IMPORTANT]
+>
+> * Brand Portal è attualmente in manutenzione.
+> * Puoi contattare il tuo rappresentante Adobe con i dettagli del caso d’uso e i requisiti specifici per attivare Brand Portal utilizzando Cloud Manager.
+> * Brand Portal non è disponibile con Assets Prime o Assets Ultimate. Tuttavia, i clienti esistenti di Assets Cloud Services che hanno già accesso a Brand Portal possono mantenerlo quando passano ad Assets Ultimate.
 
-AEM Assets as a Cloud Service ora dispone dei diritti necessari per un’istanza preconfigurata di Brand Portal. L’utente di Cloud Manager può attivare Brand Portal nell’istanza di AEM Assets as a Cloud Service.
+<!--
 
-In precedenza, AEM Assets as a Cloud Service veniva configurato manualmente con Brand Portal tramite Adobe Developer Console.
+### Activate Brand Portal on AEM Assets as a Cloud Service {#bp-automation-on-cloud-service}
 
-L’utente di Cloud Manager attiva il flusso di lavoro di attivazione che crea le configurazioni richieste nel back-end e attiva Brand Portal nella stessa organizzazione IMS dell’istanza di AEM Assets as a Cloud Service.
+AEM Assets as a Cloud Service is now entitled to have a pre-configured Brand Portal instance. The Cloud Manager user can activate Brand Portal on the AEM Assets as a Cloud Service instance.
 
-Per attivare Brand Portal nell’istanza AEM Assets as a Cloud Service:
+Earlier, AEM Assets as a Cloud Service was manually configured with Brand Portal using Adobe Developer Console.
 
-1. Accedi a Adobe Cloud Manager e passa ad **[!UICONTROL Ambienti]**.
-1. Seleziona gli ambienti (uno alla volta) dall’elenco. Dopo aver individuato l’ambiente associato a Brand Portal, fai clic sul pulsante **[!UICONTROL Attiva Brand Portal]** per avviare il flusso di lavoro di attivazione.
-1. Una volta attivato il tenant di Brand Portal, lo stato viene modificato in Attivato.
+The Cloud Manager user triggers the activation workflow that creates the required configurations at the backend and activates Brand Portal on the same IMS org as of the AEM Assets as a Cloud Service instance. 
 
-![Visualizzare stato](assets/create-environment5.png)
+To activate Brand Portal on your AEM Assets as a Cloud Service instance:
 
-Consulta [attivare Brand Portal su AEM Assets as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
+1. Log in to Adobe Cloud Manager and navigate to **[!UICONTROL Environments]**.
+1. Select the environments (one by one) from the list. Once you find the environment associated with Brand Portal, click on the **[!UICONTROL Activate Brand Portal]** button to begin the activation workflow. 
+1. Once the Brand Portal tenant is activated, the status changes to Activated.
 
-### Fornitura di risorse su AEM Assets as a Cloud Service {#asset-sourcing-on-cloud-service}
+![View Status](assets/create-environment5.png)
 
-La funzione Fornitura di risorse è ora disponibile su AEM Assets as a Cloud Service. Per impostazione predefinita, questa funzione è abilitata per tutti gli utenti del servizio cloud. Gli utenti di Brand Portal autorizzati possono contribuire alla Fornitura di risorse caricando nuove risorse nelle cartelle contributi e pubblicando la cartella di contributi da Brand Portal nell’istanza di AEM Assets as a Cloud Service. Gli amministratori possono rivedere e approvare i contributi degli utenti di Brand Portal prima di distribuirli ad altri utenti.
+See [activate Brand Portal on AEM Assets as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
 
-In precedenza, la funzione Fornitura di risorse era disponibile solo su AEM Assets (on-premise e Managed Service).
+### Asset Sourcing on AEM Assets as a Cloud Service {#asset-sourcing-on-cloud-service}
 
-Consulta [Fornitura di risorse in Brand Portal](https://experienceleague.adobe.com/it/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
+The Asset Sourcing feature is now available on AEM Assets as a Cloud Service. The feature is by default enabled for all the cloud service users. The permitted Brand Portal users can contribute to Asset Sourcing by uploading new assets to the contribution folders and publish the contribution folder from Brand Portal to AEM Assets as a Cloud Service instance. Administrators can review and approve contributions from Brand Portal users before distributing them to other users.     
+
+Earlier, Asset Sourcing was only available on AEM Assets (on premise and managed service). 
+
+See [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
+-->
 
 ### Download risorsa {#asset-download-setting}
 
@@ -645,7 +654,7 @@ In Vista a schede, le schede delle cartelle visualizzano ora le informazioni sul
 
 Le informazioni sulla gerarchia di cartelle sono particolarmente utili per differenziarle. Ovvero, una cartella con nomi simili ad altre cartelle condivise da una gerarchia di cartelle diversa. Se gli utenti non amministratori non sono a conoscenza della struttura di cartelle delle risorse condivise con loro, le risorse o cartelle con nomi simili sembrano generare confusione.
 
-* I percorsi mostrati sulle rispettive schede vengono troncati per adattarsi alle dimensioni della scheda. Tuttavia, gli utenti possono visualizzare il percorso completo come una descrizione dei comandi passando con il mouse sopra il percorso troncato.
+* I percorsi mostrati sulle rispettive schede vengono troncati per adattarsi alle dimensioni della scheda. Tuttavia, gli utenti possono visualizzare il percorso completo come una descrizione dei comandi passando il puntatore sul percorso troncato.
 
 ![](assets/folder-hierarchy1-1.png)
 

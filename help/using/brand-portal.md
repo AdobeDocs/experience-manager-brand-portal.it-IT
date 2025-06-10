@@ -5,10 +5,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: 86585e7e04a19f59f9594409e6d7704f457ab8e2
+source-git-commit: f4add370fd3242f5506e5cc4d921362e2b14141a
 workflow-type: tm+mt
-source-wordcount: '1622'
-ht-degree: 4%
+source-wordcount: '1613'
+ht-degree: 6%
 
 ---
 
@@ -23,7 +23,7 @@ Tuttavia, lo sviluppo di soluzioni che supportino la condivisione efficiente e s
 La distribuzione delle risorse consente di acquisire, controllare e distribuire in modo sicuro le risorse creative approvate a parti esterne e utenti aziendali interni tra i dispositivi. Tuttavia, il contributo di Asset consente agli utenti di Brand Portal di caricare le risorse in Brand Portal e pubblicarle in Experience Manager Assets, senza dover accedere all’ambiente di authoring. La funzione di contributo è denominata **Assets Sourcing in Brand Portal**. L&#39;unione di questi elementi migliora l&#39;esperienza complessiva di Brand Portal nella distribuzione delle risorse e nel contributo degli utenti Brand Portal (agenzie/team esterni), velocizza il time-to-market delle risorse e riduce il rischio di non conformità e di accesso non autorizzato.
 Vedi [Origine risorse in Brand Portal](brand-portal-asset-sourcing.md).
 
-L&#39;ambiente del portale basato su browser consente di caricare, sfogliare, ricerca, visualizzare in anteprima ed esportare risorse facilmente nei formati approvati.
+L’ambiente del portale basato su browser consente di caricare, sfogliare, cercare, visualizzare in anteprima ed esportare facilmente le risorse in formati approvati.
 
 ## Configurare Experience Manager Assets con Brand Portal {#configure-brand-portal}
 
@@ -33,7 +33,13 @@ La configurazione di Adobe Experience Manager Assets con Brand Portal consente a
 >
 >La configurazione di Experience Manager Assets con Brand Portal è supportata in Experience Manager Assets as a Cloud Service, Experience Manager Assets 6.3 e versioni successive.
 
-Experience Manager Assets as a Cloud Service viene configurato automaticamente con Brand Portal attivando Brand Portal da Cloud Manager. Il flusso di lavoro di attivazione crea le configurazioni richieste nel backend e attiva Brand Portal nella stessa organizzazione IMS dell’istanza Experience Manager Assets as a Cloud Service.
+>[!IMPORTANT]
+>
+> * Brand Portal è attualmente in manutenzione.
+> * Puoi contattare il tuo rappresentante Adobe con i dettagli del caso d’uso e i requisiti specifici per attivare Brand Portal utilizzando Cloud Manager.
+> * Brand Portal non è disponibile con Assets Prime o Assets Ultimate. Tuttavia, i clienti esistenti di Assets Cloud Services che hanno già accesso a Brand Portal possono mantenerlo quando passano ad Assets Ultimate.
+
+<!--Experience Manager Assets as a Cloud Service is automatically configured with Brand Portal by activating Brand Portal from the Cloud Manager. The activation workflow creates the required configurations at the backend and activates Brand Portal on the same IMS org as of the Experience Manager Assets as a Cloud Service instance.-->
 
 Tuttavia, Experience Manager Assets (on-premise e managed service) viene configurato manualmente con Brand Portal utilizzando Adobe Developer Console, che fornisce un token Adobe Identity Management Services (IMS) per l’autorizzazione del tenant Brand Portal.
 
@@ -75,9 +81,9 @@ Experience Manager Assets Brand Portal consente a [guest access](#request-access
 
 Tuttavia, la sessione ospite non consente di creare raccolte e ricerche salvate e di condividerle ulteriormente. Gli utenti di una sessione guest non possono accedere alle impostazioni di cartelle e raccolte e non possono condividere le risorse come collegamenti. Di seguito è riportato un elenco di attività che un utente guest può eseguire:
 
-* [Sfoglia e accesso risorse pubblico](browse-assets-brand-portal.md)
+* [Sfogliare e accedere alle risorse pubbliche](browse-assets-brand-portal.md)
 
-* [Search risorse pubblico](brand-portal-searching.md)
+* [Cercare risorse pubbliche](brand-portal-searching.md)
 
 * [Scaricare risorse pubbliche](brand-portal-download-assets.md)
 
@@ -101,11 +107,11 @@ Un utente con il ruolo di Editor può eseguire tutte le attività che un Visuali
 
 Oltre alle attività che un visualizzatore può eseguire, un editor può eseguire le seguenti attività aggiuntive:
 
-* [Condividere le cartelle](brand-portal-sharing-folders.md)
+* [Condividere cartelle](brand-portal-sharing-folders.md)
 
 * [Condividere una raccolta](brand-portal-share-collection.md)
 
-* [Condividere le risorse come collegamento](brand-portal-link-share.md)
+* [Condividere risorse come collegamento](brand-portal-link-share.md)
 
 ### Amministratore {#administrator}
 
@@ -119,9 +125,9 @@ Un amministratore può eseguire tutte le attività che possono essere eseguite d
 
 * [Gestire utenti, gruppi e ruoli utente](brand-portal-adding-users.md)
 * [Personalizzare sfondo, intestazioni di pagina ed e-mail](brand-portal-branding.md)
-* [Usa facet di ricerca personalizzati](brand-portal-search-facets.md)
-* [Usa schema metadati](brand-portal-metadata-schemas.md)
-* [Applicare predefiniti immagine o rappresentazioni dinamiche](brand-portal-image-presets.md)
+* [Utilizzare i facet di ricerca personalizzati](brand-portal-search-facets.md)
+* [Utilizzare lo schema metadati](brand-portal-metadata-schemas.md)
+* [Applicare i predefiniti immagine o le rappresentazioni dinamiche](brand-portal-image-presets.md)
 * [Utilizzare i rapporti](brand-portal-reports.md)
 
 Oltre alle attività di cui sopra, un autore in AEM Assets può eseguire le seguenti attività:
@@ -144,7 +150,7 @@ Tuttavia, l&#39;istanza di AEM Author può essere [configurata](../using/configu
 >
 >Per sostituire il vecchio alias o eliminare il vecchio alias, è necessario seguire lo stesso processo.
 
-## Richiedi accesso a Brand Portal {#request-access-to-brand-portal}
+## Richiedere l’accesso a Brand Portal {#request-access-to-brand-portal}
 
 Gli utenti possono richiedere l’accesso a Brand Portal dalla schermata di accesso. Queste richieste vengono inviate agli amministratori di Brand Portal, che concedono l&#39;accesso agli utenti tramite Adobe [!UICONTROL Admin Console]. Una volta concesso l’accesso, gli utenti ricevono un’e-mail di notifica.
 
@@ -178,8 +184,8 @@ Verrà aperta la pagina [!UICONTROL Accedi].
    1. Se non disponi di un [!UICONTROL Adobe ID], per crearne uno fai clic su **[!UICONTROL Ottieni un Adobe ID]** dalla pagina [!UICONTROL Richiedi accesso].
 Verrà aperta la pagina [!UICONTROL Accedi].
    1. Fai clic su **[!UICONTROL Ottieni un Adobe ID]**.
-Viene visualizzata la [!UICONTROL pagina di registrazione] .
-   1. Inserisci nome e cognome, ID e-mail e password.
+Verrà aperta la pagina [!UICONTROL Iscrizione].
+   1. Immetti nome e cognome, ID e-mail e password.
    1. Seleziona **[!UICONTROL Registrati]**.
 
       ![](assets/bplogin_request_access_5.png)
@@ -213,11 +219,11 @@ Per modificare la lingua:
 
    ![Modifica profilo](assets/EditBPProfile.png)
 
-1. [!UICONTROL Nella pagina Impostazioni Experience Cloud], seleziona una lingua dal [!UICONTROL menu a discesa Lingua].
+1. Nella pagina [!UICONTROL Impostazioni Experience Cloud], seleziona una lingua dal menu a discesa [!UICONTROL Lingua].
 
-## Notifica di manutenzione Brand Portal {#brand-portal-maintenance-notification}
+## Notifica della manutenzione di Brand Portal {#brand-portal-maintenance-notification}
 
-Prima che Brand Portal sia pianificato per l’interruzione della manutenzione, viene visualizzata una notifica come banner dopo l’accesso a Brand Portal. Esempio di notifica:
+Prima che Brand Portal sia pianificato per l’interruzione della manutenzione, viene visualizzata una notifica come banner dopo l’accesso a Brand Portal. Una notifica di esempio:
 
 ![](assets/bp_maintenance_notification.png)
 
