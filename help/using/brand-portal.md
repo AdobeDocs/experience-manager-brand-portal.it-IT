@@ -5,9 +5,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: f4add370fd3242f5506e5cc4d921362e2b14141a
+source-git-commit: 2810c95d24ab4259d2b61f78233d3a78c7da0dc1
 workflow-type: tm+mt
-source-wordcount: '1613'
+source-wordcount: '1629'
 ht-degree: 6%
 
 ---
@@ -35,9 +35,9 @@ La configurazione di Adobe Experience Manager Assets con Brand Portal consente a
 
 >[!IMPORTANT]
 >
-> * Brand Portal è attualmente in manutenzione.
-> * Puoi contattare il tuo rappresentante Adobe con i dettagli del caso d’uso e i requisiti specifici per attivare Brand Portal utilizzando Cloud Manager.
-> * Brand Portal non è disponibile con Assets Prime o Assets Ultimate. Tuttavia, i clienti esistenti di Assets Cloud Services che hanno già accesso a Brand Portal possono mantenerlo quando passano ad Assets Ultimate.
+> * Brand Portal è in modalità di manutenzione. Tutte le innovazioni dei nuovi prodotti sono disponibili su [Content Hub](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview).
+> * Se hai ancora bisogno di attivare Brand Portal, contatta il rappresentante Adobe con i dettagli del caso d’uso e altri requisiti specifici.
+> * Brand Portal non è disponibile con [Assets Prime](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-prime) o [Assets Ultimate](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview). Tuttavia, i clienti Assets as a Cloud Service esistenti che già hanno accesso a Brand Portal possono continuare a utilizzarlo quando passano ad Assets Ultimate.
 
 <!--Experience Manager Assets as a Cloud Service is automatically configured with Brand Portal by activating Brand Portal from the Cloud Manager. The activation workflow creates the required configurations at the backend and activates Brand Portal on the same IMS org as of the Experience Manager Assets as a Cloud Service instance.-->
 
