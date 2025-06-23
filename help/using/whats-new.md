@@ -7,9 +7,9 @@ contentOwner: Kirandeep Kour
 topic-tags: introduction
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
 source-git-commit: 2810c95d24ab4259d2b61f78233d3a78c7da0dc1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6373'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -166,8 +166,8 @@ Brand Portal 2021.02.0 migliora AEM Assets as a Cloud Service grazie al flusso d
 >[!IMPORTANT]
 >
 > * Brand Portal è in modalità di manutenzione. Tutte le innovazioni dei nuovi prodotti sono disponibili su [Content Hub](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview).
-> * Se hai ancora bisogno di attivare Brand Portal, contatta il rappresentante Adobe con i dettagli del caso d’uso e altri requisiti specifici.
-> * Brand Portal non è disponibile con [Assets Prime](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/assets-prime) o [Assets Ultimate](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview). Tuttavia, i clienti Assets as a Cloud Service esistenti che già hanno accesso a Brand Portal possono continuare a utilizzarlo quando passano ad Assets Ultimate.
+> * Se devi ancora attivare Brand Portal, contatta il rappresentante Adobe con i dettagli del caso d’uso e altri requisiti specifici.
+> * Brand Portal non è disponibile con [Assets Prime](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/assets-prime) o [Assets Ultimate](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview). Tuttavia, la clientela esistente di Assets as a Cloud Services che ha già accesso a Brand Portal può continuare a utilizzarlo quando passa ad Assets Ultimate.
 
 <!--
 
@@ -187,7 +187,7 @@ To activate Brand Portal on your AEM Assets as a Cloud Service instance:
 
 ![View Status](assets/create-environment5.png)
 
-See [activate Brand Portal on AEM Assets as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
+See [activate Brand Portal on AEM Assets as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
 
 ### Asset Sourcing on AEM Assets as a Cloud Service {#asset-sourcing-on-cloud-service}
 
@@ -195,7 +195,7 @@ The Asset Sourcing feature is now available on AEM Assets as a Cloud Service. Th
 
 Earlier, Asset Sourcing was only available on AEM Assets (on premise and managed service). 
 
-See [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/it/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
+See [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
 -->
 
 ### Download risorsa {#asset-download-setting}
