@@ -9,9 +9,9 @@ user-guide-description: Utilizza Experience Manager Assets Brand Portal per sodd
 feature: Brand Portal
 role: User
 source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '252'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
    + [Accesso a Brand Portal come ospite](/help/using/guest-access.md)
    + [Informazioni su Brand Portal con Experience Manager Assets](https://experienceleague.adobe.com/it/docs/experience-manager-brand-portal/using/home)
    + [Esplorazione delle risorse in Brand Portal](/help/using/browse-assets-brand-portal.md)
-+ Pubblicare da Experience Manager Assets su Brand Portal {#publish}
++ Pubblica da Experience Manager Assets a Brand Portal {#publish}
    + [Configurare Experience Manager Assets con Brand Portal](/help/using/configure-aem-assets-with-brand-portal.md)
    + [Pubblicare risorse su Brand Portal](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-assets)
    + [Pubblicare cartelle su Brand Portal](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-folder)
@@ -53,13 +53,13 @@ ht-degree: 100%
    + [Gestire la raccolta Lightbox](/help/using/brand-portal-light-box.md)
    + [Gestire i diritti delle risorse digitali](/help/using/manage-digital-rights-of-assets.md)
    + [Guida per accelerare i download da Brand Portal](/help/using/accelerated-download.md)
-+ Utilizzare gli strumenti di amministrazione {#admin-tools}
++ Utilizzare gli strumenti amministrativi {#admin-tools}
    + [Amministrare l’accesso degli utenti su Brand Portal](/help/using/access-configurations-brand-portal.md)
    + [Amministrare le configurazioni dei tenant generali](/help/using/brand-portal-general-configuration.md)
    + [Esperienza del primo accesso](/help/using/brand-portal-onboarding.md)
    + [Gestire utenti, gruppi e ruoli utente](/help/using/brand-portal-adding-users.md)
    + [Personalizzare sfondo, intestazione e messaggio e-mail](/help/using/brand-portal-branding.md)
    + [Utilizzare lo schema metadati](/help/using/brand-portal-metadata-schemas.md)
-   + [Applicare i predefiniti immagine o le rappresentazioni dinamiche](/help/using/brand-portal-image-presets.md)
+   + [Applicare i predefiniti per immagini o le rappresentazioni dinamiche](/help/using/brand-portal-image-presets.md)
    + [Utilizzare i rapporti](/help/using/brand-portal-reports.md)
 
