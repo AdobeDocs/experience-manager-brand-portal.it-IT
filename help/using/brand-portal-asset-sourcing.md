@@ -12,7 +12,7 @@ audience: author, marketer
 version: Experience Manager 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: c61dbef33b87d643e6b8942d56e2771716a2ae30
+source-git-commit: 9b8a415fa3a19e462ea797cfc9c3ea9b9323723e
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 11%
@@ -27,7 +27,7 @@ Inoltre, tutte le funzionalità esistenti rimangono invariate. Gli utenti di Bra
 
 ![Origine risorse Brand Portal](assets/asset-sourcing.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/39142/?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
 
 ## Prerequisiti {#prerequisites}
 
