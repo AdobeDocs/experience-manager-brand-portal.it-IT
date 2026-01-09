@@ -1,14 +1,13 @@
 ---
 title: Novità di Experience Manager Assets Brand Portal
-description: Scopri le nuove funzioni e i miglioramenti nella versione 2024.10.0 di Experience Manager Assets Brand Portal.
+description: Scopri le nuove funzioni e i miglioramenti nella versione 2026.01.01 di Experience Manager Assets Brand Portal.
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
-contentOwner: Kirandeep Kour
 topic-tags: introduction
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 2810c95d24ab4259d2b61f78233d3a78c7da0dc1
-workflow-type: ht
-source-wordcount: '6373'
+source-git-commit: ff2dc92ea112a95c90724f06f141221ffdef33a1
+workflow-type: tm+mt
+source-wordcount: '6400'
 ht-degree: 100%
 
 ---
@@ -16,6 +15,10 @@ ht-degree: 100%
 # Novità di Experience Manager Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager Assets Brand Portal consente di acquisire facilmente, controllare e distribuire in modo sicuro risorse creative approvate a parti esterne e utenti aziendali interni su più dispositivi. Consente di migliorare l’efficienza della condivisione delle risorse, ne accelera il time-to-market e riduce il rischio di non conformità e accesso non autorizzato. Adobe si adopera per migliorare l’esperienza complessiva di Brand Portal. Ecco un’anteprima delle nuove funzioni e dei miglioramenti.
+
+## Che cosa è cambiato nella versione 2026.01.01 {#what-changed-in-January-2026}
+
+Brand Portal 2026.01.01 è una versione interna che include correzioni ai problemi critici. Consulta le [note sulla versione di Brand Portal](brand-portal-release-notes.md) più recenti.
 
 ## Che cosa è cambiato nella versione 2024.10.0 {#what-changed-in-October-2024}
 
@@ -187,7 +190,7 @@ To activate Brand Portal on your AEM Assets as a Cloud Service instance:
 
 ![View Status](assets/create-environment5.png)
 
-See [activate Brand Portal on AEM Assets as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
+See [activate Brand Portal on AEM Assets as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
 
 ### Asset Sourcing on AEM Assets as a Cloud Service {#asset-sourcing-on-cloud-service}
 
@@ -195,7 +198,7 @@ The Asset Sourcing feature is now available on AEM Assets as a Cloud Service. Th
 
 Earlier, Asset Sourcing was only available on AEM Assets (on premise and managed service). 
 
-See [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/it/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
+See [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
 -->
 
 ### Download risorsa {#asset-download-setting}
@@ -612,7 +615,7 @@ Brand Portal 6.4.2 introduce funzionalità che soddisfano le esigenze di distrib
 
 ![](assets/bp-login-screen-1.png)
 
-AEM Brand Portal consente l’accesso come ospite al portale. Un utente ospite non deve necessariamente disporre di credenziali per entrare nel portale e può accedere e scaricare tutte le cartelle e le raccolte pubbliche. Gli utenti ospiti possono aggiungere risorse alla propria lightbox (raccolta privata) e scaricarle. Possono inoltre visualizzare i predicati di ricerca e ricerca di tag avanzati impostati dagli amministratori. La sessione ospite non consente agli utenti di creare raccolte e ricerche salvate o di condividerle ulteriormente, di accedere alle impostazioni delle cartelle e delle raccolte e di condividere le risorse come collegamenti.
+AEM Brand Portal consente l’accesso come ospite al portale. Un utente ospite non deve necessariamente disporre di credenziali per entrare nel portale e può accedere e scaricare tutte le cartelle e le raccolte pubbliche. Gli utenti ospiti possono aggiungere risorse alla propria lightbox (raccolta privata) e scaricarle. Possono inoltre visualizzare i predicati di ricerca e ricerca per tag avanzati impostati dagli amministratori. La sessione ospite non consente agli utenti di creare raccolte e ricerche salvate o di condividerle ulteriormente, di accedere alle impostazioni delle cartelle e delle raccolte e di condividere le risorse come collegamenti.
 
 In un’organizzazione sono consentite più sessioni ospite simultanee, con un limite pari al 10% della quota totale di utenti per organizzazione.
 
@@ -723,9 +726,9 @@ Brand Portal 6.4.1 è una versione con aggiornamento della piattaforma. Introduc
 
 ![](assets/columnmoredetail.png)
 
-* Nella Vista a elenco ora per impostazione predefinita vengono visualizzati i nomi dei file delle risorse nella prima colonna. Vengono inoltre visualizzate informazioni su lingua, tipo di risorsa, dimensioni, misure, valutazione e pubblicazione. Le nuove **Impostazioni di visualizzazione** possono essere utilizzate per configurare la quantità di dettagli da visualizzare nella vista a elenco.
+* Nella Vista a elenco ora per impostazione predefinita vengono visualizzati i nomi dei file delle risorse nella prima colonna. Vengono inoltre visualizzate informazioni su lingua, tipo di risorsa, dimensioni, dimensione file, valutazione e pubblicazione. Le nuove **Impostazioni di visualizzazione** possono essere utilizzate per configurare la quantità di dettagli da visualizzare nella vista a elenco.
 
-* È stata migliorata l’esperienza di dettaglio della risorsa con la possibilità di spostarsi avanti e indietro tra le risorse utilizzando nuovi pulsanti di navigazione e di visualizza il conteggio delle risorse.
+* È stata migliorata l’esperienza di dettagli delle risorse con la possibilità di spostarsi avanti e indietro tra le risorse utilizzando nuovi pulsanti di navigazione e di visualizzare il numero di risorse.
 
 ![](assets/navbtn.png)
 

@@ -1,38 +1,49 @@
 ---
 title: Note sulla versione
-description: Ottieni informazioni approfondite sulle funzioni, i miglioramenti, i problemi critici risolti e i problemi noti della versione 2024.10.0 di Adobe Experience Manager Assets Brand Portal.
+description: Ottieni informazioni approfondite sulle funzioni, i miglioramenti, i problemi critici risolti e i problemi noti della versione 2026.01.01 di Adobe Experience Manager Assets Brand Portal.
 content-type: reference
-contentOwner: Kirandeep Kour
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 3f3065de994f5c38e604b52848b0a538c9efd7d1
-workflow-type: ht
-source-wordcount: '1533'
-ht-degree: 100%
+source-git-commit: ff2dc92ea112a95c90724f06f141221ffdef33a1
+workflow-type: tm+mt
+source-wordcount: '1595'
+ht-degree: 96%
 
 ---
 
 # Note sulla versione {#release-notes}
 
-Ottieni informazioni approfondite sulle nuove funzioni, i miglioramenti, i problemi critici risolti e i problemi noti della versione 2024.10.0 di Adobe Experience Manager Assets Brand Portal.
+Ottieni informazioni approfondite sulle nuove funzioni, i miglioramenti, i problemi critici risolti e i problemi noti della versione 2026.01.01 di Adobe Experience Manager Assets Brand Portal.
 
 ## Informazioni sulla versione {#release-information}
 
 | Prodotto | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Versione | 2024.10.0 |
-| Data | ottobre 2024 |
+| Versione | 2026.01.01 |
+| Data | Gennaio 2026 |
 
 ## Panoramica {#overview}
 
 Adobe Experience Manager (AEM) Assets Brand Portal consente di acquisire facilmente, controllare e distribuire in modo sicuro risorse creative approvate a parti esterne e utenti aziendali interni su più dispositivi. Consente di migliorare l’efficienza della condivisione delle risorse, accelera il time-to-market delle risorse e riduce i rischi di non conformità e accesso non autorizzato. Brand Portal consente agli utenti di consultare, cercare, visualizzare in anteprima, scaricare ed esportare le risorse in formati approvati dall’azienda, ovunque e in qualsiasi momento.
 
-## Novità della versione 2024.10.0 {#whats-new-in-2024.10.0}
+## Novità del 2026.01.01 {#whats-new-in-2026.01.01}
 
 ### Problemi critici risolti {#critical-issues-fixed}
 
-#### Correzioni di bug {#bug-fixes}
+#### Miglioramenti {#enhancements}
+
+Questa versione include i seguenti miglioramenti:
+
+* Nel pannello Strumenti di amministrazione > Configurazione Dynamic Media, ora puoi utilizzare il pulsante **[!UICONTROL Reimposta]** per cancellare le modifiche, reimpostare la password e ripristinare lo stato predefinito della configurazione.
+
+* Brand Portal convalida la cartella di origine per assicurarsi che contenga almeno una risorsa prima di pubblicarla in AEM, impedendo la pubblicazione incompleta.
+
+## Versioni precedenti
+
+### Versione di ottobre 2024 {#oct-2024}
+
+**Correzioni di bug e miglioramenti**
 
 Questa versione include le seguenti correzioni di bug:
 
@@ -44,8 +55,6 @@ Questa versione include le seguenti correzioni di bug:
 * Impossibile scaricare video con caratteri speciali nel nome.
 * La pubblicazione e l’annullamento della pubblicazione di risorse da [!DNL Adobe Experience Manager Assets] a Brand Portal non funziona in modo appropriato.
 * Impossibile riprodurre video scaricati da Brand Portal.
-
-## Versioni precedenti
 
 ### Versione di febbraio 2024 {#feb-2024}
 
