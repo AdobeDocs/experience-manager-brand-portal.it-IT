@@ -6,9 +6,9 @@ topic-tags: download-install, download assets
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: f931f6576c05d82cea61bda00322425abc9e8d43
+source-git-commit: 6194eb5697ef48c9693c00a7a51322ef4827cdc3
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '1078'
 ht-degree: 3%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 <!-- This topic is woefully out of date. It talks at length about using a third party application whose URLs have a variety of problems. Topic should either be deleted or updated entirely to not talk about a specific third party application that Adobe has no control over. It also appears that the third party app is NOT free anymore. -->
 
-Adobe Experience Manager Assets Brand Portal consente di migliorare le prestazioni di download dei file di risorse di grandi dimensioni tramite l’integrazione con IBM® Aspera Connect, un’applicazione di installazione su richiesta. L&#39;applicazione utilizza una tecnologia proprietaria per rimuovere i costi generali TCP e consente di migliorare la velocità di trasferimento dei file di risorse. Questa integrazione garantisce un’esperienza di download migliorata.
+Adobi Experience Manager Assets Brand Portal consente di migliorare le prestazioni di download dei file di risorse di grandi dimensioni tramite l’integrazione con IBM® Aspera Connect, un’applicazione di installazione su richiesta. L&#39;applicazione utilizza una tecnologia proprietaria per rimuovere i costi generali TCP e consente di migliorare la velocità di trasferimento dei file di risorse. Questa integrazione garantisce un’esperienza di download migliorata.
 
 >[!NOTE]
 >
@@ -73,7 +73,7 @@ Per scaricare più rapidamente le risorse da Brand Portal:
 
 1. Accedi al tuo tenant Brand Portal. Per impostazione predefinita, viene aperta la visualizzazione **[!UICONTROL File]** che contiene tutte le risorse e le cartelle pubblicate.
 
-   Effettua una delle operazioni seguenti:
+   Effettua una delle seguenti operazioni:
 
    * Seleziona le risorse o le cartelle da scaricare. Dalla barra degli strumenti nella parte superiore, fai clic sull&#39;icona **[!UICONTROL Scarica]**.
 
@@ -213,7 +213,9 @@ Se l&#39;accelerazione di download non funziona, provare a seguire i suggeriment
 
    Se la larghezza di banda è di pochi (1-10 Mbps) o in Kbps, utilizza Preferenze Aspera e prova a limitare la larghezza di banda pari alla larghezza di banda disponibile.
 
-   <!-- The URL in this step is giving a 404 error. 1. To confirm whether the downloads from Aspera demo server are working, use [https://demo.asperasoft.com/aspera/user](https://demo.asperasoft.com/aspera/user).  
-   (login:  asperaweb , password:  demoaspera ) -->
+   <!-- 
+   The URL in this step is giving a 404 error. 1. To confirm whether the downloads from Aspera demo server are working, use [https://demo.asperasoft.com/aspera/user](https://demo.asperasoft.com/aspera/user).  
+   (login:  asperaweb , password:  demoaspera ) 
+   -->
 
 1. Se nessuno dei passaggi precedenti funziona, deseleziona l’opzione Abilita accelerazione di download e utilizza il download normale.

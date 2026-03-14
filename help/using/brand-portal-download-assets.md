@@ -6,16 +6,16 @@ contentOwner: Vishabh Gupta
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download, download-install, download assets
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: f483ac280a5e89ca25305eae09380d70ad661752
+source-git-commit: 6194eb5697ef48c9693c00a7a51322ef4827cdc3
 workflow-type: tm+mt
-source-wordcount: '1909'
-ht-degree: 5%
+source-wordcount: '1957'
+ht-degree: 11%
 
 ---
 
 # Scaricare le risorse {#download-assets-from-bp}
 
-Adobe Experience Manager Assets Brand Portal migliora l’esperienza di download consentendo agli utenti di scaricare simultaneamente risorse e cartelle a cui possono accedere da Brand Portal. Questo metodo consente di distribuire in modo sicuro le risorse del marchio approvate per l’utilizzo offline. Continua a leggere per sapere come scaricare risorse (risorse approvate) da Brand Portal e cosa aspettarsi dalle [prestazioni di download](#expected-download-performance).
+Adobi Experience Manager Assets Brand Portal migliora l’esperienza di download consentendo agli utenti di scaricare simultaneamente risorse e cartelle a cui possono accedere da Brand Portal. Questo metodo consente di distribuire in modo sicuro le risorse del marchio approvate per l’utilizzo offline. Continua a leggere per sapere come scaricare risorse (risorse approvate) da Brand Portal e cosa aspettarsi dalle [prestazioni di download](#expected-download-performance).
 
 
 >[!NOTE]
@@ -43,7 +43,7 @@ Gli amministratori possono abilitare **[!UICONTROL Impostazioni download]** per 
 
 Le impostazioni disponibili sono:
 
-* **[!UICONTROL Download rapido]**
+* **[!UICONTROL Download veloce]**
 
   Consente di scaricare rapidamente le risorse utilizzando IBM® Aspera Connect. Per impostazione predefinita, l&#39;impostazione **[!UICONTROL Download rapido]** è abilitata nelle **[!UICONTROL Impostazioni download]**.
 
@@ -64,7 +64,7 @@ Le impostazioni disponibili sono:
   Le rappresentazioni vengono scaricate in cartelle separate per ogni risorsa. Questa impostazione si applica a cartelle, raccolte e download in blocco di più di 20 risorse.
 
 
-Accedi al tuo tenant Brand Portal come amministratore e passa a **[!UICONTROL Strumenti]** > **[!UICONTROL Scarica]**.
+Accedi al tenant di Brand Portal come amministratore e passa a **[!UICONTROL Strumenti]** > **[!UICONTROL Download]**.
 
 Gli amministratori possono abilitare qualsiasi combinazione di impostazioni per consentire agli utenti di Brand Portal di accedere e scaricare le rappresentazioni delle risorse.
 
@@ -79,13 +79,13 @@ Gli amministratori possono abilitare qualsiasi combinazione di impostazioni per 
 
 Oltre alle **[!UICONTROL Impostazioni download]**, gli amministratori di Brand Portal possono configurare ulteriormente le impostazioni per gruppi diversi di utenti per visualizzare e (o) scaricare le risorse originali e le relative rappresentazioni.
 
-Accedi al tuo tenant Brand Portal come amministratore e passa a **[!UICONTROL Strumenti]** > **[!UICONTROL Utenti]**. Nella pagina **[!UICONTROL Ruoli utente]**, passa alla scheda **[!UICONTROL Gruppi]** per configurare le impostazioni di visualizzazione e/o download per i gruppi di utenti.
+Accedi al tenant di Brand Portal come amministratore e passa a **[!UICONTROL Strumenti]** > **[!UICONTROL Utenti]**. Nella pagina **[!UICONTROL Ruoli utente]**, passa alla scheda **[!UICONTROL Gruppi]** per configurare le impostazioni di visualizzazione e/o download per i gruppi di utenti.
 
 ![view-download-permission](assets/download-permissions.png)
 
 >[!NOTE]
 >
->Se un utente viene aggiunto a più gruppi e uno di questi ha delle restrizioni, le restrizioni si applicano all’utente.
+>Se un utente viene aggiunto a più gruppi e uno di questi ha delle restrizioni, queste si applicano all’utente.
 
 In base alla configurazione, il flusso di lavoro di download rimane costante per le risorse autonome, le risorse multiple, le cartelle che contengono risorse, le risorse con o senza licenza e il download delle risorse tramite il collegamento di condivisione.
 
@@ -116,12 +116,12 @@ Gli utenti di Brand Portal possono scaricare più risorse, cartelle contenenti r
 
 Se l&#39;utente ha accesso alle rappresentazioni, gli verrà fornita la finestra di dialogo **[!UICONTROL Scarica]** avanzata con le seguenti funzionalità:
 
-* Visualizza tutte le rappresentazioni disponibili di qualsiasi risorsa nell’elenco di download.
+* Visualizzare tutte le rappresentazioni disponibili di qualsiasi risorsa nell’elenco di download.
 * Escludi le rappresentazioni di risorse che non sono necessarie per il download.
-* Applica lo stesso set di rappresentazioni a tutti i tipi di risorse simili con un solo clic.
-* Applica un diverso set di rappresentazioni per diversi tipi di risorse.
-* Crea una cartella separata per ogni risorsa.
-* Scarica le risorse selezionate e le relative rappresentazioni.
+* Applicare lo stesso set di rappresentazioni a tutti i tipi di risorse simili con un solo clic.
+* Applicare un diverso set di rappresentazioni per diversi tipi di risorse.
+* Creare una cartella separata per ogni risorsa.
+* Scaricare le risorse selezionate e le relative rappresentazioni.
 
 ![download-dialog](assets/download-dialog-box.png)
 
@@ -136,7 +136,7 @@ Di seguito è descritta la procedura per scaricare risorse o cartelle contenenti
 
 1. Accedi al tuo tenant Brand Portal. Per impostazione predefinita, viene aperta la visualizzazione **[!UICONTROL File]** che contiene tutte le risorse e le cartelle pubblicate.
 
-   Effettua una delle operazioni seguenti:
+   Effettua una delle seguenti operazioni:
 
    * Seleziona le risorse o le cartelle da scaricare. Dalla barra degli strumenti nella parte superiore, fai clic sull&#39;icona **[!UICONTROL Scarica]**.
 
@@ -156,7 +156,7 @@ Di seguito è descritta la procedura per scaricare risorse o cartelle contenenti
      >
      >Se le risorse scaricate includono anche risorse con licenza, si verrà reindirizzati alla pagina **[!UICONTROL Gestione copyright]**. In questa pagina, seleziona le risorse, fai clic su **[!UICONTROL Accetto]**, quindi su **[!UICONTROL Scarica]**. Se scegli di non essere d’accordo, le risorse concesse in licenza non vengono scaricate.
      > 
-     >Alle risorse protette da licenza è allegato un [contratto di licenza](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/assets/administer/drm), che viene eseguito impostando la [proprietà dei metadati della risorsa](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/assets/administer/drm) in Experience Manager Assets.
+     >Alle risorse protette da licenza è allegato un [contratto di licenza](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm), che viene eseguito impostando la [proprietà dei metadati della risorsa](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm) in Experience Manager Assets.
 
 
      ![license-asset](assets/licensed-asset-new.png)
@@ -185,7 +185,8 @@ Di seguito è descritta la procedura per scaricare risorse o cartelle contenenti
 
    Se non desideri utilizzare IBM® Aspera Connect, fai clic su **[!UICONTROL Rifiuta]**. Se **[!UICONTROL Download rapido]** è negato o non riesce, il sistema compila un messaggio di errore. Fai clic sul pulsante **[!UICONTROL Download normale]** per continuare a scaricare le risorse.
 
-<!-- removed the known issue from step 2 as it is fixed in 2022.02.0 release.
+<!-- 
+   removed the known issue from step 2 as it is fixed in 2022.02.0 release.
    >[!CAUTION]
    >
    >(**Experience Manager Assets as a Cloud Service** only) The following known issue will be fixed in the upcoming release:
@@ -207,9 +208,9 @@ Di seguito è descritta la procedura per scaricare risorse o cartelle contenenti
 
 >[!NOTE]
 >
->Brand Portal supporta la configurazione di Dynamic Medie in modalità ibrida e Scene7.
+>Brand Portal supporta la configurazione di Dynamic Media in modalità ibrida e Scene7.
 >
->(*Se l&#39;istanza Autore Experience Manager Assets è in esecuzione in **modalità ibrida Dynamic Medie***)
+>(*Se l&#39;istanza di authoring di Experience Manager Assets è in esecuzione in **modalità ibrida di elementi multimediali dinamici***)
 >
 >Per visualizzare in anteprima o scaricare le rappresentazioni dinamiche, abilita elemento multimediale dinamico. Assicurati che la rappresentazione TIFF piramidale della risorsa esista nell’istanza di authoring di Experience Manager Assets in cui sono state pubblicate le risorse. Quando una risorsa viene pubblicata da Experience Manager Assets a Brand Portal, viene pubblicata anche la relativa rappresentazione piramidale tiff.
 
@@ -217,7 +218,8 @@ Se l&#39;amministratore [non ti ha autorizzato ad accedere alle rappresentazioni
 
 ![nessun messaggio di accesso](assets/no-access-message.png)
 
-<!-- This issue has been resolved, check with engineering.
+<!-- 
+This issue has been resolved, check with engineering.
 >[!NOTE]
 >
 >Once you have downloaded the asset renditions, the **[!UICONTROL Download]** button is disabled to avoid creating duplicate copies of the renditions. To download more (missing or another copy of renditions), refresh the browser to re-enable the download button.
@@ -241,7 +243,7 @@ Di seguito è descritta la procedura per scaricare le rappresentazioni delle ris
 
    Selezionare le copie trasformate specifiche da scaricare e fare clic su **[!UICONTROL Scarica elementi]**.
 
-   ![copie trasformate-pannello](assets/renditions-panel.png)
+   ![renditions-panel](assets/renditions-panel.png)
 
 
 1. Per impostazione predefinita, l&#39;impostazione **[!UICONTROL Download rapido]** è abilitata nelle **[!UICONTROL Impostazioni download]**. Pertanto, viene visualizzata una casella di conferma per consentire il download accelerato tramite IBM® Aspera Connect.
@@ -250,7 +252,8 @@ Di seguito è descritta la procedura per scaricare le rappresentazioni delle ris
 
    Se neghi l&#39;utilizzo di **[!UICONTROL Download rapido]**, il sistema compila un messaggio di errore. Fai clic sul pulsante **[!UICONTROL Download normale]** per continuare a scaricare le risorse.
 
-<!-- removed the known issue from step 3 as it is fixed in 2022.02.0 release.
+<!-- 
+removed the known issue from step 3 as it is fixed in 2022.02.0 release.
    >[!CAUTION]
    >
    >(**Experience Manager Assets as a Cloud Service** only) The following known issues will be fixed in the upcoming release:
@@ -275,7 +278,8 @@ Di seguito è descritta la procedura per scaricare le rappresentazioni delle ris
 >Assets that are individually downloaded are visible in the assets download report. However, if a folder containing assets is downloaded, the folder and assets are not displayed in the assets download report.
 -->
 
-<!-- Backup of content before updating the new feature docs.
+<!-- 
+Backup of content before updating the new feature docs.
 ## Configure asset download {#configure-download}
 
 The download configuration allows the Brand Portal administrators to define the set of renditions available to the Brand Portal users for downloading the assets. The administrator can configure the asset **[!UICONTROL Download]** settings from the Brand Portal interface. 

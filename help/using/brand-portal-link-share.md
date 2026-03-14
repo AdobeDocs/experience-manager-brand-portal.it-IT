@@ -1,26 +1,27 @@
 ---
-title: Condividere le risorse come collegamento
-description: Scopri come gli amministratori di Adobe Experience Manager Assets Brand Portal possono condividere collegamenti di più risorse con utenti interni autorizzati ed entità esterne, inclusi partner e fornitori. Gli editor possono visualizzare e condividere solo le risorse condivise con loro.
+title: Condividere risorse come collegamento
+description: Scopri come gli amministratori di Adobi Experience Manager Assets Brand Portal possono condividere collegamenti di più risorse con utenti interni autorizzati ed entità esterne, inclusi partner e fornitori. Gli editor possono visualizzare e condividere solo le risorse condivise con loro.
 contentOwner: bdhar
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 exl-id: 9d254e95-a4fc-468d-ae1f-9690ddd3b4a1
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+source-git-commit: 6194eb5697ef48c9693c00a7a51322ef4827cdc3
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 6%
+source-wordcount: '969'
+ht-degree: 5%
 
 ---
 
-# Condividere le risorse come collegamento {#share-assets-as-a-link}
+# Condividere risorse come collegamento {#share-assets-as-a-link}
 
-Gli amministratori Adobe Experience Manager Assets Brand Portal possono condividere collegamenti di più risorse con utenti interni ed entità esterne autorizzati, inclusi partner e fornitori. Gli editor possono visualizzare e condividere solo le risorse condivise con loro.
+Gli amministratori Adobi Experience Manager Assets Brand Portal possono condividere collegamenti di più risorse con utenti interni ed entità esterne autorizzati, inclusi partner e fornitori. Gli editor possono visualizzare e condividere solo le risorse condivise con loro.
 
 La condivisione delle risorse tramite un collegamento è un modo pratico per renderle disponibili a terzi, in quanto i destinatari non devono accedere a Brand Portal per accedere alle risorse.
 
-<!-- Link sharing access is restricted to editors and administrators. 
+<!-- 
+Link sharing access is restricted to editors and administrators. 
 -->
 
 Per ulteriori informazioni, vedere [Gestione di utenti, gruppi e ruoli utente](../using/brand-portal-adding-users.md#manage-user-roles).
@@ -65,7 +66,7 @@ Di seguito sono riportati i passaggi per condividere le risorse come collegament
 
 ## Scaricare risorse dai collegamenti condivisi {#download-assets-from-shared-links}
 
-Fai clic sul collegamento nell’e-mail per accedere alla risorsa condivisa. Viene visualizzata la pagina Condivisione collegamenti AEM.
+Fai clic sul collegamento nell’e-mail per accedere alla risorsa condivisa. Viene visualizzata la pagina Condivisione collegamenti di AEM.
 
 Per scaricare le risorse condivise:
 
@@ -143,7 +144,7 @@ La matrice seguente elenca i formati di risorse per i quali Brand Portal support
 | DNG | ✓ | ✕ |
 | PICT | ✓ | ✕ |
 | PSB* | ✓ | ✕ |
-| JPG- | ✓ | ✓ |
+| JPG | ✓ | ✓ |
 | AI | ✓ | ✕ |
 | DOC | ✕ | ✕ |
 | DOCX | ✕ | ✕ |
@@ -193,7 +194,7 @@ La legenda seguente spiega i simboli utilizzati nella matrice:
 | ✓ | Questo formato di file supporta questa funzione |
 | ✕ | Questo formato di file non supporta questa funzione |
 | ND | Questa funzione non è applicabile a questo formato di file |
-| &#42; | Questa funzione richiede il supporto dei componenti aggiuntivi per questo formato di file nell’istanza di authoring AEM, ma non in Brand Portal, dopo la pubblicazione delle risorse in Brand Portal |
+| &#42; | Questa funzione richiede il supporto dei componenti aggiuntivi per questo formato di file nell’istanza di authoring di AEM, ma non in Brand Portal, dopo la pubblicazione delle risorse in Brand Portal |
 
 ## Annullare la condivisione delle risorse condivise come collegamento {#unshare-assets-shared-as-a-link}
 

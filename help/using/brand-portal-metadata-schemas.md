@@ -6,10 +6,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 role: Admin
 exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
-source-git-commit: e01be07e7e791c6d406744148a77fd44d2479734
+source-git-commit: 6194eb5697ef48c9693c00a7a51322ef4827cdc3
 workflow-type: tm+mt
-source-wordcount: '1603'
-ht-degree: 5%
+source-wordcount: '1617'
+ht-degree: 6%
 
 ---
 
@@ -109,54 +109,54 @@ Di seguito sono riportati i valori validi per questa proprietà:
 
 — `./jcr:created`: visualizza la proprietà jcr nel nodo della risorsa. Se hai configurato queste proprietà nelle proprietà della vista, Adobe consiglia di contrassegnarle come Disattiva modifica, in quanto sono protette. In caso contrario, quando si salvano le proprietà della risorsa si verifica l’errore &quot;Assets failed to modify&quot; (Impossibile modificare la risorsa).
 
-* **[!UICONTROL Segnaposto]**: utilizzare questa proprietà per fornire all&#39;utente tutte le informazioni relative alla proprietà dei metadati.
-* **[!UICONTROL Obbligatorio]**: utilizzare questa proprietà per contrassegnare una proprietà di metadati come obbligatoria nella pagina Proprietà.
-* **[!UICONTROL Disabilita modifica]**: utilizzare questa proprietà per impedire la modifica di una proprietà di metadati nella pagina Proprietà.
-* **[!UICONTROL Mostra campo vuoto in sola lettura]**: contrassegnare questa proprietà per visualizzare una proprietà dei metadati nella pagina Proprietà anche se non contiene alcun valore. Per impostazione predefinita, quando una proprietà di metadati non ha un valore, non viene elencata nella pagina Proprietà.
+* **[!UICONTROL Segnaposto]**: utilizzare questa proprietà per fornire all&#39;utente tutte le informazioni pertinenti relative alla proprietà dei metadati.
+* **[!UICONTROL Obbligatorio]**: utilizzare questa proprietà per contrassegnare una proprietà dei metadati come obbligatoria nella pagina Proprietà.
+* **[!UICONTROL Disattiva modifica]**: utilizzare questa proprietà per rendere non modificabile una proprietà dei metadati nella pagina Proprietà.
+* **[!UICONTROL Mostra campo vuoto in sola lettura]**: contrassegnare questa proprietà per visualizzare una proprietà dei metadati nella pagina Proprietà anche se non contiene alcun valore. Per impostazione predefinita, quando una proprietà dei metadati non ha alcun valore, non viene elencata nella pagina Proprietà.
 * **[!UICONTROL Descrizione]**: utilizzare questa proprietà per aggiungere una breve descrizione del componente metadati.
-* **[!UICONTROL Icona Elimina]**: fare clic su questa icona per eliminare un componente dal modulo schema.
+* **[!UICONTROL Icona Elimina]**: fare clic su questa icona per eliminare un componente dal modulo dello schema.
 
   ![](assets/delete_icon_editmetadataschemaform.png)
 
 >[!NOTE]
 >
->Tutti i campi di metadati sono di sola lettura nel modulo dell’editor di metadati di una risorsa. Poiché i metadati della risorsa devono essere modificati in Experience Manager Assets prima che una risorsa venga pubblicata in Brand Portal.
+>Tutti i campi metadati sono di sola lettura nel formato editor metadati di una risorsa. Poiché i metadati della risorsa devono essere modificati in Experience Manager Assets prima che una risorsa venga pubblicata in Brand Portal.
 
-#### Aggiungere o eliminare una scheda nel modulo schema {#add-or-delete-a-tab-in-the-schema-form}
+#### Aggiungere o eliminare una scheda nel modulo dello schema {#add-or-delete-a-tab-in-the-schema-form}
 
-Il modulo schema predefinito include le schede **[!UICONTROL Basic]** e **[!UICONTROL Advanced]**. L’editor dello schema ti consente di aggiungere o eliminare una scheda.
+Il modulo dello schema predefinito include le schede **[!UICONTROL Base]** e **[!UICONTROL Avanzate]**. L’editor dello schema consente di aggiungere o eliminare una scheda.
 
 ![](assets/add_delete_tabs_metadataschemaform.png)
 
-* Per aggiungere una nuova scheda a un modulo schema, fare clic su **[!UICONTROL +]**. Per impostazione predefinita, la nuova scheda è denominata &quot;Unnamed-1&quot;. Puoi modificare il nome dalla scheda **[!UICONTROL Impostazioni]**.
+* Per aggiungere una nuova scheda in un modulo dello schema, fare clic su **[!UICONTROL +]**. Per impostazione predefinita, la nuova scheda è denominata &quot;Unnamed-1&quot;. È possibile modificare il nome dalla scheda **[!UICONTROL Impostazioni]**.
 
   ![](assets/add-tab-metadata-form.png)
 
-* Per eliminare una scheda, fare clic su **[!UICONTROL x]**. Fai clic su **[!UICONTROL Salva]** per salvare le modifiche.
+* Per eliminare una scheda, fai clic su **[!UICONTROL x]**. Fai clic su **[!UICONTROL Salva]** per salvare le modifiche.
 
 ## Applicare uno schema di metadati a una cartella {#apply-a-metadata-schema-to-a-folder}
 
-Brand Portal ti consente di personalizzare e controllare lo schema metadati in modo che nella pagina **[!UICONTROL Proprietà]** di una risorsa vengano visualizzate solo le informazioni specifiche che scegli di visualizzare. Per controllare i metadati visualizzati nella pagina **[!UICONTROL Proprietà]**, rimuovere i metadati richiesti dal modulo schema metadati e applicarli alla cartella specifica.
+Brand Portal consente di personalizzare e controllare lo schema dei metadati in modo che nella pagina **[!UICONTROL Proprietà]** di una risorsa vengano visualizzate solo le informazioni specifiche che si sceglie di visualizzare. Per controllare i metadati visualizzati nella pagina **[!UICONTROL Proprietà]**, rimuovere i metadati richiesti dal modulo dello schema dei metadati e applicarli alla cartella specifica.
 
-Per applicare un modulo schema metadati a una cartella, effettua le seguenti operazioni:
+Per applicare un modulo dello schema di metadati a una cartella, effettuare le seguenti operazioni:
 
-1. Dalla barra degli strumenti nella parte superiore, fai clic sul logo Experience Manager per accedere agli strumenti di amministrazione.
+1. Dalla barra degli strumenti in alto, fai clic sul logo dell’Experience Manager per accedere agli strumenti di amministrazione.
 
    ![](assets/aemlogo.png)
 
-1. Nel pannello Strumenti di amministrazione, fare clic su **[!UICONTROL Schemi metadati]**.
+1. Nel pannello Strumenti di amministrazione, fai clic su **[!UICONTROL Schemi di metadati]**.
 
-1. Dalla pagina **[!UICONTROL Schema metadati Forms]**, seleziona il modulo schema da applicare a una risorsa, ad esempio **[!UICONTROL abbigliamento]**.
+1. Nella pagina **[!UICONTROL Schema metadati Forms]**, selezionare il modulo dello schema che si desidera applicare a una risorsa, ad esempio **[!UICONTROL abbigliamento]**.
 
    ![](assets/apply-metadata-schema-form-to-folder.png)
 
-1. Dalla barra degli strumenti nella parte superiore, fare clic su **[!UICONTROL Applica alle cartelle]**.
+1. Nella barra degli strumenti in alto, fai clic su **[!UICONTROL Applica a cartelle]**.
 
-1. Dalla pagina **[!UICONTROL Seleziona cartelle]**, passa alla cartella alla quale desideri applicare lo schema di metadati **[!UICONTROL abbigliamento]**, ad esempio **[!UICONTROL Guanti]**.
+1. Dalla pagina **[!UICONTROL Seleziona cartelle]**, passare alla cartella in cui si desidera applicare lo schema di metadati **[!UICONTROL abbigliamento]**, ad esempio **[!UICONTROL Guanti]**.
 
    ![](assets/apply_metadata_schemaformtofoldergloves.png)
 
-1. Fai clic su **[!UICONTROL Applica]** per applicare alla cartella il modulo schema metadati.
+1. Fare clic su **[!UICONTROL Applica]** per applicare il modulo dello schema dei metadati alla cartella.
 
    I metadati disponibili nel modulo schema metadati **[!UICONTROL abbigliamento]** vengono applicati alla cartella **[!UICONTROL Gloves]** ed è visibile nella pagina **[!UICONTROL Properties]** della cartella.
 
