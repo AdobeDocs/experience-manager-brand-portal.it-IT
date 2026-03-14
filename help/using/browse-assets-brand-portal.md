@@ -56,7 +56,7 @@ La vista a schede mostra le schede informative per ogni elemento al livello corr
 * Dimensione
 * Dimensioni
 
-Puoi spostarti verso il basso nella gerarchia facendo clic sulle schede (facendo attenzione a evitare le azioni rapide) o verso l&#39;alto utilizzando le [breadcrumb nell&#39;intestazione](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling).
+Puoi spostarti verso il basso nella gerarchia facendo clic sulle schede (facendo attenzione a evitare le azioni rapide) o verso l&#39;alto utilizzando le [breadcrumb nell&#39;intestazione](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling).
 
 ![](assets/cardquickactions.png)
 
@@ -106,7 +106,7 @@ Nella vista a elenco vengono visualizzate le informazioni per ogni risorsa al li
 * Percorso cartella che mostra la gerarchia delle risorse
 * Data di pubblicazione della risorsa su Brand Portal
 
-La colonna del percorso consente di identificare facilmente la posizione della risorsa nella gerarchia delle cartelle. Per spostarti verso il basso nella gerarchia, fai clic sul nome della risorsa ed effettua un backup utilizzando le [breadcrumb nell&#39;intestazione](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling).
+La colonna del percorso consente di identificare facilmente la posizione della risorsa nella gerarchia delle cartelle. Per spostarti verso il basso nella gerarchia, fai clic sul nome della risorsa ed effettua un backup utilizzando le [breadcrumb nell&#39;intestazione](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling).
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click the checkbox. When only some items are selected, it appears with a minus sign. To select all, click the checkbox. To deselect all, click the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Click the vertical selection bar and drag the item to a new position in the list."
