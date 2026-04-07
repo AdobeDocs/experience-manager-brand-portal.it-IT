@@ -31,7 +31,7 @@ Per visualizzare in anteprima, riprodurre e scaricare i video, Brand Portal espo
 
 * [Configurazione ibrida per elementi multimediali dinamici](#configure-dm-hybrid-settings)
 Se l’istanza Autore Experience Manager è in esecuzione in Dynamic Media, la modalità ibrida.
-* Configurazione di [Dynamic Media [!DNL Scene7] ](#configure-dm-scene7-settings)
+* Configurazione di [Dynamic Media [!DNL Scene7] &#x200B;](#configure-dm-scene7-settings)
 Se l&#39;istanza Autore Experience Manager è in esecuzione in Dynamic Media - modalità **[!DNL Scene7]**.
 Imposta una di queste configurazioni in base alle configurazioni impostate nell’istanza Autore di Experience Manager con cui viene replicato il tenant Brand Portal.
 
