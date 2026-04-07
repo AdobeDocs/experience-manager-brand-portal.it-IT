@@ -6,10 +6,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: download-install
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
-source-git-commit: ce9cf89dc3fdfe1f147096b42233aa3f599dcf43
+source-git-commit: 3800baf10e1186b8f49fc7eb6afcb0edfb29769a
 workflow-type: tm+mt
-source-wordcount: '1196'
-ht-degree: 2%
+source-wordcount: '1379'
+ht-degree: 1%
 
 ---
 
@@ -29,9 +29,9 @@ Gli utenti di Brand Portal possono:
 
 Per visualizzare in anteprima, riprodurre e scaricare i video, Brand Portal espone agli amministratori le due configurazioni seguenti:
 
-* [Configurazione ibrida per Dynamic Media](#configure-dm-hybrid-settings)
+* [Configurazione ibrida per elementi multimediali dinamici](#configure-dm-hybrid-settings)
 Se l’istanza Autore Experience Manager è in esecuzione in Dynamic Media, la modalità ibrida.
-* [Dynamic Media [!DNL Scene7] configurazione](#configure-dm-scene7-settings)
+* Configurazione di [Dynamic Media [!DNL Scene7] &#x200B;](#configure-dm-scene7-settings)
 Se l&#39;istanza Autore Experience Manager è in esecuzione in Dynamic Media - modalità **[!DNL Scene7]**.
 Imposta una di queste configurazioni in base alle configurazioni impostate nell’istanza Autore di Experience Manager con cui viene replicato il tenant Brand Portal.
 
@@ -61,7 +61,7 @@ Per lavorare con i video dinamici su Brand Portal, assicurati di:
 
 * **Configura i servizi cloud per elementi multimediali dinamici nell&#39;istanza Autore Experience Manager**
 
-  In base alla modalità Dynamic Media (modalità Scene7 o ibrida) su cui è in esecuzione Experience Manager Author, imposta [Dynamic Media Cloud Services ([!DNL Scene7] mode)](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services) o [Dynamic Media Cloud Services (modalità ibrida)](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services) su Experience Manager Author da **Strumenti** | **Servizi cloud** | **Elemento multimediale dinamico**.
+  In base alla modalità Dynamic Media (modalità Scene7 o ibrida) su cui è in esecuzione Experience Manager Author, imposta [Dynamic Media Cloud Services ([!DNL Scene7] mode)](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services) o [Dynamic Media Cloud Services (modalità ibrida)](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services) su Experience Manager Author da **Strumenti** | **Cloud Services** | **Dynamic Media**.
 
 * **Configura Dynamic Media in Brand Portal**
 
@@ -83,9 +83,9 @@ Per lavorare con i video dinamici su Brand Portal, assicurati di:
   |--- |--- |
   | ND | 130.248.160.68, 20.94.203.130 |
   | EMEA | 185.34.189.3, 51.132.146.75 |
-  | APAC | 63.140.44.54 |
+  | APAC | 172.82.240.74, 172.82.240.75 |
 
-  Inserire nell&#39;elenco Consentiti Per uno di questi IP in uscita, consulta [Preparare il tuo account per un servizio di test sicuro](https://experienceleague.adobe.com/it/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service).
+  Per uno di questi IP in uscita, consulta [Preparare il tuo account per un servizio di test sicuro](https://experienceleague.adobe.com/it/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service).
 
 ## Best practice
 
@@ -93,7 +93,7 @@ Assicurati che le risorse video dinamiche siano state visualizzate in anteprima,
 
 ### Tenant separati per Dynamic Media - Scene7 e Dynamic Media - Modalità ibride {#separate-tenants}
 
-Brand Portal Se si utilizzano entrambe le funzionalità Dynamic Media - modalità **[!DNL Scene7]** e Dynamic Media - modalità ibrida, utilizzare tenant diversi per le istanze di authoring Experience Manager configurate con le modalità Dynamic Media - **[!DNL Scene7]** e Dynamic Media - ibrida.
+Se si utilizzano entrambe le funzionalità Dynamic Media - modalità **[!DNL Scene7]** e Dynamic Media - modalità ibrida, utilizzare tenant diversi per le istanze di authoring Experience Manager configurate con le modalità Dynamic Media - **[!DNL Scene7]** e Dynamic Media - ibrida.
 
 
 ![Mappatura uno a uno dell&#39;autore e della BP](assets/BPDynamicMedia.png)
@@ -114,7 +114,7 @@ Assicurati che i dettagli di configurazione siano gli stessi in Brand Portal e *
 
 Se si utilizza Dynamic Media **[!UICONTROL Scene7]** - con [anteprima protetta abilitata](https://experienceleague.adobe.com/it/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public) - per distribuire risorse video a Brand Portal, **[!UICONTROL Scene7]** stabilisce un server immagini dedicato per gli ambienti di staging o le applicazioni interne. Qualsiasi richiesta inviata a questo server controlla l’indirizzo IP di origine. Se la richiesta in ingresso non si trova nell’elenco approvato di indirizzi IP, viene restituita una risposta di errore.
 L&#39;amministratore della società **[!UICONTROL Scene7]** configura quindi un elenco approvato di indirizzi IP per l&#39;ambiente **[!UICONTROL Secure Testing]** della propria società tramite l&#39;interfaccia utente flash **[!UICONTROL SPS]** (Scene7 Publishing System). Accertati che l’IP in uscita per la tua rispettiva regione (dal seguente) sia aggiunto all’elenco approvato.
-Inserire nell&#39;elenco Consentiti Per uno di questi IP in uscita, consulta [Preparare il tuo account per un servizio di test sicuro](https://experienceleague.adobe.com/it/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service).
+Per uno di questi IP in uscita, consulta [Preparare il tuo account per un servizio di test sicuro](https://experienceleague.adobe.com/it/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service).
 Gli IP in uscita sono i seguenti:
 
 | **Area** | **IP in uscita** |
