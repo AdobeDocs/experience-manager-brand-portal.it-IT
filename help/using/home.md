@@ -2,10 +2,14 @@
 title: Guida di Adobe Experience Manager Assets Brand Portal
 description: Utilizza Experience Manager Assets Brand Portal per soddisfare le esigenze di marketing grazie alla distribuzione in modo sicuro delle risorse di prodotto e brand approvati, per consentirne il download da parte di agenzie esterne, partner, team interni e rivenditori.
 exl-id: bc9a7ab7-4d43-4004-94b3-b2c9eadad9e3
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
-workflow-type: ht
-source-wordcount: '401'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/-IsbLpGrq16MLj74ma34fxV3ac9EKMNBMny7taDO6ZQ
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+workflow-type: tm+mt
+source-wordcount: 439
+ht-degree: 98%
 
 ---
 
@@ -45,7 +49,7 @@ Questa guida utente illustra in dettaglio le funzionalità offerte da Brand Port
 | [Formati di file supportati](brand-portal-supported-formats.md) | Formati di file supportati in Brand Portal per l’anteprima e il download. |
 | [Pubblicare le risorse in Brand Portal](brand-portal-sharing-folders.md) | Informazioni su come pubblicare cartelle, raccolte, collegamenti, predefiniti, schemi, facet e tag in Brand Portal. |
 | [Fornitura di risorse in Brand Portal](brand-portal-asset-sourcing.md) | Come configurare la Fornitura di risorse in AEM Assets, caricare le risorse in Brand Portal e pubblicare nuovamente la cartella di contributi in AEM Assets. |
-| [Video sulle funzioni di Brand Portal](https://experienceleague.adobe.com/it?lang=en&amp;tag=Brand+Portal#recommended/solutions/experience-manager) | Scopri come utilizzare Experience Manager Assets Brand Portal con l’aiuto di tutorial video. |
+| [Video sulle funzioni di Brand Portal](https://experienceleague.adobe.com/it?lang=en&tag=Brand+Portal#recommended/solutions/experience-manager) | Scopri come utilizzare Experience Manager Assets Brand Portal con l’aiuto di tutorial video. |
 
 ### Risorse utili
 

@@ -5,10 +5,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 exl-id: fa5d87a8-dc45-4c8a-8a96-ac7ec793952b
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+TQID: https://experienceleague.adobe.com/WM9-KLF7eGOn0yWToGC6GWNIbZrrXJ1DrCs4BuheKCM
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 63%
+source-wordcount: 315
+ht-degree: 51%
 
 ---
 
@@ -32,7 +36,7 @@ Ogni Experience Manager Assets Brand Portal supporta formati di file specifici, 
 | DNG | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
 | PICT | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
 | PSB* | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
-| JPG- | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| JPG | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | AI | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
 | DOC | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
 | DOCX | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
@@ -83,4 +87,4 @@ La legenda seguente spiega i simboli utilizzati nella matrice:
 | ✓ | Questo formato di file supporta questa funzione. |
 | ✕ | Questo formato di file non supporta questa funzione. |
 | ND | Questa funzione non è applicabile a questo formato di file. |
-| * | Questa funzione richiede il supporto dei componenti aggiuntivi per questo formato di file nell’istanza di authoring dell’AEM, ma non in Brand Portal, dopo la pubblicazione delle risorse in Brand Portal. |
+| * | Questa funzione richiede il supporto dei componenti aggiuntivi per questo formato di file nell’istanza di authoring di AEM, ma non in Brand Portal, dopo la pubblicazione delle risorse in Brand Portal. |

@@ -6,10 +6,16 @@ topic-tags: introduction
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: ecce0a45-abae-41c4-9ea7-5dfdcf19e5ea
-source-git-commit: 4c701781e7dc62b9d2b018fd13b1ae9616bbb840
+TQID: https://experienceleague.adobe.com/oyNPb7pxN7VLKQJko76nRzM2H1xL7e-s3E--FDTREf0
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 0%
+source-wordcount: 1051
+ht-degree: 3%
 
 ---
 
@@ -40,7 +46,7 @@ Per accedere a Brand Portal in modo anonimo, seleziona **[!UICONTROL Fai clic qu
 Una sessione utente guest rimane attiva per 15 minuti.
 Questo processo mantiene lo stato di **[!UICONTROL Lightbox]** per 15 minuti dall&#39;inizio della sessione. Successivamente, la sessione guest corrente viene riavviata, causando la perdita dello stato Lightbox.
 
-Ad esempio, un utente guest accede a Brand Portal alle 15:00 e aggiunge risorse a **[!UICONTROL Lightbox]** per il download alle 15:05. Se l&#39;utente non scarica la raccolta **[!UICONTROL Lightbox]** (o le relative risorse) prima delle 15:15 ore (entro 15 minuti dall&#39;accesso), deve riavviare la sessione. La **[!UICONTROL Lightbox]** è vuota, pertanto le risorse caricate non sono più disponibili se la sessione è stata persa.
+Ad esempio, un utente ospite accede a Brand Portal alle 15:00 e aggiunge risorse a **[!UICONTROL Lightbox]** per scaricarle alle 15:2} ore. :05Se l&#39;utente non scarica la raccolta **[!UICONTROL Lightbox]** (o le relative risorse) prima di 15:15 ore (entro 15 minuti dall&#39;accesso), deve riavviare la sessione. La **[!UICONTROL Lightbox]** è vuota, pertanto le risorse caricate non sono più disponibili se la sessione è stata persa.
 
 ## Sessioni guest simultanee consentite {#concurrent-guest-sessions-allowed}
 
@@ -61,13 +67,13 @@ Quando si accede a Brand Portal come guest, gli utenti possono visualizzare tutt
 
 Se gli amministratori abilitano [Abilita gerarchia cartelle](../using/brand-portal-general-configuration.md#main-pars-header-1621071021), gli utenti guest visualizzano la struttura delle cartelle dalla radice e dalle cartelle condivise all&#39;interno delle proprie cartelle padre al momento dell&#39;accesso a Brand Portal.
 
-Queste cartelle principali sono cartelle virtuali e non è possibile eseguire alcuna azione su di esse. È possibile riconoscere queste cartelle virtuali con un&#39;icona di blocco.
+Queste cartelle principali sono cartelle virtuali e non è possibile eseguire alcuna azione su di esse. Queste cartelle virtuali sono riconoscibili dall’icona del lucchetto.
 
 Nessuna attività di azione visibile al passaggio del mouse o alla selezione in **[!UICONTROL Vista a schede]**, a differenza delle cartelle condivise. Il pulsante **[!UICONTROL Panoramica]** viene visualizzato quando si seleziona una cartella virtuale in **[!UICONTROL Vista a colonne]** e **[!UICONTROL Vista a elenco]**.
 
 >[!NOTE]
 >
->La miniatura predefinita delle cartelle virtuali è quella della prima cartella condivisa.
+>La miniatura predefinita delle cartelle virtuali è l’immagine miniatura della prima cartella condivisa.
 
 ![](assets/enabled-hierarchy1.png) ![](assets/hierarchy1-nonadmin.png) ![](assets/hierarchy-nonadmin.png) ![](assets/hierarchy2-nonadmin.png)
 

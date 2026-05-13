@@ -1,25 +1,31 @@
 ---
-title: Applicare predefiniti immagine o rappresentazioni dinamiche
+title: Applicare i predefiniti per immagini o le rappresentazioni dinamiche
 description: Analogamente a una macro, un predefinito immagine è un insieme predefinito di comandi di ridimensionamento e formattazione salvati con un nome. I predefiniti per immagini consentono a Experience Manager Assets Brand Portal di distribuire dinamicamente immagini di diverse dimensioni, formati e proprietà.
 content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 role: Admin
 exl-id: 212a1b3a-686f-4250-be06-b679b6039887
-source-git-commit: 10f89ded6febb1a024cbe181fa48a290d90223f0
+TQID: https://experienceleague.adobe.com/XWG-kCasFqDycZEmxS6SBEVh4Jz-79p-u56SilhfprY
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: bd0d2470-932c-4269-8eca-6d939b72d9efid: cda65036-5305-4f01-89da-9b3506ae8c50
+subfeature_v2: id: cf50b0d2-df62-495c-a741-4fa0284ca4fcid: ee69dd13-2aba-4eb0-912b-399e82368d73
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '815'
-ht-degree: 1%
+source-wordcount: 817
+ht-degree: 3%
 
 ---
 
-# Applicare predefiniti immagine o rappresentazioni dinamiche {#apply-image-presets-or-dynamic-renditions}
+# Applicare i predefiniti per immagini o le rappresentazioni dinamiche {#apply-image-presets-or-dynamic-renditions}
 
 Analogamente a una macro, un predefinito immagine è un insieme predefinito di comandi di ridimensionamento e formattazione salvati con un nome. I predefiniti per immagini consentono a Experience Manager Assets Brand Portal di distribuire dinamicamente immagini di diverse dimensioni, formati e proprietà.
 
 Un predefinito per immagini viene utilizzato per generare rappresentazioni dinamiche di immagini che possono essere visualizzate in anteprima e scaricate. Quando visualizzi l’anteprima delle immagini e delle relative rappresentazioni, puoi scegliere un predefinito per riformattare le immagini in base alle specifiche impostate dall’amministratore.
 
-(*Se l&#39;istanza Autore Experience Manager Assets è in esecuzione in **modalità ibrida Dynamic Medie***). Per visualizzare le rappresentazioni dinamiche di una risorsa in Brand Portal, accertati che la relativa rappresentazione di Pyramid TIFF esista nell’istanza di authoring di Experience Manager Assets da dove pubblichi in Brand Portal. Quando pubblichi la risorsa, anche la relativa rappresentazione PTIFF viene pubblicata in Brand Portal.
+(*Se l&#39;istanza di authoring di Experience Manager Assets è in esecuzione in **modalità ibrida di elementi multimediali dinamici***). Per visualizzare le rappresentazioni dinamiche di una risorsa in Brand Portal, accertati che la relativa rappresentazione Pyramid TIFF esista nell’istanza di authoring di Experience Manager Assets da dove pubblichi in Brand Portal. Quando pubblichi la risorsa, anche la relativa rappresentazione PTIFF viene pubblicata in Brand Portal.
 
 >[!NOTE]
 >
@@ -34,16 +40,16 @@ Gli amministratori di Experience Manager Assets possono creare predefiniti per i
 
 >[!NOTE]
 >
->Le rappresentazioni dinamiche di un’immagine vengono create utilizzando il relativo Pyramid TIFF. Se Pyramid TIFF non è disponibile per alcuna risorsa, non è possibile recuperare le relative rappresentazioni dinamiche in Brand Portal.
+>Le rappresentazioni dinamiche di un’immagine vengono create utilizzando la relativa piramide TIFF. Se il TIFF piramidale non è disponibile per alcuna risorsa, non è possibile recuperare le relative rappresentazioni dinamiche in Brand Portal.
 >
->Se l&#39;istanza di Experience Manager Assets Author è in esecuzione in modalità **Dynamic Medie TIFF Hybrid**, le rappresentazioni piramidali delle risorse immagine vengono create e salvate nell&#39;archivio Experience Manager Assets.
+>Se l&#39;istanza di Experience Manager Assets Author è in esecuzione in **modalità ibrida di elementi multimediali dinamici**, le rappresentazioni piramidali di TIFF delle risorse immagine vengono create e salvate nell&#39;archivio di Experience Manager Assets.
 >
->Tuttavia, se un&#39;istanza di Experience Manager Assets Author è in esecuzione in **modalità Dynamic Medie Scene7**, nel server Scene7 esistono rappresentazioni delle immagini in Pyramid TIFF.
+>Tuttavia, se un&#39;istanza di Experience Manager Assets Author è in esecuzione in modalità **Dynamic Media Scene7**, nel server Scene7 esistono rappresentazioni piramidali delle risorse di immagini da TIFF.
 >
 >Quando tali risorse vengono pubblicate in Brand Portal, vengono applicati i predefiniti immagine e vengono visualizzate le rappresentazioni dinamiche.
 
 
-1. Dalla barra degli strumenti nella parte superiore, fai clic sul logo dell’Experience Manager per accedere agli strumenti di amministrazione.
+1. Dalla barra degli strumenti nella parte superiore, fai clic sul logo Experience Manager per accedere agli strumenti di amministrazione.
 
 1. Nel pannello Strumenti di amministrazione, fai clic su **[!UICONTROL Predefiniti immagine]**.
 

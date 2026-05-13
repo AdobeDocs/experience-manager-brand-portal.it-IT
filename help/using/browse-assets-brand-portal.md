@@ -5,9 +5,13 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
-source-git-commit: 6194eb5697ef48c9693c00a7a51322ef4827cdc3
+TQID: https://experienceleague.adobe.com/BkJZocCqHqpIIn-BdxmRJWi0bX7afdWEKbzWmPzraDk
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: 1044
 ht-degree: 12%
 
 ---
@@ -56,7 +60,7 @@ La vista a schede mostra le schede informative per ogni elemento al livello corr
 * Dimensione
 * Dimensioni
 
-Puoi spostarti verso il basso nella gerarchia facendo clic sulle schede (facendo attenzione a evitare le azioni rapide) o verso l&#39;alto utilizzando le [breadcrumb nell&#39;intestazione](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling).
+Puoi spostarti verso il basso nella gerarchia facendo clic sulle schede (facendo attenzione a evitare le azioni rapide) o verso l&#39;alto utilizzando le [breadcrumb nell&#39;intestazione](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling).
 
 ![](assets/cardquickactions.png)
 
@@ -106,7 +110,7 @@ Nella vista a elenco vengono visualizzate le informazioni per ogni risorsa al li
 * Percorso cartella che mostra la gerarchia delle risorse
 * Data di pubblicazione della risorsa su Brand Portal
 
-La colonna del percorso consente di identificare facilmente la posizione della risorsa nella gerarchia delle cartelle. Per spostarti verso il basso nella gerarchia, fai clic sul nome della risorsa ed effettua un backup utilizzando le [breadcrumb nell&#39;intestazione](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling).
+La colonna del percorso consente di identificare facilmente la posizione della risorsa nella gerarchia delle cartelle. Per spostarti verso il basso nella gerarchia, fai clic sul nome della risorsa ed effettua un backup utilizzando le [breadcrumb nell&#39;intestazione](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling).
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click the checkbox. When only some items are selected, it appears with a minus sign. To select all, click the checkbox. To deselect all, click the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Click the vertical selection bar and drag the item to a new position in the list."
