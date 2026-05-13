@@ -254,4 +254,4 @@ Puoi ignorare questa notifica e continuare a utilizzare Brand Portal. Questa not
 * [Adobe Customer Support]()
 -->
 
-* [Forum AEM](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)
+* [Forum AEM](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=it)
