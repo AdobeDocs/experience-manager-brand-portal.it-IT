@@ -6,10 +6,20 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 role: Admin
 exl-id: 9f5c2a6a-8844-4ca4-b0d9-8f50b6164219
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+TQID: https://experienceleague.adobe.com/hYCuP-z0l45Qc7ZXOjsgFptFF8QGhRp-62iDNFJ1x-o
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: cda65036-5305-4f01-89da-9b3506ae8c50
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 0%
+source-wordcount: 761
+ht-degree: 3%
 
 ---
 
@@ -21,7 +31,7 @@ Gli amministratori di Brand Portal possono apportare personalizzazioni limitate 
 
 In assenza di un&#39;immagine di sfondo con marchio personalizzato, nella pagina di accesso viene visualizzato uno sfondo predefinito.
 
-1. Dalla barra degli strumenti nella parte superiore, fai clic sul logo dell’Experience Manager per accedere agli strumenti di amministrazione.
+1. Dalla barra degli strumenti nella parte superiore, fai clic sul logo Experience Manager per accedere agli strumenti di amministrazione.
 
    ![](assets/aemlogo.png)
 
@@ -37,7 +47,7 @@ In assenza di un&#39;immagine di sfondo con marchio personalizzato, nella pagina
 
    ![](assets/choose_wallpaperimage.png)
 
-   Effettua una delle operazioni seguenti:
+   Effettua una delle seguenti operazioni:
 
    * Per caricare un&#39;immagine dal computer, fai clic su **[!UICONTROL Carica]**. Passa all’immagine richiesta e caricala.
    * Per utilizzare un&#39;immagine Brand Portal esistente, fare clic su **[!UICONTROL Seleziona da esistente]**. Scegli un’immagine con il selettore risorse.
@@ -68,7 +78,7 @@ In assenza di un&#39;immagine di sfondo con marchio personalizzato, nella pagina
 
 L’intestazione viene visualizzata su varie pagine di Brand Portal dopo l’accesso a Brand Portal.
 
-1. Dalla barra degli strumenti nella parte superiore, fai clic sul logo dell’Experience Manager per accedere agli strumenti di amministrazione.
+1. Dalla barra degli strumenti nella parte superiore, fai clic sul logo Experience Manager per accedere agli strumenti di amministrazione.
 
    ![](assets/aemlogo.png)
 
@@ -118,7 +128,7 @@ Per salvare le modifiche, fai clic su **[!UICONTROL Salva]** nella barra degli s
 
 Quando le risorse vengono condivise come collegamento, gli utenti ricevono un’e-mail contenente il collegamento. Gli amministratori possono personalizzare la messaggistica di tali e-mail, ovvero il logo, la descrizione e il piè di pagina.
 
-1. Dalla barra degli strumenti nella parte superiore, fai clic sul logo dell’Experience Manager per accedere agli strumenti di amministrazione.
+1. Dalla barra degli strumenti nella parte superiore, fai clic sul logo Experience Manager per accedere agli strumenti di amministrazione.
 
    ![](assets/aemlogo.png)
 

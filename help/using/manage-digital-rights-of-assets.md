@@ -1,5 +1,5 @@
 ---
-title: Gestire i diritti digitali delle risorse
+title: Gestire i diritti delle risorse digitali
 description: La concessione di licenze per le risorse e la fissazione della scadenza per le risorse e i collegamenti condivisi garantiscono l’utilizzo controllato di tali risorse e la loro salvaguardia.
 contentOwner: bdhar
 topic-tags: download-install
@@ -7,16 +7,24 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 role: Admin
 exl-id: 86c31891-0627-41ca-b571-8dac3a074d55
-source-git-commit: 10f89ded6febb1a024cbe181fa48a290d90223f0
+TQID: https://experienceleague.adobe.com/3ZH-bkACyy-0XGHZu4uxJCXGgAKCoD4JmcCd1vBBxLA
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 3%
+source-wordcount: 904
+ht-degree: 4%
 
 ---
 
-# Gestire i diritti digitali delle risorse {#manage-digital-rights-of-assets}
+# Gestire i diritti delle risorse digitali {#manage-digital-rights-of-assets}
 
-Per proteggere il marchio è fondamentale garantire la sicurezza della distribuzione e dell&#39;utilizzo delle risorse creative e del materiale del marchio. Questo processo può essere applicato associando una data di scadenza (e un’ora) alle risorse approvate pubblicate dall’AEM a Brand Portal, oppure concedendo in licenza tali risorse per un uso condizionale. Inoltre, Brand Portal consente di specificare una data di scadenza per i collegamenti alle risorse condivise da Brand Portal.
+Per proteggere il marchio è fondamentale garantire la sicurezza della distribuzione e dell&#39;utilizzo delle risorse creative e del materiale del marchio. Questo processo può essere applicato associando una data di scadenza (e un’ora) alle risorse approvate pubblicate da AEM a Brand Portal oppure concedendo in licenza tali risorse per un uso condizionale. Inoltre, Brand Portal consente di specificare una data di scadenza per i collegamenti alle risorse condivise da Brand Portal.
 
 Continua a leggere per sapere come vengono protette le risorse su Brand Portal e per comprendere le relative autorizzazioni di utilizzo.
 

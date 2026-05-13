@@ -1,19 +1,31 @@
 ---
-title: Usa facet di ricerca personalizzati
+title: Utilizzare i facet di ricerca personalizzati
 description: Gli amministratori possono aggiungere predicati di ricerca al pannello Filtri per personalizzare la ricerca e renderla versatile.
 content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 role: Admin
 exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
-source-git-commit: 4c701781e7dc62b9d2b018fd13b1ae9616bbb840
+TQID: https://experienceleague.adobe.com/SYuZB0vfNFNK55QKcIQeROLmufoUIXMrgtXEPGkTo8A
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: cda65036-5305-4f01-89da-9b3506ae8c50
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1351'
-ht-degree: 7%
+source-wordcount: 1363
+ht-degree: 9%
 
 ---
 
-# Usa facet di ricerca personalizzati {#use-custom-search-facets}
+# Utilizzare i facet di ricerca personalizzati {#use-custom-search-facets}
 
 Gli amministratori possono aggiungere predicati di ricerca al pannello [!UICONTROL Filtri] per personalizzare la ricerca e renderla versatile.
 
@@ -27,7 +39,7 @@ Puoi utilizzare vari predicati di ricerca per personalizzare il pannello **[!UIC
 
 ## Aggiungere un predicato di ricerca al pannello Filtri {#add-a-search-predicate}
 
-1. Per accedere agli strumenti di amministrazione, fai clic sul logo dell’Experience Manager nella barra degli strumenti in alto.
+1. Per accedere agli strumenti di amministrazione, fai clic sul logo Experience Manager nella barra degli strumenti in alto.
 
    ![](assets/aemlogo.png)
 
@@ -60,7 +72,7 @@ Puoi utilizzare vari predicati di ricerca per personalizzare il pannello **[!UIC
 
    >[!NOTE]
    >
-   >Quando si seleziona la casella di controllo **[!UICONTROL Ricerca parziale]**, **[!UICONTROL Ignora maiuscole/minuscole]** è selezionato per impostazione predefinita.
+   >Selezionando la casella di controllo **[!UICONTROL Ricerca parziale]**, l’opzione **[!UICONTROL Ignora maiuscole/minuscole]** è selezionata per impostazione predefinita.
 
 1. Nel campo **[!UICONTROL Nome proprietà]**, apri il selettore delle proprietà e seleziona la proprietà in base alla quale viene eseguita la ricerca. In alternativa, immettere un nome per la proprietà. Ad esempio, inserisci `jcr :content/metadata/dc:title` o `./jcr:content/metadata/dc:title`.
 
@@ -85,7 +97,7 @@ Analogamente all&#39;aggiunta di un predicato **[!UICONTROL Property]**, è poss
 
 | **Nome predicato** | **Descrizione** | **Proprietà** |
 |-------|-------|----------|
-| **[!UICONTROL Browser Percorsi]** | Predicato di ricerca per cercare le risorse in una posizione particolare. **Nota:** *Per un utente connesso, il browser percorsi su filtro mostra solo la struttura del contenuto delle cartelle (e dei relativi predecessori) condivise con l&#39;utente.* <br> Gli utenti amministratori possono cercare le risorse in qualsiasi cartella navigando in tale cartella utilizzando il browser percorsi. <br> Mentre gli utenti non amministratori possono cercare le risorse in una cartella (accessibile) passando a tale cartella nel browser percorsi. | <ul><li>Etichetta campo</li><li>Percorso</li><li>Descrizione</li></ul> |
+| **[!UICONTROL Browser Percorsi]** | Predicato di ricerca per cercare le risorse in una posizione particolare. **Nota:** *Per un utente connesso, il browser percorsi sul filtro mostra solo la struttura del contenuto delle cartelle (e dei relativi predecessori) condivise con l&#39;utente.* <br> Gli utenti amministratori possono cercare le risorse in qualsiasi cartella navigando in tale cartella utilizzando il browser Percorsi. <br> Gli utenti non amministratori possono invece cercare le risorse in una cartella (accessibile) accedendo a tale cartella nel browser percorsi. | <ul><li>Etichetta campo</li><li>Percorso</li><li>Descrizione</li></ul> |
 | **[!UICONTROL Proprietà]** | Cerca le risorse in base a una particolare proprietà di metadati. **Nota:** *Quando si seleziona Ricerca parziale, Ignora maiuscole/minuscole è selezionato per impostazione predefinita*. | <ul><li>Etichetta campo</li><li>Segnaposto</li><li>Nome proprietà</li><li>Ricerca parziale</li><li>Ignora maiuscole/minuscole</li><li> Descrizione</li></ul> |
 | **[!UICONTROL Proprietà con più valori]** | Simile a un predicato di proprietà ma consente più valori di input, separati da un delimitatore (l’impostazione predefinita è una virgola). Le risorse che corrispondono a uno qualsiasi dei valori di input vengono restituite nei risultati. | <ul><li>Etichetta campo</li><li>Segnaposto</li><li>Nome proprietà</li><li>Supporto delimitatore</li><li>Ignora maiuscole/minuscole</li><li>Descrizione</li></ul> |
 | **[!UICONTROL Tag]** | Predicato di ricerca per cercare le risorse in base ai tag. È possibile configurare la proprietà Path per compilare vari tag nell&#39;elenco Tag. Gli amministratori potrebbero dover modificare il valore del percorso, ad esempio [!UICONTROL /`etc/tags/mac/<tenant_id>/<custom_tag_namespace>`]. È necessario se pubblicano il modulo di ricerca da AEM, in cui il percorso non include informazioni sul tenant, ad esempio [!UICONTROL `/etc/tags/<custom_tag_namespace>`]. | <ul><li>Etichetta campo</li><li>Nome proprietà</li><li>Percorso</li><li>Descrizione</li></ul> |
@@ -105,14 +117,14 @@ Analogamente all&#39;aggiunta di un predicato **[!UICONTROL Property]**, è poss
 
 >[!NOTE]
 >
->* Non utilizzare **[!UICONTROL Predicato opzioni]**, **[!UICONTROL Predicato di stato Publish]** e **[!UICONTROL Predicato di valutazione]** poiché questi predicati non sono funzionanti in Brand Portal.
+>* Non utilizzare **[!UICONTROL Predicato opzioni]**, **[!UICONTROL Predicato di stato pubblicazione]** e **[!UICONTROL Predicato di valutazione]** poiché questi predicati non sono funzionanti in Brand Portal.
 >* Il predicato del tipo di cartella `(nt:folder type)` non è supportato in Brand Portal e potrebbe causare problemi di prestazioni. Se è presente in un modulo di ricerca personalizzato pubblicato, è possibile eliminarlo modificando il modulo di ricerca.
 
 ## Eliminare un predicato di ricerca {#delete-a-search-predicate}
 
 Per eliminare un predicato di ricerca, eseguire la procedura seguente:
 
-1. Fai clic sul logo dell’Adobe per accedere agli strumenti di amministrazione.
+1. Fai clic sul logo Adobe per accedere agli strumenti di amministrazione.
 
    ![](assets/aemlogo.png)
 

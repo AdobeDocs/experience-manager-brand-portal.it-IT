@@ -7,14 +7,27 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 role: Admin
 exl-id: 5607be8e-0a7f-4692-b71b-5f66eb9ac5ee
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+TQID: https://experienceleague.adobe.com/W08soCNQvrQy3ZttX4Oa2m-dvmTSxyeTpPmHNLedgPA
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: cda65036-5305-4f01-89da-9b3506ae8c50
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2:
+  - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 0%
+source-wordcount: 396
+ht-degree: 1%
 
 ---
 
-# Amministrare le configurazioni tenant generali {#administer-general-tenant-configurations}
+# Amministrare le configurazioni dei tenant generali {#administer-general-tenant-configurations}
 
 Experience Manager Assets Brand Portal consente alle organizzazioni di configurare le seguenti funzionalità per tenant specifici:
 
@@ -40,7 +53,7 @@ Queste configurazioni sono state fornite come **[!UICONTROL Configurazioni gener
 Per attivare o disattivare ognuna di queste configurazioni:
 
 1. Accedi con privilegi di amministratore.
-1. Seleziona il logo di Experience Manager per accedere agli strumenti di amministrazione dalla barra degli strumenti nella parte superiore.
+1. Seleziona il logo Experience Manager per accedere agli strumenti di amministrazione dalla barra degli strumenti nella parte superiore.
 1. Dal pannello Strumenti di amministrazione, selezionare **[!UICONTROL Generale]** per aprire la pagina **[!UICONTROL Impostazioni generali]**.
 1. Utilizza il rispettivo interruttore per attivare o disattivare una delle configurazioni Generali.
 1. **[!UICONTROL Salva]** le modifiche.

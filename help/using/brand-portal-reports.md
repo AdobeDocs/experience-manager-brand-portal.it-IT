@@ -6,10 +6,21 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 role: Admin
 exl-id: 03d0292c-23c2-4ea0-9781-eb27768e6c33
-source-git-commit: 133ea1fc342e4460e7d0661205c7411a509143eb
+TQID: https://experienceleague.adobe.com/4p-phv75ZqbWNLAxXeZ-QEpZxSTgv-oV8AEIbue9Zvw
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: cda65036-5305-4f01-89da-9b3506ae8c50
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 0%
+source-wordcount: 1010
+ht-degree: 4%
 
 ---
 
@@ -19,11 +30,11 @@ La funzionalità di reporting è fondamentale per valutare l’utilizzo di Brand
 
 L’interfaccia di gestione dei rapporti è intuitiva e include opzioni e controlli dettagliati per accedere ai rapporti salvati. Puoi visualizzare, scaricare o eliminare i rapporti dalla pagina Rapporti su risorse, in cui sono elencati tutti i rapporti generati in precedenza.
 
-## Visualizzare i rapporti {#view-reports}
+## Visualizzazione dei rapporti {#view-reports}
 
 Per visualizzare un rapporto, effettua le seguenti operazioni:
 
-1. Dalla barra degli strumenti nella parte superiore, fai clic sul logo dell’Experience Manager per accedere agli strumenti di amministrazione.
+1. Dalla barra degli strumenti nella parte superiore, fai clic sul logo Experience Manager per accedere agli strumenti di amministrazione.
 
    ![](assets/aemlogo.png)
 
@@ -35,11 +46,11 @@ Per visualizzare un rapporto, effettua le seguenti operazioni:
 
    >[!NOTE]
    >
-   >Il rapporto di utilizzo è un rapporto predefinito generato in Brand Portal. Non può essere creata o eliminata. È tuttavia possibile creare, scaricare ed eliminare i report di download, scadenza, Publish, `Link Share` e accessi utente.
+   >Il rapporto di utilizzo è un rapporto predefinito generato in Brand Portal. Non può essere creata o eliminata. È tuttavia possibile creare, scaricare ed eliminare i report di download, scadenza, pubblicazione, `Link Share` e accessi utente.
 
    Per visualizzare un rapporto, fai clic sul collegamento al rapporto. In alternativa, seleziona il rapporto e fai clic sull’icona Visualizza nella barra degli strumenti.
 
-   Il **[!UICONTROL report sull&#39;utilizzo]** visualizza informazioni sul numero di utenti Brand Portal attivi, lo spazio di archiviazione occupato da tutte le risorse e il numero totale di risorse in Brand Portal. Gli utenti di Brand Portal che non sono assegnati ad alcun profilo di prodotto nell&#39;Admin Console sono considerati utenti inattivi e non sono inclusi nel **[!UICONTROL Report utilizzo]**.
+   Il **[!UICONTROL report sull&#39;utilizzo]** visualizza informazioni sul numero di utenti Brand Portal attivi, lo spazio di archiviazione occupato da tutte le risorse e il numero totale di risorse in Brand Portal. Gli utenti di Brand Portal che non sono assegnati ad alcun profilo di prodotto nell’Admin Console sono considerati utenti inattivi e non vengono riflessi nel **[!UICONTROL Report utilizzo]**.
 Il rapporto mostra anche la capacità consentita per ciascuna di queste metriche informative.
 
    ![](assets/usage-report.png)
@@ -60,13 +71,13 @@ Il rapporto mostra anche la capacità consentita per ciascuna di queste metriche
 
    ![](assets/expiration-report.png)
 
-   Il report **[!UICONTROL Publish]** elenca e fornisce informazioni su tutte le risorse pubblicate da Experience Manager Assets a Brand Portal in un intervallo di tempo specificato.
+   Il report **[!UICONTROL Pubblica]** elenca e fornisce informazioni su tutte le risorse pubblicate da Experience Manager Assets a Brand Portal in un intervallo di tempo specificato.
 
    ![](assets/publish-report.png)
 
    >[!NOTE]
    >
-   >Nel rapporto di Publish non vengono visualizzate informazioni sui frammenti di contenuto, poiché questi non possono essere pubblicati in Brand Portal.
+   >Il rapporto di pubblicazione non visualizza informazioni sui frammenti di contenuto, poiché questi non possono essere pubblicati in Brand Portal.
 
    Il report **[!UICONTROL Condivisione collegamenti]** elenca tutte le risorse condivise tramite collegamenti dall&#39;interfaccia di Brand Portal in un intervallo di tempo specifico. Il rapporto indica quando la risorsa è stata condivisa tramite un collegamento, quale utente l’ha condivisa e la data di scadenza del collegamento. Segnala inoltre il numero di collegamenti condivisi per il tenant e gli utenti. Le colonne del rapporto Condivisione collegamenti non sono personalizzabili.
 
@@ -88,9 +99,9 @@ Gli amministratori possono generare e gestire i seguenti rapporti standard. Dopo
 * Pubblicazione
 * Condivisione collegamenti
 
-Le colonne nei rapporti Scarica, Scadenza e Publish possono essere personalizzate per la visualizzazione. Per generare un rapporto, effettua le seguenti operazioni:
+Le colonne nei rapporti Scarica, Scadenza e Pubblica possono essere personalizzate per la visualizzazione. Per generare un rapporto, effettua le seguenti operazioni:
 
-1. Dalla barra degli strumenti nella parte superiore, fai clic sul logo dell’Experience Manager per accedere agli strumenti di amministrazione.
+1. Dalla barra degli strumenti nella parte superiore, fai clic sul logo Experience Manager per accedere agli strumenti di amministrazione.
 
 1. Dal pannello Strumenti di amministrazione, fai clic su **[!UICONTROL Crea/Gestisci rapporti]** per aprire la pagina **[!UICONTROL Rapporti su risorse]**.
 
@@ -101,7 +112,7 @@ Le colonne nei rapporti Scarica, Scadenza e Publish possono essere personalizzat
 
    ![](assets/crete-report.png)
 
-1. Configurare i dettagli del rapporto. Specifica il titolo, la descrizione, la struttura delle cartelle (in cui il report deve essere eseguito e generare statistiche) e l&#39;intervallo di date per i report **[!UICONTROL Download]**, **[!UICONTROL Scadenza]** e **[!UICONTROL Publish]**.
+1. Configurare i dettagli del rapporto. Specifica il titolo, la descrizione, la struttura delle cartelle (in cui il report deve essere eseguito e generare statistiche) e l&#39;intervallo di date per i report **[!UICONTROL Scarica]**, **[!UICONTROL Scadenza]** e **[!UICONTROL Pubblica]**.
 
    ![](assets/create-report-page.png)
 
@@ -113,14 +124,14 @@ Le colonne nei rapporti Scarica, Scadenza e Publish possono essere personalizzat
    >
    >La generazione del report sostituisce i caratteri speciali `#` e `%` nel titolo con un trattino (-).
 
-1. Fai clic su **[!UICONTROL Avanti]** per configurare le colonne dei rapporti Scarica, Scadenza e Publish.
+1. Fai clic su **[!UICONTROL Avanti]** per configurare le colonne dei rapporti Scarica, Scadenza e Pubblica.
 1. Seleziona o deseleziona le caselle di controllo appropriate, in base alle esigenze. Ad esempio, per visualizzare i nomi degli utenti (che hanno scaricato le risorse) nel rapporto **[!UICONTROL Scarica]**, seleziona **[!UICONTROL Scaricato da]**. L’immagine seguente illustra la selezione delle colonne predefinite nel rapporto di download.
 
    ![](assets/createdownloadreport.png)
 
    Puoi anche aggiungere colonne personalizzate a questi rapporti per visualizzare più dati in base ai tuoi requisiti personalizzati.
 
-   Per aggiungere colonne personalizzate al rapporto Download, Publish o Scadenza, eseguire le operazioni seguenti:
+   Per aggiungere colonne personalizzate al rapporto Scarica, Pubblica o Scadenza, eseguire le operazioni seguenti:
 
    1. Per visualizzare una colonna personalizzata, fare clic su **[!UICONTROL Aggiungi]** in [!UICONTROL Colonne personalizzate].
    1. Specificare il nome della colonna nel campo **[!UICONTROL Nome colonna]**.

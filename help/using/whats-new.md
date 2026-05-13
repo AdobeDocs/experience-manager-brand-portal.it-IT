@@ -5,10 +5,32 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 0ef13db15f5282364cf8f2ca86ebefdfe6caca37
+TQID: https://experienceleague.adobe.com/-mH8aSfC9V8seE8ynUPNeJeE2Jt79S6etcyDlK14jL0
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ae478996-b206-4712-9b0c-dc78a2644453
+  - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+  - id: e17747bc-9b7b-44e6-a443-f54229a02620
+subfeature_v2:
+  - id: cf50b0d2-df62-495c-a741-4fa0284ca4fc
+  - id: d17d085a-e808-49dd-b9a6-85a996b999bd
+  - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+  - id: f0e3b2ca-813f-4b7a-81df-52339e17ddcf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '6645'
-ht-degree: 98%
+source-wordcount: 6645
+ht-degree: 97%
 
 ---
 
@@ -480,8 +502,8 @@ Continua a leggere per ulteriori informazioni sulla ricerca testuale parziale e 
 
 È ora possibile cercare le risorse specificando solo una parte, ovvero una parola o due, della frase cercata nel riquadro di filtraggio.
 
-**Caso d’uso**
-La ricerca per frase parziale è utile quando non si è sicuri della combinazione esatta di parole presenti nella frase cercata.
+**Caso d&#39;uso**
+La ricerca per frase parziale è utile quando non si è sicuri della combinazione esatta di parole che si verificano nella frase cercata.
 
 Ad esempio, se nel modulo di ricerca di Brand Portal viene utilizzato il Predicato proprietà per eseguire una ricerca parziale nel titolo delle risorse, specificando il termine **campo** verranno restituite tutte le risorse il cui titolo contiene il termine campo.
 
@@ -515,7 +537,7 @@ Brand Portal 6.4.3 introduce un alias alternativo per gli URL di accesso, una nu
 
 ### Navigazione nella gerarchia di cartelle per non amministratori
 
-Ora gli amministratori possono configurare il modo in cui le cartelle vengono mostrate agli utenti non amministratori (editor, visualizzatori e utenti ospiti) al momento dell’accesso. [La configurazione Abilita gerarchia cartelle](../using/brand-portal-general-configuration.md) è stata aggiunta in **Impostazioni generali**, nel pannello Strumenti di amministrazione. Se la configurazione è:
+Ora gli amministratori possono configurare il modo in cui le cartelle vengono mostrate agli utenti non amministratori (editor, visualizzatori e utenti ospiti) al momento dell’accesso. La configurazione [Abilita gerarchia cartelle](../using/brand-portal-general-configuration.md) è stata aggiunta in **Impostazioni generali**, nel pannello Strumenti di amministrazione. Se la configurazione è:
 
 * **abilitata**, la struttura delle cartelle a partire dalla cartella principale è visibile agli utenti non amministratori. In questo modo, viene garantita loro un’esperienza di navigazione simile a quella degli amministratori.
 * **disabilitata**, nella pagina di destinazione vengono visualizzate solo le cartelle condivise.
@@ -768,18 +790,18 @@ Brand Portal 6.4.1 è una versione con aggiornamento della piattaforma. Introduc
 
 ### Funzionalità di generazione di rapporti migliorate
 
-**Introdotto il rapporto di condivisione collegamenti**
+**Introduzione al report Condivisione collegamenti**
 È stato introdotto un nuovo rapporto che fornisce informazioni sui collegamenti condivisi. Il rapporto di condivisione collegamenti elenca tutti gli URL delle risorse condivise con utenti interni ed esterni. Genera rapporti per gli utenti dell’organizzazione nell’arco temporale specificato. Inoltre, informa quando il collegamento è stato condiviso, da chi e la scadenza.
 
 ![](assets/navigatereport.png)
 
-**Punto di ingresso modificato per accedere al rapporto di utilizzo**
-Il rapporto di utilizzo è ora consolidato con altri rapporti e può essere visualizzato dalla console Rapporti su risorse. Per raggiungere la console Rapporti su risorse, passa a **Crea/gestisci rapporti** dal pannello degli strumenti di amministrazione.
+**Il punto di ingresso è stato modificato per accedere al report utilizzo**
+Il rapporto sull’utilizzo è ora consolidato con altri rapporti e può essere visualizzato dalla console Rapporti sulle risorse. Per raggiungere la console Rapporti su risorse, passa a **Crea/gestisci rapporti** dal pannello degli strumenti di amministrazione.
 
 ![](assets/accessassetreport.png)
 
-**Esperienza utente migliorata per la generazione di rapporti**
-L’interfaccia della generazione di rapporti su Brand Portal è diventata più intuitiva e offre un maggiore controllo alle organizzazioni. Oltre a creare vari rapporti, gli amministratori ora possono rivedere quelli generati, eseguire il download o eliminarli, poiché vengono salvati in Brand Portal.
+**Esperienza utente migliorata per il reporting**
+L’interfaccia di reporting su Brand Portal è diventata più intuitiva e offre un maggiore controllo alle organizzazioni. Oltre a creare vari rapporti, gli amministratori ora possono rivedere quelli generati, eseguire il download o eliminarli, poiché vengono salvati in Brand Portal.
 
 È possibile personalizzare ciascuno dei rapporti creati, aggiungendo o rimuovendo colonne predefinite. Inoltre, è possibile aggiungere colonne personalizzate ai rapporti Download, Scadenza e Pubblicazione per controllarne il grado di granularità.
 

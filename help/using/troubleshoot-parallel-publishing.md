@@ -1,29 +1,41 @@
 ---
-title: Risolvere i problemi relativi alla pubblicazione parallela in Brand Portal
+title: Risoluzione dei problemi relativi alla pubblicazione parallela in Brand Portal
 description: Risoluzione dei problemi relativi alla pubblicazione parallela.
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: brand-portal
 role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
-source-git-commit: ce3a7a5232f32c86b4930f9079bed5f04d001d8f
+TQID: https://experienceleague.adobe.com/1Lui1NdyGzMArtIFPix9hzBzwBwtwfoxb8K3u4b9Aeo
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2:
+  - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 0%
+source-wordcount: 953
+ht-degree: 6%
 
 ---
 
-# Risolvere i problemi relativi alla pubblicazione parallela in Brand Portal {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
+# Risoluzione dei problemi relativi alla pubblicazione parallela in Brand Portal {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-Brand Portal è configurato con Experience Manager Assets in modo che le risorse del brand approvate vengano acquisite (o pubblicate) direttamente dall’istanza di authoring di Experience Manager Assets. Una volta [configurata](../using/configure-aem-assets-with-brand-portal.md), Experience Manager Author utilizza un agente di replica per replicare una o più risorse selezionate in Brand Portal Cloud Service per l&#39;utilizzo approvato dagli utenti di Brand Portal. Per consentire la pubblicazione parallela ad alta velocità, vengono utilizzati più agenti di replica come Experience Manager 6.2 SP1-CFP5, Experience Manager CFP 6.3.0.2 e versioni successive.
+Brand Portal è configurato con Experience Manager Assets in modo che le risorse del brand approvate vengano acquisite (o pubblicate) direttamente dall’istanza di authoring di Experience Manager Assets. Una volta [configurata](../using/configure-aem-assets-with-brand-portal.md), Experience Manager Author utilizza un agente di replica per replicare una o più risorse selezionate in Brand Portal Cloud Service per l&#39;utilizzo approvato dagli utenti di Brand Portal. Più agenti di replica vengono utilizzati Experience Manager 6.2 SP1-CFP5, Experience Manager CFP 6.3.0.2 e versioni successive per consentire la pubblicazione parallela ad alta velocità.
 
 >[!NOTE]
 >
->Per garantire la corretta configurazione di Experience Manager Assets Brand Portal con Experience Manager Assets, l’Adobe consiglia di eseguire l’aggiornamento all’Experience Manager 6.4.1.0. Una limitazione nell’Experience Manager 6.4 genera un errore durante la configurazione di Experience Manager Assets con Brand Portal e la replica non riesce.
+>Per garantire la corretta configurazione di Experience Manager Assets Brand Portal con Experience Manager Assets, Adobe consiglia l&#39;aggiornamento ad Experience Manager 6.4.1.0. Una limitazione in Experience Manager 6.4 genera un errore durante la configurazione di Experience Manager Assets con Brand Portal e la replica non riesce.
 
-Durante la configurazione di un servizio cloud per Brand Portal in **[!UICONTROL /etc/cloudservice]**, tutti gli utenti e i token necessari vengono generati automaticamente e salvati nell&#39;archivio. Viene creata la configurazione del servizio cloud, vengono creati anche gli utenti del servizio necessari per gli agenti di replica e replica per replicare i contenuti. Vengono creati quattro agenti di replica. Quando si pubblicano numerose risorse da Experience Manager a Brand Portal, le risorse vengono messe in coda e distribuite tra gli agenti di replica tramite Round Robin.
+Durante la configurazione di un servizio cloud per Brand Portal in **[!UICONTROL /etc/cloudservice]**, tutti gli utenti e i token necessari vengono generati automaticamente e salvati nell&#39;archivio. Viene creata la configurazione del servizio cloud, vengono creati anche gli utenti del servizio necessari per gli agenti di replica e replica per replicare i contenuti. Vengono creati quattro agenti di replica. Quando pubblichi numerose risorse da Experience Manager a Brand Portal, le risorse vengono messe in coda e distribuite tra gli agenti di replica tramite Round Robin.
 
-Tuttavia, la pubblicazione può non riuscire in modo intermittente a causa di: processi sling di grandi dimensioni, aumento della rete e **[!UICONTROL I/O su disco]** nell&#39;istanza Autore Experience Manager o rallentamento delle prestazioni dell&#39;istanza Autore Experience Manager. L’Adobe consiglia di testare la connessione con uno o più agenti di replica prima di iniziare la pubblicazione.
+Tuttavia, la pubblicazione può non riuscire in modo intermittente a causa di: processi sling di grandi dimensioni, aumento della rete e **[!UICONTROL I/O su disco]** nell&#39;istanza di Experience Manager Author o rallentamento delle prestazioni dell&#39;istanza di Experience Manager Author. Adobe consiglia di testare la connessione con uno o più agenti di replica prima di iniziare la pubblicazione.
 
 ![](assets/test-connection.png)
 
@@ -35,11 +47,11 @@ Per convalidare le configurazioni di pubblicazione:
 1. Verifica se l’agente di replica è stato creato
 1. Verifica connessione
 
-**Registri code durante la creazione del Cloud Service**
+**Registri code durante la creazione di Cloud Service**
 
 Controlla i registri di coda. Controlla se l’agente di replica è stato creato o meno. Se la creazione dell’agente di replica non riesce, modifica il servizio Cloud apportando modifiche minori nel servizio Cloud. Convalida e verifica di nuovo se l’agente di replica è stato creato o meno. In caso contrario, modifica nuovamente il servizio.
 
-Se durante la modifica ripetuta del servizio cloud non è configurato correttamente, segnala un ticket di Daycare.
+Se durante la modifica ripetuta del servizio cloud non è configurato correttamente, segnala un ticket Daycare.
 
 **Verifica connessione con agenti di replica**
 
@@ -59,14 +71,14 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 
 ## Pulisci configurazioni di pubblicazione Brand Portal esistenti {#clean-up-existing-config}
 
-La pubblicazione spesso non riesce e viene restituito un errore &quot;401 unauthorized&quot; perché l’utente (ad esempio, `mac-<tenantid>-replication`) non dispone della chiave privata più recente e nei registri dell’agente di replica non viene segnalato alcun altro errore. In alternativa, potrebbe essere utile evitare la risoluzione dei problemi e creare una configurazione. Per il corretto funzionamento della nuova configurazione, ripulisci quanto segue dalla configurazione di Experience Manager Author:
+La pubblicazione spesso non riesce e viene restituito un errore &quot;401 unauthorized&quot; perché l’utente (ad esempio, `mac-<tenantid>-replication`) non dispone della chiave privata più recente e nei registri dell’agente di replica non viene segnalato alcun altro errore. In alternativa, potrebbe essere utile evitare la risoluzione dei problemi e creare una configurazione. Per il corretto funzionamento della nuova configurazione, elimina gli elementi seguenti dalla configurazione di Experience Manager Author:
 
 1. Vai a `localhost:4502/crx/de/` (considerando che stai eseguendo l&#39;istanza di authoring su `localhost:4502:`)
-i. Elimina `/etc/replication/agents.author/mp_replication`
+i. Eliminare `/etc/replication/agents.author/mp_replication`
 ii. Elimina `/etc/cloudservices/mediaportal/<config_name>`
 
 1. Vai a localhost:4502/useradmin:\
-   i. Cerca l&#39;utente `mac-<tenantid>replication`
+   i. Cerca utente `mac-<tenantid>replication`
 ii. Elimina questo utente
 
 Ora, il sistema è tutto pulito. Ora è possibile tentare di creare una configurazione del servizio cloud e continuare a utilizzare l’applicazione JWT esistente. Non è necessario creare un’applicazione, ma devi aggiornare la chiave pubblica dalla nuova configurazione cloud creata.
@@ -123,7 +135,7 @@ Se l’ambiente Brand Portal si arresta bruscamente, è possibile che le configu
 
 `com.adobe.granite.auth.oauth.AccessTokenProvider failed to get access token from authorization server status: 400 response: Unknown macro: {"error"}`
 
-Per risolvere questo problema, l’Adobe consiglia di salvare e chiudere manualmente la configurazione IMS e di controllare nuovamente lo stato di integrità. Se le configurazioni non funzionano, eliminale e creane una nuova.
+Per risolvere questo problema, Adobe consiglia di salvare e chiudere manualmente la configurazione IMS e di controllare nuovamente lo stato di integrità. Se le configurazioni non funzionano, eliminale e creane una nuova.
 
 
 ## Configurare gli agenti di replica per evitare errori di timeout della connessione {#connection-timeout}
@@ -134,9 +146,9 @@ Per configurare gli agenti di replica:
 
 1. Accedi all’istanza Autore di AEM Assets.
 1. Dal pannello **Strumenti**, passa a **[!UICONTROL Distribuzione]** > **[!UICONTROL Replica]**.
-1. Nella pagina Replica fare clic su **[!UICONTROL `Agents on author`]**. Puoi vedere i quattro agenti di replica del tuo tenant Brand Portal.
+1. Nella pagina Replica, fai clic su **[!UICONTROL `Agents on author`]**. Puoi vedere i quattro agenti di replica del tuo tenant Brand Portal.
 1. Fai clic sull&#39;URL dell&#39;agente di replica e fai clic su **[!UICONTROL Modifica]**.
 1. In Impostazioni agente fare clic sulla scheda **[!UICONTROL Esteso]**.
-1. Selezionare la casella di controllo **[!UICONTROL Chiudi connessione]**.
+1. Seleziona la casella di controllo **[!UICONTROL Chiudi connessione]**.
 1. Ripeti i passaggi da 4 a 7 per configurare tutti e quattro gli agenti di replica.
-1. Riavviare il server.
+1. Riavvia il server.

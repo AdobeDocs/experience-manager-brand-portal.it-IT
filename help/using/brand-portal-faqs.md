@@ -7,10 +7,20 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
-workflow-type: ht
-source-wordcount: '1500'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/7CFDihMZL-A0aWNO37Gf4C-3l4YwqHd39lnl-PSI6NA
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2:
+  - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+workflow-type: tm+mt
+source-wordcount: 1513
+ht-degree: 97%
 
 ---
 
@@ -25,21 +35,21 @@ Le domande frequenti su Brand Portal sono incentrate sulle query e sui problemi 
 
 **Risposta:** la configurazione OAuth precedente è obsoleta. Aggiorna le istanze di authoring di Experience Manager Assets al Service Pack più recente e configuralo tramite Adobe Developer Console. Per i dettagli, consulta [Configurare Experience Manager Assets con Brand Portal](configure-aem-assets-with-brand-portal.md). Tuttavia, affinché la configurazione OAuth precedente funzioni fino all’aggiornamento, aggiorna l’endpoint OAuth precedente su `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
 
-**Domanda: non è possibile pubblicare le risorse della cartella contributi da Brand Portal a Experience Manager Assets dopo l’aggiornamento a Adobe Developer Console. La mia istanza di authoring si trova su Experience Manager Assets 6.5.4. Quale potrebbe essere il motivo?**
+**Domanda: non è possibile pubblicare le risorse della cartella contributi da Brand Portal a Experience Manager Assets dopo l’aggiornamento a Adobe Developer Console. La mia istanza di authoring è su Experience Manager Assets 6.5.4. Quale potrebbe essere il motivo?**
 
 **Risposta:** Sì, si è verificato un problema noto durante la pubblicazione delle risorse della cartella contributi in Experience Manager Assets 6.5.4 tramite Adobe Developer Console.
 
-Il problema è risolto in Experience Manager Assets 6.5.5. Puoi aggiornare l’istanza di Experience Manager Assets al Service Pack più recente e [aggiornare le configurazioni](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) in Adobe Developer Console.
+Il problema è risolto in Experience Manager Assets 6.5.5. Puoi aggiornare l&#39;istanza di Experience Manager Assets al service pack più recente e [aggiornare le configurazioni](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) in Adobe Developer Console.
 
 
 **Domanda: non è possibile visualizzare il contenuto della cartella contributi pubblicato da Brand Portal in Experience Manager Assets. Quale potrebbe essere il motivo?**
 
 **Risposta:** contatta l’amministratore di Experience Manager Assets per verificare le configurazioni e assicurarti che il tenant di Brand Portal sia configurato con una sola istanza di authoring di Experience Manager Assets.
 
-Questo problema può verificarsi quando hai configurato un tenant di Brand Portal in più istanze di authoring Experience Manager Assets. Ad esempio, l’amministratore configura lo stesso tenant di Brand Portal nell’istanza di authoring Experience Manager Assets in un ambiente di staging e produzione. In questo caso, la pubblicazione della risorsa viene attivata in Brand Portal, ma l’istanza di authoring di Experience Manager Assets non riesce a importarla perché l’agente di replica non riceve il token di richiesta.
+Questo problema può verificarsi quando hai configurato un tenant di Brand Portal in più istanze di authoring di Experience Manager Assets. Ad esempio, l’amministratore configura lo stesso tenant di Brand Portal nell’istanza di authoring Experience Manager Assets in un ambiente di staging e di produzione. In questo caso, la pubblicazione della risorsa viene attivata in Brand Portal, ma l’istanza di authoring di Experience Manager Assets non riesce a importarla perché l’agente di replica non riceve il token di richiesta.
 
 
-**Domanda: non è possibile pubblicare risorse da Experience Manager Assets su Brand Portal. Il registro di replica indica che la connessione è scaduta. È presente una correzione rapida?**
+**Domanda: non è possibile pubblicare risorse da Experience Manager Assets su Brand Portal. Il registro di replica indica che la connessione è stata interrotta per timeout. È presente una correzione rapida?**
 
 **Risposta:** in genere la pubblicazione non riesce e viene restituito un errore di timeout se nella coda di replica sono presenti più richieste in sospeso. Per risolvere questo problema, assicurati che gli agenti di replica siano configurati in modo da evitare il timeout.
 

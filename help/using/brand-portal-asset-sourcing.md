@@ -12,16 +12,26 @@ audience: author, marketer
 version: Experience Manager 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: 2865a95e52679e853c6b125e8b1de1c23e84d30d
+TQID: https://experienceleague.adobe.com/52tECcTrEZL6eSx--nL07mGMJ94Tf7B6ZlHQ8BlqNvY
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2:
+  - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 11%
+source-wordcount: 662
+ht-degree: 12%
 
 ---
 
 # Panoramica della funzione Fornitura di risorse {#overview-asset-sourcing-in-bp}
 
-**Asset Sourcing** consente agli utenti di Experience Manager Assets (amministratori/utenti non amministratori) di creare nuove cartelle con una proprietà **Asset Contribution** aggiuntiva, in modo che la nuova cartella creata sia aperta all&#39;invio di risorse da parte degli utenti di Brand Portal. Questo attiva automaticamente un flusso di lavoro, che crea due sottocartelle aggiuntive, denominate **SHARED** e **NEW**, all&#39;interno della cartella **Contribution** appena creata. L’amministratore definisce il requisito caricando una breve descrizione dei tipi di risorse da aggiungere alla cartella dei contributi. Caricano un set di risorse di base nella cartella **SHARED**, fornendo agli utenti di Brand Portal le informazioni di riferimento necessarie. L&#39;amministratore può quindi concedere agli utenti Brand Portal attivi l&#39;accesso alla cartella dei contributi prima di pubblicare in Brand Portal la cartella **Contribution** appena creata. Dopo aver aggiunto il contenuto nella cartella **NEW**, l&#39;utente può ripubblicare la cartella Contributi nell&#39;ambiente di authoring Experience Manager. Potrebbero essere necessari alcuni minuti per completare l’importazione e riflettere il contenuto appena pubblicato in Experience Manager Assets.
+**Asset Sourcing** consente agli utenti di Experience Manager Assets (amministratori/utenti non amministratori) di creare nuove cartelle con una proprietà **Asset Contribution** aggiuntiva, in modo che la nuova cartella creata sia aperta all&#39;invio di risorse da parte degli utenti di Brand Portal. Questo attiva automaticamente un flusso di lavoro, che crea due sottocartelle aggiuntive, denominate **SHARED** e **NEW**, all&#39;interno della cartella **Contribution** appena creata. L’amministratore definisce il requisito caricando una breve descrizione dei tipi di risorse da aggiungere alla cartella dei contributi. Caricano un set di risorse di base nella cartella **SHARED**, fornendo agli utenti di Brand Portal le informazioni di riferimento necessarie. L’amministratore può quindi concedere agli utenti attivi di Brand Portal l’accesso alla cartella dei contributi prima di pubblicare in Brand Portal la cartella **Contribution** (Contributi) appena creata. Dopo aver aggiunto il contenuto nella cartella **NEW**, l&#39;utente può ripubblicare la cartella Contributi nell&#39;ambiente di authoring Experience Manager. Potrebbero essere necessari alcuni minuti per completare l’importazione e riflettere il contenuto appena pubblicato in Experience Manager Assets.
 
 Inoltre, tutte le funzionalità esistenti rimangono invariate. Gli utenti di Brand Portal possono visualizzare, cercare e scaricare le risorse dalla cartella dei contributi e dalle altre cartelle consentite. Gli amministratori possono inoltre condividere ulteriormente la cartella dei contributi, modificarne le proprietà e aggiungere risorse alle raccolte.
 
@@ -48,7 +58,7 @@ Inoltre, tutte le funzionalità esistenti rimangono invariate. Gli utenti di Bra
 >
 >Esiste un problema noto in Experience Manager Assets 6.5.4. Gli utenti di Brand Portal non possono pubblicare le risorse della cartella Contributi in Experience Manager Assets quando si esegue l’aggiornamento a Adobe Developer Console.
 >
->Il problema è risolto in Experience Manager Assets 6.5.5. Puoi aggiornare l’istanza di Experience Manager Assets al Service Pack più recente e [aggiornare le configurazioni](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) in Adobe Developer Console.
+>Il problema è risolto in Experience Manager Assets 6.5.5. Puoi aggiornare l&#39;istanza di Experience Manager Assets al service pack più recente e [aggiornare le configurazioni](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) in Adobe Developer Console.
 
 <!--
 
