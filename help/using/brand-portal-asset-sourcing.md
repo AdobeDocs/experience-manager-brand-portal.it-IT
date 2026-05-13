@@ -37,7 +37,7 @@ Inoltre, tutte le funzionalità esistenti rimangono invariate. Gli utenti di Bra
 
 ![Origine risorse Brand Portal](assets/asset-sourcing.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/39142/?captions=ita&quality=12)
 
 ## Prerequisiti {#prerequisites}
 
