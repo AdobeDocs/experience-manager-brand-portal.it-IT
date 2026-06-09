@@ -6,21 +6,14 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
 TQID: https://experienceleague.adobe.com/oBDmsUsNSLapEzQa9r4J-vZqTz2qe0cPW6hU1EYzrXU
-product_v2:
-  - id: d09181b5-a36a-43de-ba01-36641440bc43
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
-subfeature_v2:
-  - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 870850fd29819d96017608f1db48d46b38c62bff
 workflow-type: tm+mt
-source-wordcount: 1714
+source-wordcount: 1549
 ht-degree: 14%
 
 ---
@@ -50,11 +43,11 @@ La configurazione di Adobe Experience Manager Assets con Brand Portal consente a
 >
 > * Brand Portal è in modalità di manutenzione. Tutte le innovazioni dei nuovi prodotti sono disponibili su [Content Hub](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview).
 > * Se devi ancora attivare Brand Portal, contatta il rappresentante Adobe con i dettagli del caso d’uso e altri requisiti specifici.
-> * Brand Portal non è disponibile con [Assets Prime](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/assets-prime) o [Assets Ultimate](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview). Tuttavia, la clientela esistente di Assets as a Cloud Services che ha già accesso a Brand Portal può continuare a utilizzarlo quando passa ad Assets Ultimate.
+> * Brand Portal non è disponibile con [Assets Prime](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/assets-prime) o [Assets Ultimate](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview). Tuttavia, i clienti Assets as a Cloud Service esistenti che hanno già accesso a Brand Portal possono continuare a utilizzarlo quando passano ad Assets Ultimate.
 
 <!--Experience Manager Assets as a Cloud Service is automatically configured with Brand Portal by activating Brand Portal from the Cloud Manager. The activation workflow creates the required configurations at the backend and activates Brand Portal on the same IMS org as of the Experience Manager Assets as a Cloud Service instance.-->
 
-Tuttavia, Experience Manager Assets (on-premise e managed service) viene configurato manualmente con Brand Portal utilizzando Adobe Developer Console, che fornisce un token Adobe Identity Management Services (IMS) per l’autorizzazione del tenant Brand Portal.
+Tuttavia, Experience Manager Assets (on-premise e managed services) viene configurato manualmente con Brand Portal utilizzando Adobe Developer Console, che fornisce un token Adobe Identity Management Services (IMS) per l’autorizzazione del tenant Brand Portal.
 
 Per ulteriori informazioni, vedere [configurazione di Experience Manager Assets con Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
@@ -92,7 +85,7 @@ Nella tabella seguente sono elencate le attività che gli utenti di questi ruoli
 
 Experience Manager Assets Brand Portal consente a [guest access](#request-access-to-brand-portal) di accedere a Brand Portal. Un utente guest non ha bisogno di credenziali per accedere al portale e ha accesso alle cartelle e alle raccolte pubbliche. In qualità di utente guest, puoi sfogliare i dettagli delle risorse e avere una visualizzazione completa delle risorse dei membri delle cartelle e raccolte pubbliche. Puoi cercare, scaricare e aggiungere risorse pubbliche alla raccolta [!UICONTROL Lightbox].
 
-Tuttavia, la sessione ospite non consente di creare raccolte e ricerche salvate e di condividerle ulteriormente. Gli utenti di una sessione guest non possono accedere alle impostazioni di cartelle e raccolte e non possono condividere le risorse come collegamenti. Di seguito è riportato un elenco di attività che un utente guest può eseguire:
+Tuttavia, la sessione ospite non consente di creare raccolte e ricerche salvate. Gli utenti di una sessione guest non possono accedere alle impostazioni di cartelle e raccolte e non possono condividere le risorse come collegamenti. Di seguito è riportato un elenco di attività che un utente guest può eseguire:
 
 * [Sfogliare e accedere alle risorse pubbliche](browse-assets-brand-portal.md)
 
@@ -159,9 +152,9 @@ Tuttavia, l&#39;istanza di AEM Author può essere [configurata](../using/configu
 
 >[!NOTE]
 >
->Per ottenere un alias per il nome tenant in un URL portale esistente, le organizzazioni devono contattare l’Assistenza clienti per richiedere una nuova creazione di alias tenant. Verificare innanzitutto che l&#39;alias sia disponibile, quindi creare l&#39;alias per elaborare la richiesta.
+>Per ottenere un alias per il nome tenant in un URL portale esistente, le organizzazioni devono contattare l’Assistenza clienti per richiedere una nuova richiesta di creazione alias tenant. Verificare innanzitutto che l&#39;alias sia disponibile, quindi creare l&#39;alias per elaborare la richiesta.
 >
->Per sostituire il vecchio alias o eliminare il vecchio alias, è necessario seguire lo stesso processo.
+>Per sostituire o eliminare il vecchio alias, è necessario seguire lo stesso processo.
 
 ## Richiedere l’accesso a Brand Portal {#request-access-to-brand-portal}
 
@@ -184,7 +177,7 @@ Per richiedere l&#39;accesso, effettuare le seguenti operazioni:
    **Scenario 1**
 
    1. Se hai un [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID] o [!UICONTROL Federated ID], fai clic su **[!UICONTROL Accedi]**.
-Verrà aperta la pagina [!UICONTROL Accedi].
+Viene visualizzata la pagina [!UICONTROL Accedi].
 
    1. Fornisci le tue credenziali di [!UICONTROL Adobe ID] e fai clic su **[!UICONTROL Accedi]**.
 
@@ -195,7 +188,7 @@ Verrà aperta la pagina [!UICONTROL Accedi].
    **Scenario 2**
 
    1. Se non disponi di un [!UICONTROL Adobe ID], per crearne uno fai clic su **[!UICONTROL Ottieni un Adobe ID]** dalla pagina [!UICONTROL Richiedi accesso].
-Verrà aperta la pagina [!UICONTROL Accedi].
+Viene visualizzata la pagina [!UICONTROL Accedi].
    1. Fai clic su **[!UICONTROL Ottieni un Adobe ID]**.
 Verrà aperta la pagina [!UICONTROL Iscrizione].
    1. Immetti nome e cognome, ID e-mail e password.
@@ -222,7 +215,7 @@ Sei stato reindirizzato alla [home page di Adobe [!UICONTROL Admin Console]](htt
 
 ## Lingue Brand Portal {#brand-portal-language}
 
-È possibile cambiare la lingua di Brand Portal da Adobe [!UICONTROL Experience Cloud Settings].
+È possibile cambiare la lingua di Brand Portal da Adobe [!UICONTROL Impostazioni Experience Cloud].
 
 ![Notifica richiesta di accesso](assets/BPLang.png)
 
@@ -232,7 +225,7 @@ Per modificare la lingua:
 
    ![Modifica profilo](assets/EditBPProfile.png)
 
-1. Nella pagina [!UICONTROL Impostazioni Experience Cloud], seleziona una lingua dal menu a discesa [!UICONTROL Lingua].
+1. Nella pagina [!UICONTROL Impostazioni di Experience Cloud], seleziona una lingua dal menu a discesa [!UICONTROL Lingua].
 
 ## Notifica della manutenzione di Brand Portal {#brand-portal-maintenance-notification}
 
@@ -254,4 +247,4 @@ Puoi ignorare questa notifica e continuare a utilizzare Brand Portal. Questa not
 * [Adobe Customer Support]()
 -->
 
-* [Forum AEM](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=it)
+* [Forum AEM](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)
