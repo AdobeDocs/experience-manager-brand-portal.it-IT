@@ -16,7 +16,7 @@ subfeature_v2:
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+source-git-commit: 10f42cf00fb054b38bb5edc4e088441c4a0206da
 workflow-type: tm+mt
 source-wordcount: 689
 ht-degree: 0%
@@ -79,7 +79,7 @@ Di seguito sono riportati i passaggi per condividere una raccolta con gli utenti
    >
    >Il ruolo di un utente regola l’accesso alle risorse e alle cartelle all’interno di una raccolta. Se un utente non ha accesso alle risorse, viene condivisa con lui una raccolta vuota. Inoltre, il ruolo di un utente gestisce le azioni disponibili per le raccolte.
 
-## Annullare la condivisione di una raccolta {#unshare-a-collection}
+## Annullare la condivisione di una raccolta
 
 Per annullare la condivisione di una raccolta condivisa in precedenza, eseguire le operazioni seguenti:
 
@@ -138,7 +138,7 @@ Per annullare la condivisione di una raccolta condivisa in precedenza, eseguire 
    >
    >A user's role governs access to the assets and folders inside a collection. If a user does not have access to assets, an empty collection is shared with the user. Also, a user's role governs the actions available for collections.
 
-## Unshare a collection {#unshare-a-collection}
+## Unshare a collection
 
 To unshare a previously shared collection, do the following:
 

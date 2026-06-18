@@ -21,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+source-git-commit: 10f42cf00fb054b38bb5edc4e088441c4a0206da
 workflow-type: tm+mt
 source-wordcount: 1957
 ht-degree: 11%
@@ -39,7 +39,7 @@ Adobi Experience Manager Assets Brand Portal migliora l’esperienza di download
 >
 >Se non desideri utilizzare IBM® Aspera Connect e continuare con il normale processo di download, contatta l&#39;amministratore di Brand Portal per disattivare l&#39;impostazione **[!UICONTROL Download rapido]**.
 
-## Configurare il download delle risorse {#configure-download}
+## Configurare il download delle risorse
 
 Gli amministratori di Brand Portal possono configurare il download delle risorse e le impostazioni dei gruppi di utenti per gli utenti di Brand Portal. Questa funzionalità consente agli utenti di accedere e scaricare le rappresentazioni delle risorse dall’interfaccia di Brand Portal.
 
@@ -295,7 +295,7 @@ removed the known issue from step 3 as it is fixed in 2022.02.0 release.
 
 <!-- 
 Backup of content before updating the new feature docs.
-## Configure asset download {#configure-download}
+## Configure asset download
 
 The download configuration allows the Brand Portal administrators to define the set of renditions available to the Brand Portal users for downloading the assets. The administrator can configure the asset **[!UICONTROL Download]** settings from the Brand Portal interface. 
 
