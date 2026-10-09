@@ -6,27 +6,35 @@ topic-tags: introduction
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: ecce0a45-abae-41c4-9ea7-5dfdcf19e5ea
-TQID: https://experienceleague.adobe.com/oyNPb7pxN7VLKQJko76nRzM2H1xL7e-s3E--FDTREf0
+TQID: 'https://experienceleague.adobe.com/oyNPb7pxN7VLKQJko76nRzM2H1xL7e-s3E--FDTREf0'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+    internal-label: Insights
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 1051
+source-wordcount: '1056'
 ht-degree: 3%
-
 ---
-
 # Accesso a Brand Portal come ospite {#guest-access-to-brand-portal}
 
 Experience Manager Assets Brand Portal consente l&#39;accesso come ospite al portale. Un utente guest non ha bisogno delle credenziali per accedere al portale e ha accesso alle risorse pubbliche (e alle raccolte) del portale. Gli utenti nella sessione guest possono aggiungere risorse a lightbox (raccolta privata) e scaricarle finché la sessione non dura o finché l&#39;utente guest non sceglie di [[!UICONTROL Terminare la sessione]](#exit-guest-session). Una sessione utente guest rimane attiva per 15 minuti.
@@ -54,7 +62,7 @@ Per accedere a Brand Portal in modo anonimo, seleziona **[!UICONTROL Fai clic qu
 Una sessione utente guest rimane attiva per 15 minuti.
 Questo processo mantiene lo stato di **[!UICONTROL Lightbox]** per 15 minuti dall&#39;inizio della sessione. Successivamente, la sessione guest corrente viene riavviata, causando la perdita dello stato Lightbox.
 
-Ad esempio, un utente ospite accede a Brand Portal alle 15:00 e aggiunge risorse a **[!UICONTROL Lightbox]** per scaricarle alle 15:2&rbrace; ore. :05Se l&#39;utente non scarica la raccolta **[!UICONTROL Lightbox]** (o le relative risorse) prima di 15:15 ore (entro 15 minuti dall&#39;accesso), deve riavviare la sessione. La **[!UICONTROL Lightbox]** è vuota, pertanto le risorse caricate non sono più disponibili se la sessione è stata persa.
+Ad esempio, un utente guest accede a Brand Portal alle 15:00 e aggiunge risorse a **[!UICONTROL Lightbox]** per il download alle 15:05. Se l&#39;utente non scarica la raccolta **[!UICONTROL Lightbox]** (o le relative risorse) prima delle 15:15 ore (entro 15 minuti dall&#39;accesso), deve riavviare la sessione. La **[!UICONTROL Lightbox]** è vuota, pertanto le risorse caricate non sono più disponibili se la sessione è stata persa.
 
 ## Sessioni guest simultanee consentite {#concurrent-guest-sessions-allowed}
 

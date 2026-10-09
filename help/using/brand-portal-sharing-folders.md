@@ -5,25 +5,31 @@ content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: d28cf927-60e8-437e-9cba-92f7e19020e7
-TQID: https://experienceleague.adobe.com/zcuaWI7GsV39hpBMfzoB9Oiep5IVgmmfz79J-cOm32g
+TQID: 'https://experienceleague.adobe.com/zcuaWI7GsV39hpBMfzoB9Oiep5IVgmmfz79J-cOm32g'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+    internal-label: Security
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 1108
+source-wordcount: '1112'
 ht-degree: 2%
-
 ---
-
 # Condividere cartelle su Brand Portal {#share-folders}
 
 Assets deve essere pubblicato in Brand Portal da un’istanza Experience Manager Author preconfigurata, in quanto Brand Portal non supporta l’inserimento di risorse.
@@ -40,7 +46,7 @@ Di seguito sono descritti il flusso di lavoro di condivisione cartelle e l&#39;a
 
 ### Condividere cartelle con gruppi di utenti su Brand Portal {#sharing-folders-with-user-groups-on-brand-portal}
 
-I diritti di accesso alle risorse di una cartella dipendono dai diritti di accesso della relativa cartella principale, indipendentemente dalle impostazioni delle cartelle secondarie. [Gli ACL](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/security/security) in AEM gestiscono questo comportamento, con le cartelle secondarie che ereditano gli ACL dalle cartelle principali. Si supponga, ad esempio, che la cartella A contenga la cartella B, che contiene la cartella C. Un gruppo di utenti (o utenti) con diritti di accesso sulla cartella A dispone quindi degli stessi diritti di accesso anche sulla cartella B e sulla cartella C. La cartella B, che è la cartella secondaria di A, eredita le ACL, mentre la cartella C, che è la cartella secondaria di B, le eredita.
+I diritti di accesso alle risorse di una cartella dipendono dai diritti di accesso della relativa cartella principale, indipendentemente dalle impostazioni delle cartelle secondarie. [Gli ACL](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/security) in AEM gestiscono questo comportamento, con le cartelle secondarie che ereditano gli ACL dalle cartelle principali. Si supponga, ad esempio, che la cartella A contenga la cartella B, che contiene la cartella C. Un gruppo di utenti (o utenti) con diritti di accesso sulla cartella A dispone quindi degli stessi diritti di accesso anche sulla cartella B e sulla cartella C. La cartella B, che è la cartella secondaria di A, eredita le ACL, mentre la cartella C, che è la cartella secondaria di B, le eredita.
 
 Analogamente, i gruppi di utenti (o gli utenti) che dispongono delle autorizzazioni per accedere solo alla cartella B dispongono delle stesse autorizzazioni di accesso per la cartella C ma non per la cartella A. Adobe consiglia di organizzare il contenuto in modo che le risorse più esposte vengano posizionate in cartelle secondarie, consentendo di limitare l’accesso dalle cartelle secondarie fino alla cartella principale.
 
