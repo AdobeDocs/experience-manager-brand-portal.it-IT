@@ -6,26 +6,33 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-TQID: https://experienceleague.adobe.com/KzFwzaIiTMjBh9fMsgu2MQWTAOaOAm-yMtEFnv0WvXU
+TQID: 'https://experienceleague.adobe.com/KzFwzaIiTMjBh9fMsgu2MQWTAOaOAm-yMtEFnv0WvXU'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+    internal-label: Content structure
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 1361
+source-wordcount: '1369'
 ht-degree: 3%
-
 ---
-
 # Cercare risorse su Brand Portal {#search-assets-on-brand-portal}
 
 La funzionalità di ricerca di Brand Portal consente di cercare rapidamente le risorse rilevanti utilizzando Omnisearch e la ricerca per facet che utilizza i filtri per restringere ulteriormente la ricerca. Puoi cercare le risorse a livello di file o cartella e salvare i risultati della ricerca come raccolte avanzate.
@@ -103,7 +110,7 @@ Ad esempio, utilizza i seguenti filtri standard:
      Il predicato [!UICONTROL Property] supporta ricerche di testo per:
 
      **Frasi parziali**
-Per consentire la ricerca delle risorse utilizzando frasi parziali nel predicato proprietà, abilita la casella di controllo **[!UICONTROL Ricerca parziale]** nel modulo di ricerca. Questo metodo consente di cercare le risorse desiderate anche senza specificare le parole o le frasi esatte utilizzate nei metadati della risorsa.
+     Per consentire la ricerca delle risorse utilizzando frasi parziali nel predicato proprietà, abilita la casella di controllo **[!UICONTROL Ricerca parziale]** nel modulo di ricerca. Questo metodo consente di cercare le risorse desiderate anche senza specificare le parole o le frasi esatte utilizzate nei metadati della risorsa.
 
      >[!NOTE]
      >
@@ -114,15 +121,15 @@ Per consentire la ricerca delle risorse utilizzando frasi parziali nel predicato
      >* `jcr:content/metadata/dc:format`
 
      Operazioni disponibili:
-      * Nel facet del pannello Filtri, specificate una parola presente nella frase cercata. Ad esempio, se cerchi il termine **climb** (e il predicato Proprietà è mappato alla proprietà `dc:title`), vengono restituite tutte le risorse il cui titolo contiene la parola **climb**.
-      * Specificare una parte della parola che si trova nella frase cercata, insieme a un carattere jolly (&#42;) per riempire gli spazi.
-Ad esempio, se cerchi:
-         * **climb&#42;** restituisce tutte le risorse con parole che iniziano con i caratteri &quot;climb&quot; nella frase del titolo.
-         * **&#42;climb** restituisce tutte le risorse con parole che terminano con i caratteri &quot;climb&quot; nella frase del titolo.
-         * **&#42;climb&#42;** restituisce tutte le risorse contenenti parole contenenti i caratteri &quot;climb&quot; nella frase del titolo.
+     * Nel facet del pannello Filtri, specificate una parola presente nella frase cercata. Ad esempio, se cerchi il termine **climb** (e il predicato Proprietà è mappato alla proprietà `dc:title`), vengono restituite tutte le risorse il cui titolo contiene la parola **climb**.
+     * Specificare una parte della parola che si trova nella frase cercata, insieme a un carattere jolly (&#42;) per riempire gli spazi.
+       Ad esempio, se cerchi:
+       * **climb&#42;** restituisce tutte le risorse con parole che iniziano con i caratteri &quot;climb&quot; nella frase del titolo.
+       * **&#42;climb** restituisce tutte le risorse con parole che terminano con i caratteri &quot;climb&quot; nella frase del titolo.
+       * **&#42;climb&#42;** restituisce tutte le risorse contenenti parole contenenti i caratteri &quot;climb&quot; nella frase del titolo.
 
      **Testo senza distinzione tra maiuscole e minuscole**
-Nel predicato Proprietà puoi consentire la ricerca senza distinzione tra maiuscole e minuscole. Abilita la casella di controllo **[!UICONTROL Ignora maiuscole/minuscole]** nel modulo di ricerca. Per impostazione predefinita, la ricerca del testo nel predicato Proprietà distingue tra maiuscole e minuscole.
+     Nel predicato Proprietà puoi consentire la ricerca senza distinzione tra maiuscole e minuscole. Abilita la casella di controllo **[!UICONTROL Ignora maiuscole/minuscole]** nel modulo di ricerca. Per impostazione predefinita, la ricerca del testo nel predicato Proprietà distingue tra maiuscole e minuscole.
 
    >[!NOTE]
    >
